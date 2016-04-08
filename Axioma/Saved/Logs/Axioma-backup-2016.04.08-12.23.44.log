@@ -1,0 +1,1069 @@
+﻿[2016.04.08-16.19.24:043][  0]Log file open, 04/08/16 11:19:24
+[2016.04.08-16.19.24:043][  0]LogInit:Display: Running engine for game: Axioma
+[2016.04.08-16.19.24:043][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.08-16.19.24:043][  0]LogInit:Display: RandInit(688871162) SRandInit(688871162).
+[2016.04.08-16.19.24:043][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.04.08-16.19.24:043][  0]LogStats: Stats thread started at 0.064912
+[2016.04.08-16.19.24:043][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.08-16.19.24:043][  0]LogInit: API Version: 2758231
+[2016.04.08-16.19.24:043][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.08-16.19.24:043][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.08-16.19.24:043][  0]LogInit: Build Configuration: Development
+[2016.04.08-16.19.24:043][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.08-16.19.24:043][  0]LogInit: Command line:  
+[2016.04.08-16.19.24:043][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.08-16.19.24:043][  0]LogInit: Rocket: 1
+[2016.04.08-16.19.24:059][  0]LogInit: Using libcurl 7.41.0
+[2016.04.08-16.19.24:059][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.08-16.19.24:059][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.08-16.19.24:059][  0]LogInit:  - other features:
+[2016.04.08-16.19.24:059][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.08-16.19.24:059][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.08-16.19.24:059][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.08-16.19.24:059][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.08-16.19.24:059][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.08-16.19.24:059][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.08-16.19.24:059][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.08-16.19.24:059][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.08-16.19.24:059][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.08-16.19.24:059][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.08-16.19.24:059][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.08-16.19.24:059][  0]LogInit: Object subsystem initialized
+[2016.04.08-16.19.24:074][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.08-16.19.24:074][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.08-16.19.24:126][  0]LogInit: Computer: LAPTOP-RAY
+[2016.04.08-16.19.24:126][  0]LogInit: User: ray
+[2016.04.08-16.19.24:126][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.08-16.19.24:126][  0]LogInit: High frequency timer resolution =2.338334 MHz
+[2016.04.08-16.19.24:126][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.04.08-16.19.24:126][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.08-16.19.24:126][  0]LogMemory: Process Physical Memory: 54.88 MB used, 54.88 MB peak
+[2016.04.08-16.19.24:126][  0]LogMemory: Process Virtual Memory: 55.39 MB used, 55.39 MB peak
+[2016.04.08-16.19.24:126][  0]LogMemory: Physical Memory: 1559.08 MB used, 3976.27 MB total
+[2016.04.08-16.19.24:126][  0]LogMemory: Virtual Memory: 364.53 MB used, 134217728.00 MB total
+[2016.04.08-16.19.24:251][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.08-16.19.24:724][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.04.08-16.19.24:724][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.04.08-16.19.24:725][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.08-16.19.24:725][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.08-16.19.24:726][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.08-16.19.24:733][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.08-16.19.24:733][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.04.08-16.19.24:741][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.08-16.19.24:747][  0]LogShaderCompilers: Guid format shader working directory is -71 characters bigger than the processId version (../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Intermediate/Shaders/WorkingDirectory/8104/).
+[2016.04.08-16.19.24:748][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ray/AppData/Local/Temp/UnrealShaderWorkingDir/4107799B4F2335BA4553838C392B01AC/'.
+[2016.04.08-16.19.24:748][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.08-16.19.25:833][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.08-16.19.25:838][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.08-16.19.25:843][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.08-16.19.25:848][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.08-16.19.25:853][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.08-16.19.25:857][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.08-16.19.25:860][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.08-16.19.25:864][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.08-16.19.25:868][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.08-16.19.25:872][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.08-16.19.25:876][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.08-16.19.25:884][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.08-16.19.25:884][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.08-16.19.25:885][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.08-16.19.25:904][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.08-16.19.25:907][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.08-16.19.25:911][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.08-16.19.25:916][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.08-16.19.25:916][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.08-16.19.26:009][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.08-16.19.26:212][  0]LogDerivedDataCache: Loaded boot cache 0.20s 41MB C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.08-16.19.26:212][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.08-16.19.26:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.08-16.19.26:213][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.08-16.19.26:213][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.08-16.19.26:213][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.08-16.19.26:284][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.08-16.19.26:297][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ray/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.08-16.19.26:530][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.08-16.19.26:534][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.08-16.19.26:679][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.08-16.19.26:679][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.08-16.19.26:950][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.08-16.19.27:874][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.08-16.19.27:981][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2016.04.08-16.19.28:220][  0]SourceControl: Info Source control is disabled
+[2016.04.08-16.19.28:222][  0]SourceControl: Info Source control is disabled
+[2016.04.08-16.19.28:242][  0]SourceControl: Info Source control is disabled
+[2016.04.08-16.19.28:261][  0]SourceControl: Info Source control is disabled
+[2016.04.08-16.19.28:657][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.08-16.19.28:657][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.04.08-16.19.28:722][  0]LogEngine: Initializing Engine...
+[2016.04.08-16.19.28:726][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.08-16.19.28:727][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.08-16.19.28:865][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.08-16.19.28:869][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-16.19.28:895][  0]LogInit: FAudioDevice initialized.
+[2016.04.08-16.19.28:929][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.08-16.19.28:940][  0]LogInit: Texture streaming: Enabled
+[2016.04.08-16.19.28:947][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.08-16.19.28:947][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.08-16.19.28:948][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f6d84d504b8c91be90ceca84e0ba1004|f68b6959a5b94dccb13faa64bd594851|592e87cd-9efb-44c2-bcd9-891f7d9d6dd4
+[2016.04.08-16.19.28:967][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.08-16.19.28:981][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.08-16.19.29:003][  0]LogInit: Transaction tracking system initialized
+[2016.04.08-16.19.29:043][  0]BlueprintLog: New page: Editor Load
+[2016.04.08-16.19.29:150][  0]LocalizationService: Info Localization service is disabled
+[2016.04.08-16.19.29:426][  0]LogConsoleResponse:Display: 
+[2016.04.08-16.19.29:584][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.08-16.19.29:732][  0]SourceControl: Info Source control is disabled
+[2016.04.08-16.19.29:736][  0]LightingResults: New page: Lighting Build
+[2016.04.08-16.19.29:741][  0]MapCheck: New page: Map Check
+[2016.04.08-16.19.29:741][  0]LightingResults: New page: Lighting Build
+[2016.04.08-16.19.29:773][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD389C7B00
+[2016.04.08-16.19.31:594][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.08-16.19.32:260][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint_C_7] 100.654312
+[2016.04.08-16.19.32:260][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint_C_8] 178.967255
+[2016.04.08-16.19.32:261][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint3_44] 38.310497
+[2016.04.08-16.19.32:261][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint4] 71.275978
+[2016.04.08-16.19.32:262][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint5] 68.787498
+[2016.04.08-16.19.32:263][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint6] 152.934357
+[2016.04.08-16.19.32:263][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint7] 61.228672
+[2016.04.08-16.19.32:271][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.08-16.19.32:271][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.08-16.19.32:402][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 129.641ms to complete.
+[2016.04.08-16.19.32:402][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.670
+[2016.04.08-16.19.32:596][  0]LogCollectionManager: Loaded 0 collections in 0.002731 seconds
+[2016.04.08-16.19.32:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Collections/' took 0.01s
+[2016.04.08-16.19.32:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Developers/ray/Collections/' took 0.01s
+[2016.04.08-16.19.32:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Collections/' took 0.01s
+[2016.04.08-16.19.32:637][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.08-16.19.32:646][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 1893 classes and 338 folders.
+[2016.04.08-16.19.32:653][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.08-16.19.32:729][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.08-16.19.32:733][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.04.08-16.19.32:762][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.08-16.19.32:768][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.08-16.19.32:797][  0]LogLoad: Full Startup: 9.35 seconds (BP compile: 0.31 seconds)
+[2016.04.08-16.19.32:810][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.08-16.19.32:942][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.08-16.19.33:163][  0]LogRenderer: Reallocating scene render targets to support 816x348 (Frame:2).
+[2016.04.08-16.19.33:813][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.08-16.19.34:770][  9]LogAssetRegistry: Asset discovery search completed in 6.8006 seconds
+[2016.04.08-16.19.34:771][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.04.08-16.19.34:771][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2016.04.08-16.20.21:414][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.04.08-16.20.22:742][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.04.08-16.20.23:563][215]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.04.08-16.21.07:870][693]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.08-16.21.07:870][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.08-16.21.07:891][693]PIE: New page: PIE session: FirstPersonExampleMap (Apr 8, 2016, 6:21:07 AM)
+[2016.04.08-16.21.07:901][693]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.08-16.21.08:115][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.213975s)
+[2016.04.08-16.21.08:119][693]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.08-16.21.08:120][693]LogPlayLevel: PIE: World Init took: (0.004611s)
+[2016.04.08-16.21.08:120][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.229621s)
+[2016.04.08-16.21.08:121][693]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.08-16.21.08:121][693]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.08-16.21.08:233][693]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-16.21.08:243][693]LogInit: FAudioDevice initialized.
+[2016.04.08-16.21.08:466][693]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.08-16.21.08:723][693]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.08-11.21.08
+[2016.04.08-16.21.08:723][693]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-16.21.08:723][693]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-16.21.08:847][693]LogWorld: Bringing up level for play took: 0.330834
+[2016.04.08-16.21.09:198][693]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.315
+[2016.04.08-16.21.09:198][693]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.08-16.21.20:128][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.08-16.21.20:296][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.08-16.21.20:362][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD534093A0
+[2016.04.08-16.21.29:051][461]LogSavePackage: Save=4296.866699ms
+[2016.04.08-16.21.29:051][461]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap439584DE47138C787B250C9CF57C10A3.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-16.21.29:060][461]LogSavePackage: Total save time: 4332.001328ms
+[2016.04.08-16.21.29:060][461]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-16.21.29:107][461]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.518
+[2016.04.08-16.22.01:985][871]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Banca\Wood_Bench.fbx)
+[2016.04.08-16.22.02:115][871]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-16.22.02:115][871]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-16.22.02:115][871]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-16.22.02:115][871]LogFbx: ItemName: NodeAttribute, ItemCount : 68
+[2016.04.08-16.22.02:115][871]LogFbx: ItemName: Model, ItemCount : 70
+[2016.04.08-16.22.02:115][871]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-16.22.02:115][871]LogFbx: ItemName: Texture, ItemCount : 1
+[2016.04.08-16.22.02:115][871]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.04.08-16.22.02:115][871]LogFbx: ItemName: Video, ItemCount : 1
+[2016.04.08-16.22.02:202][871]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Banca\Wood_Bench.fbx
+[2016.04.08-16.22.02:477][871]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.22.08:517][871]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Banca\Wood_Bench.fbx
+[2016.04.08-16.22.08:797][871]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.22.08:834][871]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Park_Bench/Bench_Main'
+[2016.04.08-16.22.08:835][871]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Park_Bench/Bench_Main'
+[2016.04.08-16.22.08:838][871]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Park_Bench/Seamless_White_Metal_Texture'
+[2016.04.08-16.22.08:838][871]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Park_Bench/Seamless_White_Metal_Texture'
+[2016.04.08-16.22.08:838][871]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Park_Bench/Seamless_White_Metal_Texture.Seamless_White_Metal_Texture'
+[2016.04.08-16.22.08:958][871]LogTexture:Display: Building textures: Seamless_White_Metal_Texture (AutoDXT)
+[2016.04.08-16.22.09:195][871]LogMaterial: Missing cached shader map for material Bench_Main, compiling. 
+[2016.04.08-16.22.09:241][871]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Park_Bench/Banca_Patas'
+[2016.04.08-16.22.09:241][871]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Park_Bench/Banca_Patas'
+[2016.04.08-16.22.09:384][871]LogMaterial: Missing cached shader map for material Banca_Patas, compiling. 
+[2016.04.08-16.22.09:530][871]LogStaticMesh: Building static mesh Wood_Bench...
+[2016.04.08-16.22.09:557][871]LogStaticMesh: Built static mesh [0.027329.2s] /Game/FirstPersonBP/Models/Park_Bench/Wood_Bench.Wood_Bench
+[2016.04.08-16.22.17:039][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.08-16.22.17:039][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.08-16.22.23:047][307]LogSavePackage: Save=5739.896484ms
+[2016.04.08-16.22.23:048][307]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap19AD679C44851B8E3C600184DC03BA18.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-16.22.23:366][307]LogSavePackage: Total save time: 6064.275250ms
+[2016.04.08-16.22.23:366][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-16.22.23:428][307]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 6.316
+[2016.04.08-16.22.23:496][307]LogSavePackage: Save=16.643045ms
+[2016.04.08-16.22.23:496][307]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Wood_Bench85BD26CA41760C425FBFA5980832103F.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Park_Bench/Wood_Bench.uasset'
+[2016.04.08-16.22.23:500][307]LogSavePackage: Total save time: 21.285668ms
+[2016.04.08-16.22.23:500][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Park_Bench/Wood_Bench.uasset
+[2016.04.08-16.22.23:555][307]LogSavePackage: Save=20.355946ms
+[2016.04.08-16.22.23:555][307]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Bench_Main3813BA1B4AB756D702FCB7950DA62193.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Park_Bench/Bench_Main.uasset'
+[2016.04.08-16.22.23:559][307]LogSavePackage: Total save time: 25.167063ms
+[2016.04.08-16.22.23:559][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Park_Bench/Bench_Main.uasset
+[2016.04.08-16.22.23:640][307]LogSavePackage: Save=50.127140ms
+[2016.04.08-16.22.23:640][307]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Seamless_White_Metal_Texture8CFF173C45B948BD851BA49F00D65130.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Park_Bench/Seamless_White_Metal_Texture.uasset'
+[2016.04.08-16.22.23:644][307]LogSavePackage: Total save time: 54.953229ms
+[2016.04.08-16.22.23:644][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Park_Bench/Seamless_White_Metal_Texture.uasset
+[2016.04.08-16.22.25:436][307]LogSavePackage: Save=13.409120ms
+[2016.04.08-16.22.25:436][307]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Banca_PatasDCC5EF0B493A20AC81A0219884B8CCF8.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Park_Bench/Banca_Patas.uasset'
+[2016.04.08-16.22.25:440][307]LogSavePackage: Total save time: 17.340124ms
+[2016.04.08-16.22.25:440][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Park_Bench/Banca_Patas.uasset
+[2016.04.08-16.23.29:327][ 55]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\arbol_1\Tree 1.fbx)
+[2016.04.08-16.23.29:461][ 55]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-16.23.29:461][ 55]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-16.23.29:461][ 55]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-16.23.29:461][ 55]LogFbx: ItemName: NodeAttribute, ItemCount : 24
+[2016.04.08-16.23.29:461][ 55]LogFbx: ItemName: Model, ItemCount : 112
+[2016.04.08-16.23.29:461][ 55]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-16.23.29:461][ 55]LogFbx: ItemName: Texture, ItemCount : 2
+[2016.04.08-16.23.29:461][ 55]LogFbx: ItemName: Geometry, ItemCount : 88
+[2016.04.08-16.23.29:461][ 55]LogFbx: ItemName: Video, ItemCount : 2
+[2016.04.08-16.23.29:550][ 55]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\arbol_1\Tree 1.fbx
+[2016.04.08-16.23.30:019][ 55]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.23.34:777][ 55]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\arbol_1\Tree 1.fbx
+[2016.04.08-16.23.35:255][ 55]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.23.35:292][ 55]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree1/Tree_Bark'
+[2016.04.08-16.23.35:292][ 55]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree1/Tree_Bark'
+[2016.04.08-16.23.35:295][ 55]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Tree1/Tree_Bark.Tree_Bark'
+[2016.04.08-16.23.35:419][ 55]LogTexture:Display: Building textures: Tree_Bark2 (AutoDXT)
+[2016.04.08-16.23.37:005][ 55]LogMaterial: Missing cached shader map for material Tree_Bark, compiling. 
+[2016.04.08-16.23.37:047][ 55]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree1/Tree_Leaves'
+[2016.04.08-16.23.37:048][ 55]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree1/Tree_Leaves'
+[2016.04.08-16.23.37:051][ 55]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree1/Arbol'
+[2016.04.08-16.23.37:051][ 55]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree1/Arbol'
+[2016.04.08-16.23.37:051][ 55]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Tree1/Arbol.Arbol'
+[2016.04.08-16.23.37:133][ 55]LogTexture:Display: Building textures: Arbol (AutoDXT)
+[2016.04.08-16.23.37:709][ 55]LogMaterial: Missing cached shader map for material Tree_Leaves, compiling. 
+[2016.04.08-16.23.37:850][ 55]LogStaticMesh: Building static mesh Tree_1...
+[2016.04.08-16.23.38:030][ 55]LogStaticMesh: Built static mesh [0.180142.2s] /Game/FirstPersonBP/Models/Tree1/Tree_1.Tree_1
+[2016.04.08-16.23.49:996][401]LogSavePackage: Save=5617.443359ms
+[2016.04.08-16.23.49:996][401]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap85FD23674960A49D4565D68BCCEE5D13.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-16.23.51:232][401]LogSavePackage: Total save time: 6860.721778ms
+[2016.04.08-16.23.51:232][401]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-16.23.51:293][401]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 7.131
+[2016.04.08-16.23.51:349][401]LogSavePackage: Save=16.668278ms
+[2016.04.08-16.23.51:349][401]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Tree_18C62F76F4304374680629B977F28413A.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Tree_1.uasset'
+[2016.04.08-16.23.51:354][401]LogSavePackage: Total save time: 21.504201ms
+[2016.04.08-16.23.51:354][401]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Tree_1.uasset
+[2016.04.08-16.23.51:413][401]LogSavePackage: Save=25.121304ms
+[2016.04.08-16.23.51:413][401]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Tree_Bark581D65734868D2F91E2CDC803D1C4693.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Tree_Bark.uasset'
+[2016.04.08-16.23.51:418][401]LogSavePackage: Total save time: 30.156512ms
+[2016.04.08-16.23.51:418][401]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Tree_Bark.uasset
+[2016.04.08-16.23.51:707][401]LogSavePackage: Save=263.965271ms
+[2016.04.08-16.23.51:707][401]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Tree_Bark24845B5BA465A83FAA593028E3D9207F2.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Tree_Bark2.uasset'
+[2016.04.08-16.23.51:712][401]LogSavePackage: Total save time: 269.100994ms
+[2016.04.08-16.23.51:712][401]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Tree_Bark2.uasset
+[2016.04.08-16.23.51:885][401]LogSavePackage: Save=17.355518ms
+[2016.04.08-16.23.51:885][401]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Tree_LeavesF18F947B443E0DDD6D223697C921299E.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Tree_Leaves.uasset'
+[2016.04.08-16.23.51:889][401]LogSavePackage: Total save time: 21.876689ms
+[2016.04.08-16.23.51:889][401]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Tree_Leaves.uasset
+[2016.04.08-16.23.51:982][401]LogSavePackage: Save=68.210098ms
+[2016.04.08-16.23.51:982][401]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Arbol6D5066AC43F9F8F45343D29B41EB8B31.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Arbol.uasset'
+[2016.04.08-16.23.51:986][401]LogSavePackage: Total save time: 72.541818ms
+[2016.04.08-16.23.51:986][401]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Arbol.uasset
+[2016.04.08-16.23.54:317][543]LogActorFactory: Actor Factory created Tree_1
+[2016.04.08-16.24.00:378][762]LogActorFactory: Actor Factory created Tree_1
+[2016.04.08-16.24.14:224][482]Cmd: DELETE
+[2016.04.08-16.24.14:224][482]Cmd: ACTOR DELETE
+[2016.04.08-16.24.14:227][482]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-16.24.14:259][482]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2016.04.08-16.24.15:698][596]LogRenderer: Reallocating scene render targets to support 1016x608 (Frame:4536).
+[2016.04.08-16.24.29:538][321]LogStaticMesh: Building static mesh Tree_1...
+[2016.04.08-16.24.29:647][321]LogStaticMesh: Built static mesh [0.109360.2s] /Game/FirstPersonBP/Models/Tree1/Tree_1.Tree_1
+[2016.04.08-16.25.53:245][219]LogEditorTransaction: Undo Scale Collision
+[2016.04.08-16.26.31:932][792]LogSavePackage: Save=17.229788ms
+[2016.04.08-16.26.31:932][792]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Tree_150B10CE64C1C0D0CCA646EB794B5E991.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Tree_1.uasset'
+[2016.04.08-16.26.31:938][792]LogSavePackage: Total save time: 30.350670ms
+[2016.04.08-16.26.31:938][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree1/Tree_1.uasset
+[2016.04.08-16.26.53:899][  9]LogStaticMesh: Building static mesh Wood_Bench...
+[2016.04.08-16.26.53:922][  9]LogStaticMesh: Built static mesh [0.023227.2s] /Game/FirstPersonBP/Models/Park_Bench/Wood_Bench.Wood_Bench
+[2016.04.08-16.27.02:713][359]LogSavePackage: Save=16.441193ms
+[2016.04.08-16.27.02:713][359]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Wood_BenchA5F410A64B072C86455C4484969071C0.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Park_Bench/Wood_Bench.uasset'
+[2016.04.08-16.27.02:718][359]LogSavePackage: Total save time: 27.399849ms
+[2016.04.08-16.27.02:718][359]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Park_Bench/Wood_Bench.uasset
+[2016.04.08-16.27.25:622][622]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\arbol_2\Pine Tree.fbx)
+[2016.04.08-16.27.25:748][622]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-16.27.25:748][622]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-16.27.25:748][622]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-16.27.25:748][622]LogFbx: ItemName: NodeAttribute, ItemCount : 122
+[2016.04.08-16.27.25:748][622]LogFbx: ItemName: Model, ItemCount : 197
+[2016.04.08-16.27.25:748][622]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-16.27.25:748][622]LogFbx: ItemName: Texture, ItemCount : 2
+[2016.04.08-16.27.25:748][622]LogFbx: ItemName: Geometry, ItemCount : 75
+[2016.04.08-16.27.25:748][622]LogFbx: ItemName: Video, ItemCount : 2
+[2016.04.08-16.27.25:835][622]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\arbol_2\Pine Tree.fbx
+[2016.04.08-16.27.26:467][622]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.27.30:245][622]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\arbol_2\Pine Tree.fbx
+[2016.04.08-16.27.30:913][622]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.27.30:952][622]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree2/lambert1'
+[2016.04.08-16.27.30:952][622]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree2/lambert1'
+[2016.04.08-16.27.30:955][622]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree2/arbol2'
+[2016.04.08-16.27.30:956][622]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree2/arbol2'
+[2016.04.08-16.27.30:956][622]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Tree2/arbol2.arbol2'
+[2016.04.08-16.27.31:102][622]LogTexture:Display: Building textures: arbol2 (AutoDXT)
+[2016.04.08-16.27.32:417][622]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.04.08-16.27.32:495][622]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree2/Pine_Bark'
+[2016.04.08-16.27.32:495][622]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree2/Pine_Bark'
+[2016.04.08-16.27.32:498][622]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree2/Pine_Bark_Seamless_Texture'
+[2016.04.08-16.27.32:498][622]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Tree2/Pine_Bark_Seamless_Texture'
+[2016.04.08-16.27.32:498][622]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Tree2/Pine_Bark_Seamless_Texture.Pine_Bark_Seamless_Texture'
+[2016.04.08-16.27.32:549][622]LogTexture:Display: Building textures: Pine_Bark_Seamless_Texture (AutoDXT)
+[2016.04.08-16.27.33:431][622]LogMaterial: Missing cached shader map for material Pine_Bark, compiling. 
+[2016.04.08-16.27.33:614][622]LogStaticMesh: Building static mesh Pine_Tree...
+[2016.04.08-16.27.33:717][622]LogStaticMesh: Built static mesh [0.103475.2s] /Game/FirstPersonBP/Models/Tree2/Pine_Tree.Pine_Tree
+[2016.04.08-16.27.45:442][167]LogStaticMesh: Building static mesh Pine_Tree...
+[2016.04.08-16.27.45:542][167]LogStaticMesh: Built static mesh [0.099266.2s] /Game/FirstPersonBP/Models/Tree2/Pine_Tree.Pine_Tree
+[2016.04.08-16.28.43:425][541]LogSavePackage: Save=15.573053ms
+[2016.04.08-16.28.43:425][541]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Pine_TreeBFA61335470B3B5BB44E8B996181261E.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree2/Pine_Tree.uasset'
+[2016.04.08-16.28.43:430][541]LogSavePackage: Total save time: 20.503484ms
+[2016.04.08-16.28.43:430][541]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree2/Pine_Tree.uasset
+[2016.04.08-16.28.47:501][808]LogActorFactory: Actor Factory created Pine_Tree
+[2016.04.08-16.28.48:637][845]LogActorFactory: Actor Factory created Pine_Tree
+[2016.04.08-16.28.49:860][937]Cmd: DELETE
+[2016.04.08-16.28.49:860][937]Cmd: ACTOR DELETE
+[2016.04.08-16.28.49:865][937]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-16.28.49:897][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD286140E0
+[2016.04.08-16.28.49:898][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD54A88F40
+[2016.04.08-16.28.49:901][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD3C7D1620
+[2016.04.08-16.28.49:901][937]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2016.04.08-16.29.15:421][836]LogSavePackage: Save=76.606682ms
+[2016.04.08-16.29.15:421][836]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Pine_Bark_Seamless_TextureFFFF964948391FDEB8E5D99BA78790BA.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Pine_Tree/Pine_Bark_Seamless_Texture.uasset'
+[2016.04.08-16.29.15:425][836]LogSavePackage: Total save time: 80.594130ms
+[2016.04.08-16.29.15:425][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Pine_Tree/Pine_Bark_Seamless_Texture.uasset
+[2016.04.08-16.29.15:468][836]LogSavePackage: Save=14.516318ms
+[2016.04.08-16.29.15:468][836]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Pine_Bark83828A1A4A88B20816D2ABABBFA24765.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Pine_Tree/Pine_Bark.uasset'
+[2016.04.08-16.29.15:471][836]LogSavePackage: Total save time: 18.277969ms
+[2016.04.08-16.29.15:471][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Pine_Tree/Pine_Bark.uasset
+[2016.04.08-16.29.15:677][836]LogSavePackage: Save=189.561890ms
+[2016.04.08-16.29.15:677][836]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/arbol2CBB085194F1BED9D24BDDBB9FC0942C5.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Pine_Tree/arbol2.uasset'
+[2016.04.08-16.29.15:680][836]LogSavePackage: Total save time: 193.303868ms
+[2016.04.08-16.29.15:680][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Pine_Tree/arbol2.uasset
+[2016.04.08-16.29.15:724][836]LogSavePackage: Save=16.338556ms
+[2016.04.08-16.29.15:724][836]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/lambert1ED9C86694B763CB64CF42F80C0525886.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Pine_Tree/lambert1.uasset'
+[2016.04.08-16.29.15:728][836]LogSavePackage: Total save time: 20.420950ms
+[2016.04.08-16.29.15:728][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Pine_Tree/lambert1.uasset
+[2016.04.08-16.29.15:768][836]LogSavePackage: Save=13.283816ms
+[2016.04.08-16.29.15:768][836]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Pine_Tree22DBE5AE4D6E06A7792A0BA6C1F80364.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Pine_Tree/Pine_Tree.uasset'
+[2016.04.08-16.29.15:772][836]LogSavePackage: Total save time: 17.265286ms
+[2016.04.08-16.29.15:772][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Pine_Tree/Pine_Tree.uasset
+[2016.04.08-16.29.22:847][502]LogSavePackage: Save=33.036343ms
+[2016.04.08-16.29.22:847][502]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Arbol21EBB0724D6B7FCD1FADFBBB7B7E0381.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Default_Tree/Arbol.uasset'
+[2016.04.08-16.29.22:851][502]LogSavePackage: Total save time: 37.794858ms
+[2016.04.08-16.29.22:851][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Default_Tree/Arbol.uasset
+[2016.04.08-16.29.22:909][502]LogSavePackage: Save=16.342833ms
+[2016.04.08-16.29.22:909][502]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Tree_LeavesE048ED044BC8C82EABECA8BCF2ACEE66.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Default_Tree/Tree_Leaves.uasset'
+[2016.04.08-16.29.22:913][502]LogSavePackage: Total save time: 20.895645ms
+[2016.04.08-16.29.22:913][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Default_Tree/Tree_Leaves.uasset
+[2016.04.08-16.29.23:038][502]LogSavePackage: Save=98.765617ms
+[2016.04.08-16.29.23:038][502]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Tree_Bark2A7AB78F840D4ABA07D1F0D8B043B2A37.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Default_Tree/Tree_Bark2.uasset'
+[2016.04.08-16.29.23:042][502]LogSavePackage: Total save time: 103.391133ms
+[2016.04.08-16.29.23:042][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Default_Tree/Tree_Bark2.uasset
+[2016.04.08-16.29.23:089][502]LogSavePackage: Save=19.067421ms
+[2016.04.08-16.29.23:089][502]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Tree_BarkA3BA865944848F785B9F03A7E3E7E149.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Default_Tree/Tree_Bark.uasset'
+[2016.04.08-16.29.23:092][502]LogSavePackage: Total save time: 22.579324ms
+[2016.04.08-16.29.23:092][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Default_Tree/Tree_Bark.uasset
+[2016.04.08-16.29.23:136][502]LogSavePackage: Save=14.872982ms
+[2016.04.08-16.29.23:136][502]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Tree_1B589AE9144A3356E50B34DBFEDC29549.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Default_Tree/Tree_1.uasset'
+[2016.04.08-16.29.23:141][502]LogSavePackage: Total save time: 20.766921ms
+[2016.04.08-16.29.23:141][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Default_Tree/Tree_1.uasset
+[2016.04.08-16.29.39:564][ 12]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Oak Tree\Oak Tree.fbx)
+[2016.04.08-16.29.40:218][ 12]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-16.29.40:218][ 12]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-16.29.40:218][ 12]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-16.29.40:218][ 12]LogFbx: ItemName: NodeAttribute, ItemCount : 58
+[2016.04.08-16.29.40:218][ 12]LogFbx: ItemName: Model, ItemCount : 652
+[2016.04.08-16.29.40:219][ 12]LogFbx: ItemName: Material, ItemCount : 3
+[2016.04.08-16.29.40:219][ 12]LogFbx: ItemName: Texture, ItemCount : 6
+[2016.04.08-16.29.40:219][ 12]LogFbx: ItemName: Geometry, ItemCount : 594
+[2016.04.08-16.29.40:219][ 12]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2016.04.08-16.29.40:219][ 12]LogFbx: ItemName: Video, ItemCount : 6
+[2016.04.08-16.29.40:307][ 12]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Oak Tree\Oak Tree.fbx
+[2016.04.08-16.29.42:921][ 12]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.29.49:253][ 12]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Oak Tree\Oak Tree.fbx
+[2016.04.08-16.29.51:709][ 12]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.29.51:756][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark'
+[2016.04.08-16.29.51:756][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark'
+[2016.04.08-16.29.51:758][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Texture'
+[2016.04.08-16.29.51:758][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Texture'
+[2016.04.08-16.29.51:759][ 12]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Texture.Oak_Bark_Seamless_Texture'
+[2016.04.08-16.29.51:948][ 12]LogTexture:Display: Building textures: Oak_Bark_Seamless_Texture (AutoDXT)
+[2016.04.08-16.29.54:787][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Normal'
+[2016.04.08-16.29.54:787][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Normal'
+[2016.04.08-16.29.54:787][ 12]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Normal.Oak_Bark_Seamless_Normal'
+[2016.04.08-16.29.55:040][ 12]LogTexture:Display: Building textures: Oak_Bark_Seamless_Normal (BC5)
+[2016.04.08-16.29.55:398][ 12]LogMaterial: Missing cached shader map for material Oak_Bark, compiling. 
+[2016.04.08-16.29.55:430][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Branch'
+[2016.04.08-16.29.55:431][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Branch'
+[2016.04.08-16.29.55:437][ 12]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Oak_Tree/Oak_Branch.Oak_Branch'
+[2016.04.08-16.29.55:682][ 12]LogTexture:Display: Building textures: Oak_Branch2 (BGRA8)
+[2016.04.08-16.29.55:802][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Tree_Branch__Normal_'
+[2016.04.08-16.29.55:803][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Tree_Branch__Normal_'
+[2016.04.08-16.29.55:803][ 12]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Oak_Tree/Oak_Tree_Branch__Normal_.Oak_Tree_Branch__Normal_'
+[2016.04.08-16.29.55:883][ 12]LogTexture:Display: Building textures: Oak_Tree_Branch__Normal_ (BGRA8)
+[2016.04.08-16.29.55:958][ 12]LogMaterial: Missing cached shader map for material Oak_Branch, compiling. 
+[2016.04.08-16.29.56:176][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/pasted__Tree_Bark'
+[2016.04.08-16.29.56:177][ 12]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/pasted__Tree_Bark'
+[2016.04.08-16.29.56:269][ 12]LogTexture:Display: Building textures: Oak_Bark_Seamless_Texture (AutoDXT)
+[2016.04.08-16.29.59:841][ 12]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Oak_Bark_Seamless_Normal
+[2016.04.08-16.29.59:943][ 12]LogTexture:Display: Building textures: Oak_Bark_Seamless_Normal (BC5)
+[2016.04.08-16.30.00:401][ 12]LogMaterial: Missing cached shader map for material pasted__Tree_Bark, compiling. 
+[2016.04.08-16.30.00:555][ 12]LogStaticMesh: Building static mesh Oak_Tree...
+[2016.04.08-16.30.01:356][ 12]LogStaticMesh: Built static mesh [0.802162.2s] /Game/FirstPersonBP/Models/Oak_Tree/Oak_Tree.Oak_Tree
+[2016.04.08-16.30.30:457][522]LogStaticMesh: Building static mesh Oak_Tree...
+[2016.04.08-16.30.31:243][522]LogStaticMesh: Built static mesh [0.785751.2s] /Game/FirstPersonBP/Models/Oak_Tree/Oak_Tree.Oak_Tree
+[2016.04.08-16.30.54:302][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD3C6698A0
+[2016.04.08-16.32.14:877][323]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Panoramic Sign\Panoramico2.fbx)
+[2016.04.08-16.32.14:996][323]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-16.32.14:996][323]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-16.32.14:996][323]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-16.32.14:996][323]LogFbx: ItemName: Material, ItemCount : 4
+[2016.04.08-16.32.14:996][323]LogFbx: ItemName: Texture, ItemCount : 7
+[2016.04.08-16.32.14:996][323]LogFbx: ItemName: Model, ItemCount : 15
+[2016.04.08-16.32.14:996][323]LogFbx: ItemName: Geometry, ItemCount : 10
+[2016.04.08-16.32.14:996][323]LogFbx: ItemName: NodeAttribute, ItemCount : 5
+[2016.04.08-16.32.14:996][323]LogFbx: ItemName: Video, ItemCount : 7
+[2016.04.08-16.32.15:087][323]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Panoramic Sign\Panoramico2.fbx
+[2016.04.08-16.32.15:313][323]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.32.22:340][323]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Panoramic Sign\Panoramico2.fbx
+[2016.04.08-16.32.22:524][323]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.32.22:559][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Panoramic_Sign_Metal'
+[2016.04.08-16.32.22:560][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Panoramic_Sign_Metal'
+[2016.04.08-16.32.22:563][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Old_Metal_Texture'
+[2016.04.08-16.32.22:563][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Old_Metal_Texture'
+[2016.04.08-16.32.22:563][323]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Panoramic_Signs/Old_Metal_Texture.Old_Metal_Texture'
+[2016.04.08-16.32.22:654][323]LogTexture:Display: Building textures: Old_Metal_Texture (AutoDXT)
+[2016.04.08-16.32.22:819][323]LogMaterial: Missing cached shader map for material Panoramic_Sign_Metal, compiling. 
+[2016.04.08-16.32.22:851][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Publicity_Back'
+[2016.04.08-16.32.22:851][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Publicity_Back'
+[2016.04.08-16.32.22:854][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Greenhouse'
+[2016.04.08-16.32.22:854][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Greenhouse'
+[2016.04.08-16.32.22:855][323]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Panoramic_Signs/Greenhouse.Greenhouse'
+[2016.04.08-16.32.22:929][323]LogTexture:Display: Building textures: Greenhouse (BGRA8)
+[2016.04.08-16.32.22:953][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Billboard_Wrinkled__Normal_'
+[2016.04.08-16.32.22:953][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Billboard_Wrinkled__Normal_'
+[2016.04.08-16.32.22:953][323]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Panoramic_Signs/Billboard_Wrinkled__Normal_.Billboard_Wrinkled__Normal_'
+[2016.04.08-16.32.22:981][323]LogTexture:Display: Building textures: Billboard_Wrinkled__Normal_ (BC5)
+[2016.04.08-16.32.23:029][323]LogMaterial: Missing cached shader map for material Publicity_Back, compiling. 
+[2016.04.08-16.32.23:070][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Billboard_Floor'
+[2016.04.08-16.32.23:070][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Billboard_Floor'
+[2016.04.08-16.32.23:074][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Ground_Metal_Texture'
+[2016.04.08-16.32.23:074][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Ground_Metal_Texture'
+[2016.04.08-16.32.23:074][323]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Panoramic_Signs/Ground_Metal_Texture.Ground_Metal_Texture'
+[2016.04.08-16.32.23:099][323]LogTexture:Display: Building textures: Ground_Metal_Texture (AutoDXT)
+[2016.04.08-16.32.23:303][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Billboard_Ground_Metal__Normal_'
+[2016.04.08-16.32.23:304][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Billboard_Ground_Metal__Normal_'
+[2016.04.08-16.32.23:304][323]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Panoramic_Signs/Billboard_Ground_Metal__Normal_.Billboard_Ground_Metal__Normal_'
+[2016.04.08-16.32.23:328][323]LogTexture:Display: Building textures: Billboard_Ground_Metal__Normal_ (BC5)
+[2016.04.08-16.32.23:369][323]LogMaterial: Missing cached shader map for material Billboard_Floor, compiling. 
+[2016.04.08-16.32.23:408][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Publicity_Front'
+[2016.04.08-16.32.23:409][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Publicity_Front'
+[2016.04.08-16.32.23:412][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Carrot'
+[2016.04.08-16.32.23:412][323]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Panoramic_Signs/Carrot'
+[2016.04.08-16.32.23:412][323]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Panoramic_Signs/Carrot.Carrot'
+[2016.04.08-16.32.23:440][323]LogTexture:Display: Building textures: Carrot (BGRA8)
+[2016.04.08-16.32.23:471][323]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Billboard_Wrinkled__Normal_
+[2016.04.08-16.32.23:541][323]LogTexture:Display: Building textures: Billboard_Wrinkled__Normal_ (BC5)
+[2016.04.08-16.32.23:578][323]LogMaterial: Missing cached shader map for material Publicity_Front, compiling. 
+[2016.04.08-16.32.23:730][323]LogStaticMesh: Building static mesh Panoramico2...
+[2016.04.08-16.32.23:781][323]LogStaticMesh: Built static mesh [0.051442.2s] /Game/FirstPersonBP/Models/Panoramic_Signs/Panoramico2.Panoramico2
+[2016.04.08-16.32.23:803][323]LogStaticMesh:Warning: Panoramico2 has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-16.32.23:824][323]FBXImport:Warning: Warning Panoramico2 has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-16.32.23:837][323]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Panoramic Sign\Panoramico3.fbx)
+[2016.04.08-16.32.24:012][323]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Panoramic Sign\Panoramico3.fbx
+[2016.04.08-16.32.24:318][323]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.32.24:384][323]LogStaticMesh: Building static mesh Panoramico3...
+[2016.04.08-16.32.24:435][323]LogStaticMesh: Built static mesh [0.058360.2s] /Game/FirstPersonBP/Models/Panoramic_Signs/Panoramico3.Panoramico3
+[2016.04.08-16.32.24:440][323]LogStaticMesh:Warning: Panoramico3 has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-16.32.24:461][323]FBXImport:Warning: Warning Panoramico3 has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-16.32.24:469][323]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Panoramic Sign\Panoramico1.fbx)
+[2016.04.08-16.32.24:683][323]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Panoramic Sign\Panoramico1.fbx
+[2016.04.08-16.32.25:008][323]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.32.25:066][323]LogStaticMesh: Building static mesh Panoramico1...
+[2016.04.08-16.32.25:117][323]LogStaticMesh: Built static mesh [0.052029.2s] /Game/FirstPersonBP/Models/Panoramic_Signs/Panoramico1.Panoramico1
+[2016.04.08-16.32.25:121][323]LogStaticMesh:Warning: Panoramico1 has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-16.32.25:138][323]FBXImport:Warning: Warning Panoramico1 has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-16.32.46:584][356]LogStaticMesh: Building static mesh Panoramico1...
+[2016.04.08-16.32.46:635][356]LogStaticMesh: Built static mesh [0.051007.2s] /Game/FirstPersonBP/Models/Panoramic_Signs/Panoramico1.Panoramico1
+[2016.04.08-16.32.46:641][356]LogStaticMesh:Warning: Panoramico1 has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-16.32.52:440][543]LogSavePackage: Save=20.065569ms
+[2016.04.08-16.32.52:440][543]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Panoramico1B614A7C2454F197CEBB03AA79B1CB336.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico1.uasset'
+[2016.04.08-16.32.52:445][543]LogSavePackage: Total save time: 25.591724ms
+[2016.04.08-16.32.52:445][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico1.uasset
+[2016.04.08-16.33.00:507][658]LogSavePackage: Save=5572.506348ms
+[2016.04.08-16.33.00:507][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap1EF2517E4250D66637A421A277A82251.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-16.33.00:515][658]LogSavePackage: Total save time: 5615.390271ms
+[2016.04.08-16.33.00:515][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-16.33.01:380][658]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 6.695
+[2016.04.08-16.33.01:454][658]LogSavePackage: Save=17.041620ms
+[2016.04.08-16.33.01:454][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Panoramico2EA0368B04535E8196BCC9E8626B22E19.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico2.uasset'
+[2016.04.08-16.33.01:459][658]LogSavePackage: Total save time: 22.291511ms
+[2016.04.08-16.33.01:459][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico2.uasset
+[2016.04.08-16.33.01:517][658]LogSavePackage: Save=20.751526ms
+[2016.04.08-16.33.01:517][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Panoramic_Sign_MetalEB095AB641CA4B7756AD8CADE6AC4B93.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramic_Sign_Metal.uasset'
+[2016.04.08-16.33.01:522][658]LogSavePackage: Total save time: 25.888946ms
+[2016.04.08-16.33.01:522][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramic_Sign_Metal.uasset
+[2016.04.08-16.33.01:585][658]LogSavePackage: Save=34.994144ms
+[2016.04.08-16.33.01:585][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Old_Metal_TextureE82440A6482A645FD0AA909FA88CCF31.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Old_Metal_Texture.uasset'
+[2016.04.08-16.33.01:590][658]LogSavePackage: Total save time: 40.251307ms
+[2016.04.08-16.33.01:590][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Old_Metal_Texture.uasset
+[2016.04.08-16.33.01:654][658]LogSavePackage: Save=24.140265ms
+[2016.04.08-16.33.01:654][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Publicity_BackB2FEDA1D4101FAF55F31B2968DF50249.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Publicity_Back.uasset'
+[2016.04.08-16.33.01:659][658]LogSavePackage: Total save time: 28.932992ms
+[2016.04.08-16.33.01:659][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Publicity_Back.uasset
+[2016.04.08-16.33.01:741][658]LogSavePackage: Save=61.060993ms
+[2016.04.08-16.33.01:741][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Greenhouse5F1DE8D246D0AAF9152A0D848B17F4E2.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Greenhouse.uasset'
+[2016.04.08-16.33.01:746][658]LogSavePackage: Total save time: 66.056859ms
+[2016.04.08-16.33.01:746][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Greenhouse.uasset
+[2016.04.08-16.33.01:758][658]LogSavePackage: Save=2.315751ms
+[2016.04.08-16.33.01:758][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/lambert1A2D590194980951A4A164BA4CEFF6A4E.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree2/lambert1.uasset'
+[2016.04.08-16.33.01:763][658]LogSavePackage: Total save time: 6.917745ms
+[2016.04.08-16.33.01:763][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree2/lambert1.uasset
+[2016.04.08-16.33.01:776][658]LogSavePackage: Save=2.210120ms
+[2016.04.08-16.33.01:776][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/arbol2E9645B5246997589196E309830E69849.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree2/arbol2.uasset'
+[2016.04.08-16.33.01:781][658]LogSavePackage: Total save time: 7.024232ms
+[2016.04.08-16.33.01:781][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree2/arbol2.uasset
+[2016.04.08-16.33.01:795][658]LogSavePackage: Save=2.984176ms
+[2016.04.08-16.33.01:795][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Pine_Bark4FD465C542853EEABF1EE6971C1F6412.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree2/Pine_Bark.uasset'
+[2016.04.08-16.33.01:800][658]LogSavePackage: Total save time: 8.124158ms
+[2016.04.08-16.33.01:800][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree2/Pine_Bark.uasset
+[2016.04.08-16.33.01:813][658]LogSavePackage: Save=2.379472ms
+[2016.04.08-16.33.01:813][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Pine_Bark_Seamless_TextureB749605446648F468095749BC02DCF41.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree2/Pine_Bark_Seamless_Texture.uasset'
+[2016.04.08-16.33.01:817][658]LogSavePackage: Total save time: 7.338986ms
+[2016.04.08-16.33.01:817][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Tree2/Pine_Bark_Seamless_Texture.uasset
+[2016.04.08-16.33.01:889][658]LogSavePackage: Save=41.538120ms
+[2016.04.08-16.33.01:889][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Billboard_Wrinkled__Normal_B204784A40178EC75048BB94700F1BDA.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Billboard_Wrinkled__Normal_.uasset'
+[2016.04.08-16.33.01:894][658]LogSavePackage: Total save time: 46.567768ms
+[2016.04.08-16.33.01:894][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Billboard_Wrinkled__Normal_.uasset
+[2016.04.08-16.33.02:259][658]LogSavePackage: Save=21.588020ms
+[2016.04.08-16.33.02:259][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Billboard_Floor7BCC5E5844A319C33FC5688B39EF24C3.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Billboard_Floor.uasset'
+[2016.04.08-16.33.02:264][658]LogSavePackage: Total save time: 26.708759ms
+[2016.04.08-16.33.02:264][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Billboard_Floor.uasset
+[2016.04.08-16.33.02:329][658]LogSavePackage: Save=38.265278ms
+[2016.04.08-16.33.02:329][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Ground_Metal_Texture5775447A4A5AE33DF40AB79230F644A9.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Ground_Metal_Texture.uasset'
+[2016.04.08-16.33.02:334][658]LogSavePackage: Total save time: 43.092217ms
+[2016.04.08-16.33.02:334][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Ground_Metal_Texture.uasset
+[2016.04.08-16.33.02:407][658]LogSavePackage: Save=42.655582ms
+[2016.04.08-16.33.02:407][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Billboard_Ground_Metal__Normal_642620974DCE6A9000AF04923BFBBCC4.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Billboard_Ground_Metal__Normal_.uasset'
+[2016.04.08-16.33.02:411][658]LogSavePackage: Total save time: 47.469694ms
+[2016.04.08-16.33.02:411][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Billboard_Ground_Metal__Normal_.uasset
+[2016.04.08-16.33.03:522][658]LogSavePackage: Save=18.109474ms
+[2016.04.08-16.33.03:522][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Publicity_Front024DBA7B4E76013215C50B9D9BCC436C.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Publicity_Front.uasset'
+[2016.04.08-16.33.03:525][658]LogSavePackage: Total save time: 22.046894ms
+[2016.04.08-16.33.03:525][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Publicity_Front.uasset
+[2016.04.08-16.33.03:589][658]LogSavePackage: Save=42.776608ms
+[2016.04.08-16.33.03:589][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Carrot5C6223714530E358D4BB2481A9242CB4.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Carrot.uasset'
+[2016.04.08-16.33.03:592][658]LogSavePackage: Total save time: 46.637904ms
+[2016.04.08-16.33.03:592][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Carrot.uasset
+[2016.04.08-16.33.03:637][658]LogSavePackage: Save=14.116461ms
+[2016.04.08-16.33.03:637][658]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Panoramico3F8C778E840FAB52EFCF51F8BCCEAE603.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico3.uasset'
+[2016.04.08-16.33.03:642][658]LogSavePackage: Total save time: 18.909618ms
+[2016.04.08-16.33.03:642][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico3.uasset
+[2016.04.08-16.33.37:127][486]LogSavePackage: Save=4.960797ms
+[2016.04.08-16.33.37:127][486]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Panoramico1A85088D344BA60A420200A966C291219.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico1.uasset'
+[2016.04.08-16.33.37:129][486]LogSavePackage: Total save time: 14.311474ms
+[2016.04.08-16.33.37:129][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico1.uasset
+[2016.04.08-16.33.54:096][292]LogStaticMesh: Building static mesh Panoramico2...
+[2016.04.08-16.33.54:129][292]LogStaticMesh: Built static mesh [0.033496.2s] /Game/FirstPersonBP/Models/Panoramic_Signs/Panoramico2.Panoramico2
+[2016.04.08-16.33.54:135][292]LogStaticMesh:Warning: Panoramico2 has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-16.34.03:929][672]LogSavePackage: Save=16.467707ms
+[2016.04.08-16.34.03:929][672]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Panoramico2244BE25C43D6E8CA33D6C7B743A96968.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico2.uasset'
+[2016.04.08-16.34.03:935][672]LogSavePackage: Total save time: 27.390014ms
+[2016.04.08-16.34.03:935][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico2.uasset
+[2016.04.08-16.34.17:229][277]LogSavePackage: Save=3.946827ms
+[2016.04.08-16.34.17:229][277]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Panoramico277B30EC847932E16B2C41C9A83FF6FB3.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico2.uasset'
+[2016.04.08-16.34.17:233][277]LogSavePackage: Total save time: 11.371344ms
+[2016.04.08-16.34.17:233][277]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico2.uasset
+[2016.04.08-16.34.31:720][960]LogStaticMesh: Building static mesh Panoramico3...
+[2016.04.08-16.34.31:753][960]LogStaticMesh: Built static mesh [0.033217.2s] /Game/FirstPersonBP/Models/Panoramic_Signs/Panoramico3.Panoramico3
+[2016.04.08-16.34.31:758][960]LogStaticMesh:Warning: Panoramico3 has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-16.34.36:649][149]LogSavePackage: Save=13.817958ms
+[2016.04.08-16.34.36:649][149]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Panoramico3458B772E4E993439C3F5DF90278C5005.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico3.uasset'
+[2016.04.08-16.34.36:653][149]LogSavePackage: Total save time: 26.199847ms
+[2016.04.08-16.34.36:653][149]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Panoramic_Signs/Panoramico3.uasset
+[2016.04.08-16.35.08:043][ 24]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Solar Panel\Solar Panel.fbx)
+[2016.04.08-16.35.08:129][ 24]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-16.35.08:129][ 24]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-16.35.08:129][ 24]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-16.35.08:129][ 24]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2016.04.08-16.35.08:129][ 24]LogFbx: ItemName: Model, ItemCount : 21
+[2016.04.08-16.35.08:129][ 24]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-16.35.08:129][ 24]LogFbx: ItemName: Geometry, ItemCount : 19
+[2016.04.08-16.35.08:129][ 24]LogFbx: ItemName: Texture, ItemCount : 2
+[2016.04.08-16.35.08:129][ 24]LogFbx: ItemName: Video, ItemCount : 2
+[2016.04.08-16.35.08:214][ 24]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Solar Panel\Solar Panel.fbx
+[2016.04.08-16.35.08:436][ 24]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.35.23:650][ 24]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Solar Panel\Solar Panel.fbx
+[2016.04.08-16.35.23:848][ 24]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.35.23:883][ 24]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Body'
+[2016.04.08-16.35.23:884][ 24]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Body'
+[2016.04.08-16.35.23:901][ 24]LogMaterial: Missing cached shader map for material Solar_Panel_Body, compiling. 
+[2016.04.08-16.35.23:932][ 24]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Cells'
+[2016.04.08-16.35.23:932][ 24]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Cells'
+[2016.04.08-16.35.23:935][ 24]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Texture__Black_'
+[2016.04.08-16.35.23:935][ 24]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Texture__Black_'
+[2016.04.08-16.35.23:935][ 24]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Texture__Black_.Solar_Panel_Texture__Black_'
+[2016.04.08-16.35.24:019][ 24]LogTexture:Display: Building textures: Solar_Panel_Texture__Black_ (BGRA8)
+[2016.04.08-16.35.24:042][ 24]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Texture__Normal_'
+[2016.04.08-16.35.24:042][ 24]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Texture__Normal_'
+[2016.04.08-16.35.24:042][ 24]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Texture__Normal_.Solar_Panel_Texture__Normal_'
+[2016.04.08-16.35.24:182][ 24]LogTexture:Display: Building textures: Solar_Panel_Texture__Normal_ (BGRA8)
+[2016.04.08-16.35.24:218][ 24]LogMaterial: Missing cached shader map for material Solar_Panel_Cells, compiling. 
+[2016.04.08-16.35.24:369][ 24]LogStaticMesh: Building static mesh Solar_Panel...
+[2016.04.08-16.35.24:383][ 24]LogStaticMesh: Built static mesh [0.013555.2s] /Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel.Solar_Panel
+[2016.04.08-16.35.24:384][ 24]LogStaticMesh:Warning: Solar_Panel has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-16.35.24:404][ 24]FBXImport:Warning: Warning Solar_Panel has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-16.35.39:283][776]LogStaticMesh: Building static mesh Solar_Panel...
+[2016.04.08-16.35.39:296][776]LogStaticMesh: Built static mesh [0.013395.2s] /Game/FirstPersonBP/Models/Solar_Panel/Solar_Panel.Solar_Panel
+[2016.04.08-16.35.39:300][776]LogStaticMesh:Warning: Solar_Panel has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-16.36.14:578][163]LogSavePackage: Save=13.763645ms
+[2016.04.08-16.36.14:578][163]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Solar_Panel0D0C467F42B0B079DDF5E799ED782DC3.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Solar_Panel/Solar_Panel.uasset'
+[2016.04.08-16.36.14:583][163]LogSavePackage: Total save time: 18.945970ms
+[2016.04.08-16.36.14:583][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Solar_Panel/Solar_Panel.uasset
+[2016.04.08-16.36.19:551][417]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD4CA08EA0
+[2016.04.08-16.36.19:552][417]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD74BBA020
+[2016.04.08-16.36.19:553][417]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD76835120
+[2016.04.08-16.36.19:554][417]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD284EE700
+[2016.04.08-16.36.23:646][417]LogSavePackage: Save=3889.163086ms
+[2016.04.08-16.36.23:646][417]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMapF465A3934CCD0904D6485DB53A9ADA9F.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-16.36.23:655][417]LogSavePackage: Total save time: 3904.068880ms
+[2016.04.08-16.36.23:655][417]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-16.36.23:708][417]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.121
+[2016.04.08-16.36.23:752][417]LogSavePackage: Save=13.886810ms
+[2016.04.08-16.36.23:752][417]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Solar_Panel_Body030BB5614D0BB79EE62A1BA404FDBE56.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Body.uasset'
+[2016.04.08-16.36.23:758][417]LogSavePackage: Total save time: 19.725583ms
+[2016.04.08-16.36.23:758][417]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Body.uasset
+[2016.04.08-16.36.23:808][417]LogSavePackage: Save=20.236202ms
+[2016.04.08-16.36.23:808][417]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Solar_Panel_CellsEF8568BC41594D4D0FB123977865FE06.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Cells.uasset'
+[2016.04.08-16.36.23:814][417]LogSavePackage: Total save time: 27.055159ms
+[2016.04.08-16.36.23:814][417]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Cells.uasset
+[2016.04.08-16.36.23:860][417]LogSavePackage: Save=29.907190ms
+[2016.04.08-16.36.23:860][417]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Solar_Panel_Texture__Black_624469234C97961C6371258B03AF9FEA.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Texture__Black_.uasset'
+[2016.04.08-16.36.23:864][417]LogSavePackage: Total save time: 34.935556ms
+[2016.04.08-16.36.23:864][417]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Texture__Black_.uasset
+[2016.04.08-16.36.23:931][417]LogSavePackage: Save=50.033913ms
+[2016.04.08-16.36.23:931][417]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Solar_Panel_Texture__Normal_BA9B51BF49B0A830C5F2C99BD5EADA07.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Texture__Normal_.uasset'
+[2016.04.08-16.36.23:935][417]LogSavePackage: Total save time: 55.050734ms
+[2016.04.08-16.36.23:935][417]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Solar_Panel/Solar_Panel_Texture__Normal_.uasset
+[2016.04.08-16.37.17:865][283]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Street Road\Concrete Seamless Texture (Normal).png)
+[2016.04.08-16.37.18:066][283]LogTexture:Display: Building textures: Concrete_Seamless_Texture__Normal_ (BC5)
+[2016.04.08-16.37.18:543][283]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Street Road\Road Texture (Normal).png)
+[2016.04.08-16.37.18:651][283]LogTexture:Display: Building textures: Road_Texture__Normal_ (BGRA8)
+[2016.04.08-16.37.27:400][704]LogSavePackage: Save=242.898148ms
+[2016.04.08-16.37.27:401][704]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Concrete_Seamless_Texture__Normal_DA7FA82348A5BF6497705EA0BD6BF69C.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Street_Road/Concrete_Seamless_Texture__Normal_.uasset'
+[2016.04.08-16.37.27:406][704]LogSavePackage: Total save time: 248.553883ms
+[2016.04.08-16.37.27:406][704]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Street_Road/Concrete_Seamless_Texture__Normal_.uasset
+[2016.04.08-16.37.27:756][704]LogSavePackage: Save=329.450378ms
+[2016.04.08-16.37.27:756][704]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Road_Texture__Normal_82AD42E848510A543A4868A803173F42.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Street_Road/Road_Texture__Normal_.uasset'
+[2016.04.08-16.37.27:760][704]LogSavePackage: Total save time: 333.277453ms
+[2016.04.08-16.37.27:760][704]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Street_Road/Road_Texture__Normal_.uasset
+[2016.04.08-16.38.42:584][148]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx)
+[2016.04.08-16.38.42:584][148]LogStreaming:Warning: Failed to read file 'C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx' error.
+[2016.04.08-16.38.42:604][148]Can't find file 'C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx' for import
+[2016.04.08-16.38.50:039][148]LogAssetTools:Warning: Failed to import 'C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx'. Failed to create asset '/Game/FirstPersonBP/Models/Cupula/Cupula'
+[2016.04.08-16.38.55:036][219]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx)
+[2016.04.08-16.38.55:037][219]LogStreaming:Warning: Failed to read file 'C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx' error.
+[2016.04.08-16.38.55:037][219]Can't find file 'C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx' for import
+[2016.04.08-16.38.56:927][219]LogAssetTools:Warning: Failed to import 'C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx'. Failed to create asset '/Game/FirstPersonBP/Models/Cupula/Cupula'
+[2016.04.08-16.51.55:711][655]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx)
+[2016.04.08-16.51.55:755][655]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-16.51.55:755][655]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-16.51.55:755][655]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-16.51.55:755][655]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2016.04.08-16.51.55:755][655]LogFbx: ItemName: Model, ItemCount : 3
+[2016.04.08-16.51.55:755][655]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-16.51.55:755][655]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.04.08-16.51.55:755][655]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.04.08-16.51.56:084][655]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx
+[2016.04.08-16.51.56:430][655]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.52.00:477][655]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Cupula\Cupula.fbx
+[2016.04.08-16.52.00:617][655]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-16.52.00:652][655]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Cupula/Vidrio'
+[2016.04.08-16.52.00:652][655]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Cupula/Vidrio'
+[2016.04.08-16.52.00:670][655]LogMaterial: Missing cached shader map for material Vidrio, compiling. 
+[2016.04.08-16.52.00:711][655]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Cupula/Vigas'
+[2016.04.08-16.52.00:711][655]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Cupula/Vigas'
+[2016.04.08-16.52.00:851][655]LogMaterial: Missing cached shader map for material Vigas, compiling. 
+[2016.04.08-16.52.01:015][655]LogStaticMesh: Building static mesh Cupula...
+[2016.04.08-16.52.01:265][655]LogStaticMesh: Built static mesh [0.249526.2s] /Game/FirstPersonBP/Models/Cupula/Cupula.Cupula
+[2016.04.08-16.52.01:276][655]LogStaticMesh:Warning: Cupula has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-16.52.01:291][655]FBXImport:Warning: Warning Cupula has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-16.54.31:638][822]LogStaticMesh: Building static mesh Cupula...
+[2016.04.08-16.54.32:693][822]LogStaticMesh: Built static mesh [1.139383.2s] /Game/FirstPersonBP/Models/Cupula/Cupula.Cupula
+[2016.04.08-16.54.33:267][822]LogStaticMesh:Warning: Cupula has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-16.55.46:157][358]LogSavePackage: Save=175.086624ms
+[2016.04.08-16.55.46:157][358]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Cupula5AB1B18C423F7B5A89B756B5F08F55D1.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Cupula/Cupula.uasset'
+[2016.04.08-16.55.46:194][358]LogSavePackage: Total save time: 246.634141ms
+[2016.04.08-16.55.46:194][358]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Cupula/Cupula.uasset
+[2016.04.08-16.55.51:430][594]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD751A6E80
+[2016.04.08-16.56.24:751][594]LogSavePackage: Save=24074.382813ms
+[2016.04.08-16.56.24:751][594]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap03315F304AB2A09878F9D0A30EE86F43.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-16.56.24:760][594]LogSavePackage: Total save time: 25174.821045ms
+[2016.04.08-16.56.24:760][594]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-16.56.24:915][594]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 33.339
+[2016.04.08-16.56.24:969][594]LogSavePackage: Save=13.517744ms
+[2016.04.08-16.56.24:969][594]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Vidrio69F8357F4BF53E09AF77DE8497DF652F.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Cupula/Vidrio.uasset'
+[2016.04.08-16.56.24:973][594]LogSavePackage: Total save time: 17.197713ms
+[2016.04.08-16.56.24:973][594]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Cupula/Vidrio.uasset
+[2016.04.08-16.56.25:014][594]LogSavePackage: Save=13.530574ms
+[2016.04.08-16.56.25:014][594]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Vigas2B78ABCA434E02C8EE1D3BA97FDD03D3.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Cupula/Vigas.uasset'
+[2016.04.08-16.56.25:018][594]LogSavePackage: Total save time: 17.747678ms
+[2016.04.08-16.56.25:018][594]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Cupula/Vigas.uasset
+[2016.04.08-16.56.30:174][828]LogActorFactory: Actor Factory created Cupula
+[2016.04.08-16.56.30:906][850]LogActorFactory: Actor Factory created Cupula
+[2016.04.08-16.56.41:740][150]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.04.08-16.56.47:162][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cupula)
+[2016.04.08-16.57.04:283][993]Cmd: DELETE
+[2016.04.08-16.57.04:283][993]Cmd: ACTOR DELETE
+[2016.04.08-16.57.04:586][993]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-16.57.04:630][993]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2016.04.08-16.57.36:218][315]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos V2\Invernadero\Invernadero.fbx)
+[2016.04.08-16.57.36:219][315]LogStreaming:Warning: Failed to read file 'C:\Users\ray\SkyDrive\Axioma\Modelos V2\Invernadero\Invernadero.fbx' error.
+[2016.04.08-16.57.36:219][315]Can't find file 'C:\Users\ray\SkyDrive\Axioma\Modelos V2\Invernadero\Invernadero.fbx' for import
+[2016.04.08-16.57.38:319][315]LogAssetTools:Warning: Failed to import 'C:\Users\ray\SkyDrive\Axioma\Modelos V2\Invernadero\Invernadero.fbx'. Failed to create asset '/Game/FirstPersonBP/Models/Greenhouse/Invernadero'
+[2016.04.08-17.05.57:004][868]LogSavePackage: Save=4833.684570ms
+[2016.04.08-17.05.57:004][868]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap_Auto1E9E8759D40B85A6BE441DD824726715B.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2016.04.08-17.05.57:008][868]LogSavePackage: Total save time: 4867.982503ms
+[2016.04.08-17.05.57:008][868]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2016.04.08-17.05.57:010][868]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 4.962
+[2016.04.08-17.05.57:010][868]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.962
+[2016.04.08-17.09.11:111][828]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Oak Tree\Oak Tree.fbx)
+[2016.04.08-17.09.11:149][828]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-17.09.11:149][828]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-17.09.11:149][828]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-17.09.11:150][828]LogFbx: ItemName: NodeAttribute, ItemCount : 58
+[2016.04.08-17.09.11:150][828]LogFbx: ItemName: Model, ItemCount : 650
+[2016.04.08-17.09.11:150][828]LogFbx: ItemName: Material, ItemCount : 3
+[2016.04.08-17.09.11:150][828]LogFbx: ItemName: Texture, ItemCount : 6
+[2016.04.08-17.09.11:150][828]LogFbx: ItemName: Geometry, ItemCount : 592
+[2016.04.08-17.09.11:150][828]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2016.04.08-17.09.11:150][828]LogFbx: ItemName: Video, ItemCount : 6
+[2016.04.08-17.09.11:274][828]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Oak Tree\Oak Tree.fbx
+[2016.04.08-17.09.14:448][828]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.09.18:561][828]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos Videojuegos\Oak Tree\Oak Tree.fbx
+[2016.04.08-17.09.21:349][828]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.09.21:409][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark'
+[2016.04.08-17.09.21:410][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark'
+[2016.04.08-17.09.21:410][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Texture'
+[2016.04.08-17.09.21:410][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Texture'
+[2016.04.08-17.09.21:410][828]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Texture.Oak_Bark_Seamless_Texture'
+[2016.04.08-17.09.21:605][828]LogTexture:Display: Building textures: Oak_Bark_Seamless_Texture (AutoDXT)
+[2016.04.08-17.09.24:561][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Normal'
+[2016.04.08-17.09.24:561][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Normal'
+[2016.04.08-17.09.24:561][828]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Normal.Oak_Bark_Seamless_Normal'
+[2016.04.08-17.09.24:684][828]LogTexture:Display: Building textures: Oak_Bark_Seamless_Normal (BC5)
+[2016.04.08-17.09.25:489][828]LogMaterial: Missing cached shader map for material Oak_Bark, compiling. 
+[2016.04.08-17.09.26:237][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Branch'
+[2016.04.08-17.09.26:237][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Branch'
+[2016.04.08-17.09.26:239][828]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Oak_Tree/Oak_Branch.Oak_Branch'
+[2016.04.08-17.09.26:852][828]LogTexture:Display: Building textures: Oak_Branch2 (BGRA8)
+[2016.04.08-17.09.26:971][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Tree_Branch__Normal_'
+[2016.04.08-17.09.26:971][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/Oak_Tree_Branch__Normal_'
+[2016.04.08-17.09.26:971][828]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/FirstPersonBP/Models/Oak_Tree/Oak_Tree_Branch__Normal_.Oak_Tree_Branch__Normal_'
+[2016.04.08-17.09.27:013][828]LogTexture:Display: Building textures: Oak_Tree_Branch__Normal_ (BGRA8)
+[2016.04.08-17.09.27:106][828]LogMaterial: Missing cached shader map for material Oak_Branch, compiling. 
+[2016.04.08-17.09.27:322][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/pasted__Tree_Bark'
+[2016.04.08-17.09.27:322][828]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Oak_Tree/pasted__Tree_Bark'
+[2016.04.08-17.09.27:423][828]LogTexture:Display: Building textures: Oak_Bark_Seamless_Texture (AutoDXT)
+[2016.04.08-17.09.30:948][828]LogFbxMaterialImport:Warning: Manual texture reimport and recompression may be needed for Oak_Bark_Seamless_Normal
+[2016.04.08-17.09.31:067][828]LogTexture:Display: Building textures: Oak_Bark_Seamless_Normal (BC5)
+[2016.04.08-17.09.31:505][828]LogMaterial: Missing cached shader map for material pasted__Tree_Bark, compiling. 
+[2016.04.08-17.09.31:700][828]LogStaticMesh: Building static mesh Oak_Tree...
+[2016.04.08-17.09.32:495][828]LogStaticMesh: Built static mesh [0.817310.2s] /Game/FirstPersonBP/Models/Oak_Tree/Oak_Tree.Oak_Tree
+[2016.04.08-17.09.46:250][331]LogStaticMesh: Building static mesh Oak_Tree...
+[2016.04.08-17.09.47:037][331]LogStaticMesh: Built static mesh [0.786751.2s] /Game/FirstPersonBP/Models/Oak_Tree/Oak_Tree.Oak_Tree
+[2016.04.08-17.10.48:059][797]LogSavePackage: Save=17.122019ms
+[2016.04.08-17.10.48:059][797]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Oak_Tree72B924F54EFDCE3060BEE1A22B852FF7.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Tree.uasset'
+[2016.04.08-17.10.48:064][797]LogSavePackage: Total save time: 21.799710ms
+[2016.04.08-17.10.48:064][797]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Tree.uasset
+[2016.04.08-17.11.13:501][976]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos V2\Invernadero\Invernadero.fbx)
+[2016.04.08-17.11.13:513][976]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-17.11.13:513][976]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-17.11.13:513][976]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-17.11.13:513][976]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2016.04.08-17.11.13:513][976]LogFbx: ItemName: Model, ItemCount : 3
+[2016.04.08-17.11.13:513][976]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-17.11.13:513][976]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.04.08-17.11.13:513][976]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.04.08-17.11.13:598][976]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Invernadero\Invernadero.fbx
+[2016.04.08-17.11.13:817][976]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.11.17:228][976]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Invernadero\Invernadero.fbx
+[2016.04.08-17.11.17:476][976]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.11.17:515][976]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Greenhouse/Vigas'
+[2016.04.08-17.11.17:515][976]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Greenhouse/Vigas'
+[2016.04.08-17.11.17:619][976]LogMaterial: Missing cached shader map for material Vigas, compiling. 
+[2016.04.08-17.11.17:817][976]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Greenhouse/Vidrio'
+[2016.04.08-17.11.17:817][976]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Greenhouse/Vidrio'
+[2016.04.08-17.11.17:836][976]LogMaterial: Missing cached shader map for material Vidrio, compiling. 
+[2016.04.08-17.11.17:980][976]LogStaticMesh: Building static mesh Invernadero...
+[2016.04.08-17.11.19:907][976]LogStaticMesh: Built static mesh [1.927066.2s] /Game/FirstPersonBP/Models/Greenhouse/Invernadero.Invernadero
+[2016.04.08-17.11.20:017][976]LogStaticMesh:Warning: Invernadero has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-17.11.20:040][976]FBXImport:Warning: Warning Invernadero has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-17.11.34:121][589]LogStaticMesh: Building static mesh Invernadero...
+[2016.04.08-17.11.35:995][589]LogStaticMesh: Built static mesh [1.873689.2s] /Game/FirstPersonBP/Models/Greenhouse/Invernadero.Invernadero
+[2016.04.08-17.11.36:056][589]LogStaticMesh:Warning: Invernadero has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-17.11.58:235][677]LogSavePackage: Save=14.886667ms
+[2016.04.08-17.11.58:236][677]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Invernadero8BC658884C3F8F37466AA0B43425085A.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Greenhouse/Invernadero.uasset'
+[2016.04.08-17.11.58:241][677]LogSavePackage: Total save time: 20.331141ms
+[2016.04.08-17.11.58:241][677]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Greenhouse/Invernadero.uasset
+[2016.04.08-17.12.09:790][298]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD51D45080
+[2016.04.08-17.12.09:791][298]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD751A4900
+[2016.04.08-17.12.14:016][298]LogSavePackage: Save=4007.128906ms
+[2016.04.08-17.12.14:016][298]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMapF7E0117D49CDC3B592C7FB81C39D0DB2.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-17.12.14:025][298]LogSavePackage: Total save time: 4040.374473ms
+[2016.04.08-17.12.14:025][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-17.12.14:072][298]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.252
+[2016.04.08-17.12.14:147][298]LogSavePackage: Save=43.295784ms
+[2016.04.08-17.12.14:147][298]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Oak_BarkE08113E34DCD5A22E32F8E99B72DD0CF.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Bark.uasset'
+[2016.04.08-17.12.14:152][298]LogSavePackage: Total save time: 48.218518ms
+[2016.04.08-17.12.14:152][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Bark.uasset
+[2016.04.08-17.12.14:454][298]LogSavePackage: Save=279.888153ms
+[2016.04.08-17.12.14:454][298]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Oak_Bark_Seamless_Texture3C543A15491789A5F23B87AC8E41B7A4.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Texture.uasset'
+[2016.04.08-17.12.14:459][298]LogSavePackage: Total save time: 285.271905ms
+[2016.04.08-17.12.14:459][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Texture.uasset
+[2016.04.08-17.12.14:875][298]LogSavePackage: Save=393.968536ms
+[2016.04.08-17.12.14:875][298]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Oak_Bark_Seamless_Normal4D594B61418D640B3E0787AD3FE5EF39.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Normal.uasset'
+[2016.04.08-17.12.14:880][298]LogSavePackage: Total save time: 398.595750ms
+[2016.04.08-17.12.14:880][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Bark_Seamless_Normal.uasset
+[2016.04.08-17.12.14:928][298]LogSavePackage: Save=18.227507ms
+[2016.04.08-17.12.14:928][298]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Oak_Branch42B68903405D6C77F73E7DABDE196290.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Branch.uasset'
+[2016.04.08-17.12.14:932][298]LogSavePackage: Total save time: 22.670414ms
+[2016.04.08-17.12.14:932][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Branch.uasset
+[2016.04.08-17.12.15:037][298]LogSavePackage: Save=85.115303ms
+[2016.04.08-17.12.15:037][298]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Oak_Branch22EAB132E426ECF4645BA6DBFC043C84F.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Branch2.uasset'
+[2016.04.08-17.12.15:041][298]LogSavePackage: Total save time: 89.695055ms
+[2016.04.08-17.12.15:041][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Branch2.uasset
+[2016.04.08-17.12.15:139][298]LogSavePackage: Save=77.924286ms
+[2016.04.08-17.12.15:139][298]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Oak_Tree_Branch__Normal_3838CD2D46F00F5B5DF7B69D1DE13C79.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Tree_Branch__Normal_.uasset'
+[2016.04.08-17.12.15:144][298]LogSavePackage: Total save time: 82.587004ms
+[2016.04.08-17.12.15:144][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/Oak_Tree_Branch__Normal_.uasset
+[2016.04.08-17.12.15:190][298]LogSavePackage: Save=14.965356ms
+[2016.04.08-17.12.15:190][298]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/pasted__Tree_Bark638F03184E0E3E33184B758F6322F0AA.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/pasted__Tree_Bark.uasset'
+[2016.04.08-17.12.15:195][298]LogSavePackage: Total save time: 20.216532ms
+[2016.04.08-17.12.15:195][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Oak_Tree/pasted__Tree_Bark.uasset
+[2016.04.08-17.12.15:237][298]LogSavePackage: Save=12.822804ms
+[2016.04.08-17.12.15:237][298]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/VigasA9955BDB46A0735C48A8C4A619A8366D.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Greenhouse/Vigas.uasset'
+[2016.04.08-17.12.15:241][298]LogSavePackage: Total save time: 17.630503ms
+[2016.04.08-17.12.15:241][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Greenhouse/Vigas.uasset
+[2016.04.08-17.12.15:286][298]LogSavePackage: Save=13.539982ms
+[2016.04.08-17.12.15:286][298]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/VidrioC830289545C389E8CB2AB4B68DA43B1C.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Greenhouse/Vidrio.uasset'
+[2016.04.08-17.12.15:293][298]LogSavePackage: Total save time: 21.159936ms
+[2016.04.08-17.12.15:293][298]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Greenhouse/Vidrio.uasset
+[2016.04.08-17.12.41:301][231]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos V2\Casa 1\House1.fbx)
+[2016.04.08-17.12.41:319][231]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-17.12.41:319][231]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-17.12.41:319][231]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-17.12.41:319][231]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2016.04.08-17.12.41:319][231]LogFbx: ItemName: Model, ItemCount : 9
+[2016.04.08-17.12.41:319][231]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-17.12.41:319][231]LogFbx: ItemName: Geometry, ItemCount : 8
+[2016.04.08-17.12.41:319][231]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.04.08-17.12.41:410][231]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Casa 1\House1.fbx
+[2016.04.08-17.12.41:577][231]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.12.45:044][231]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Casa 1\House1.fbx
+[2016.04.08-17.12.45:221][231]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.12.45:257][231]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Futuristic_House/lambert1'
+[2016.04.08-17.12.45:257][231]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Futuristic_House/lambert1'
+[2016.04.08-17.12.45:275][231]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.04.08-17.12.45:330][231]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Futuristic_House/Vidrio'
+[2016.04.08-17.12.45:330][231]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Futuristic_House/Vidrio'
+[2016.04.08-17.12.45:453][231]LogMaterial: Missing cached shader map for material Vidrio, compiling. 
+[2016.04.08-17.12.45:598][231]LogStaticMesh: Building static mesh House1...
+[2016.04.08-17.12.45:748][231]LogStaticMesh: Built static mesh [0.158776.2s] /Game/FirstPersonBP/Models/Futuristic_House/House1.House1
+[2016.04.08-17.12.45:755][231]LogStaticMesh:Warning: House1 has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-17.12.45:773][231]FBXImport:Warning: Warning House1 has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-17.12.56:737][755]LogStaticMesh: Building static mesh House1...
+[2016.04.08-17.12.56:884][755]LogStaticMesh: Built static mesh [0.147152.2s] /Game/FirstPersonBP/Models/Futuristic_House/House1.House1
+[2016.04.08-17.12.56:950][755]LogStaticMesh:Warning: House1 has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-17.14.34:886][875]LogSavePackage: Save=13.894936ms
+[2016.04.08-17.14.34:886][875]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/House1203A884C40DEA6D4A2F7EE8D989156D1.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Futuristic_House/House1.uasset'
+[2016.04.08-17.14.34:891][875]LogSavePackage: Total save time: 18.889517ms
+[2016.04.08-17.14.34:891][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Futuristic_House/House1.uasset
+[2016.04.08-17.14.38:330][ 97]LogActorFactory: Actor Factory created House1
+[2016.04.08-17.14.40:223][145]LogActorFactory: Actor Factory created House1
+[2016.04.08-17.14.41:298][207]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.04.08-17.14.51:059][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.08-17.14.51:059][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.08-17.14.51:078][821]PIE: New page: PIE session: FirstPersonExampleMap (Apr 8, 2016, 7:14:51 AM)
+[2016.04.08-17.14.51:078][821]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.08-17.14.52:601][821]LogPlayLevel: PIE: StaticDuplicateObject took: (1.522011s)
+[2016.04.08-17.14.52:665][821]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.08-17.14.52:787][821]LogPlayLevel: PIE: World Init took: (0.186302s)
+[2016.04.08-17.14.52:788][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (1.708689s)
+[2016.04.08-17.14.52:843][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD0C8D53A0
+[2016.04.08-17.14.52:960][821]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-17.14.53:005][821]LogInit: FAudioDevice initialized.
+[2016.04.08-17.14.53:085][821]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.08-17.14.53:463][821]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.04.08-12.14.53
+[2016.04.08-17.14.53:463][821]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-17.14.53:463][821]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-17.14.53:546][821]LogWorld: Bringing up level for play took: 0.341767
+[2016.04.08-17.14.53:999][821]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 2.64
+[2016.04.08-17.14.53:999][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.08-17.15.34:802][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.08-17.15.34:961][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.08-17.15.35:015][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD28BAECA0
+[2016.04.08-17.15.43:162][199]LogSavePackage: Save=4136.594727ms
+[2016.04.08-17.15.43:162][199]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap3DEF9FFC42A543A6CB28F2B8762930FE.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-17.15.43:171][199]LogSavePackage: Total save time: 4149.368312ms
+[2016.04.08-17.15.43:171][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-17.15.43:229][199]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.394
+[2016.04.08-17.15.43:274][199]LogSavePackage: Save=14.617672ms
+[2016.04.08-17.15.43:275][199]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/lambert111F1B31146814ED63977D2A06D002FC6.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Futuristic_House/lambert1.uasset'
+[2016.04.08-17.15.43:280][199]LogSavePackage: Total save time: 20.190872ms
+[2016.04.08-17.15.43:280][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Futuristic_House/lambert1.uasset
+[2016.04.08-17.15.43:346][199]LogSavePackage: Save=14.740409ms
+[2016.04.08-17.15.43:346][199]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/VidrioCB7DC86948592540C04EDD8EAC035840.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Futuristic_House/Vidrio.uasset'
+[2016.04.08-17.15.43:351][199]LogSavePackage: Total save time: 20.698499ms
+[2016.04.08-17.15.43:351][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Futuristic_House/Vidrio.uasset
+[2016.04.08-17.16.13:325][476]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos V2\Puerta_Chica\Puerta_Chica.fbx)
+[2016.04.08-17.16.13:337][476]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-17.16.13:337][476]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-17.16.13:337][476]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-17.16.13:337][476]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2016.04.08-17.16.13:337][476]LogFbx: ItemName: Model, ItemCount : 3
+[2016.04.08-17.16.13:337][476]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-17.16.13:337][476]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.04.08-17.16.13:337][476]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.04.08-17.16.13:427][476]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Puerta_Chica\Puerta_Chica.fbx
+[2016.04.08-17.16.13:558][476]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.16.17:088][476]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Puerta_Chica\Puerta_Chica.fbx
+[2016.04.08-17.16.17:227][476]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.16.17:263][476]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Single_Door/lambert1'
+[2016.04.08-17.16.17:264][476]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Single_Door/lambert1'
+[2016.04.08-17.16.17:281][476]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.04.08-17.16.17:312][476]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Single_Door/Vidrio'
+[2016.04.08-17.16.17:312][476]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Single_Door/Vidrio'
+[2016.04.08-17.16.17:459][476]LogMaterial: Missing cached shader map for material Vidrio, compiling. 
+[2016.04.08-17.16.17:642][476]LogStaticMesh: Building static mesh Puerta_Chica...
+[2016.04.08-17.16.17:648][476]LogStaticMesh: Built static mesh [0.005835.2s] /Game/FirstPersonBP/Models/Single_Door/Puerta_Chica.Puerta_Chica
+[2016.04.08-17.16.17:649][476]LogStaticMesh:Warning: Puerta_Chica has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-17.16.17:696][476]FBXImport:Warning: Warning Puerta_Chica has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-17.16.17:696][476]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.04.08-17.16.22:309][694]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.04.08-17.16.24:803][694]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.04.08-17.16.24:865][694]LogMaterial: 0.000277 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.08-17.16.24:895][694]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_8, compiling. 
+[2016.04.08-17.16.38:463][185]LogStaticMesh: Building static mesh Puerta_Chica...
+[2016.04.08-17.16.38:467][185]LogStaticMesh: Built static mesh [0.004223.2s] /Game/FirstPersonBP/Models/Single_Door/Puerta_Chica.Puerta_Chica
+[2016.04.08-17.16.38:468][185]LogStaticMesh:Warning: Puerta_Chica has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-17.16.49:196][696]LogSavePackage: Save=16.296217ms
+[2016.04.08-17.16.49:196][696]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Puerta_Chica4B2C223A4FB606B4E8ADC59583248A20.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Single_Door/Puerta_Chica.uasset'
+[2016.04.08-17.16.49:202][696]LogSavePackage: Total save time: 22.283386ms
+[2016.04.08-17.16.49:202][696]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Single_Door/Puerta_Chica.uasset
+[2016.04.08-17.16.53:045][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD29B92160
+[2016.04.08-17.16.53:046][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD767DCEA0
+[2016.04.08-17.16.57:451][869]LogSavePackage: Save=4171.042480ms
+[2016.04.08-17.16.57:451][869]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap180FF940456F68BEEBACDFBA5316FCA2.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-17.16.57:459][869]LogSavePackage: Total save time: 4183.954045ms
+[2016.04.08-17.16.57:459][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-17.16.57:519][869]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.395
+[2016.04.08-17.16.57:561][869]LogSavePackage: Save=12.708621ms
+[2016.04.08-17.16.57:561][869]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/lambert1BECD28D9414F8D1C51EE46987472BAAD.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Single_Door/lambert1.uasset'
+[2016.04.08-17.16.57:566][869]LogSavePackage: Total save time: 17.326865ms
+[2016.04.08-17.16.57:566][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Single_Door/lambert1.uasset
+[2016.04.08-17.16.57:607][869]LogSavePackage: Save=13.088806ms
+[2016.04.08-17.16.57:607][869]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Vidrio35AC86574EDF0D779ACA04B546A95FDE.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Single_Door/Vidrio.uasset'
+[2016.04.08-17.16.57:612][869]LogSavePackage: Total save time: 17.914034ms
+[2016.04.08-17.16.57:612][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Single_Door/Vidrio.uasset
+[2016.04.08-17.17.20:688][275]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos V2\Puerta_Grande\Puerta_Grande.fbx)
+[2016.04.08-17.17.20:701][275]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-17.17.20:701][275]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-17.17.20:701][275]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-17.17.20:701][275]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2016.04.08-17.17.20:701][275]LogFbx: ItemName: Model, ItemCount : 6
+[2016.04.08-17.17.20:701][275]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-17.17.20:701][275]LogFbx: ItemName: Geometry, ItemCount : 4
+[2016.04.08-17.17.20:701][275]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.04.08-17.17.20:787][275]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Puerta_Grande\Puerta_Grande.fbx
+[2016.04.08-17.17.20:928][275]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.17.24:063][275]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Puerta_Grande\Puerta_Grande.fbx
+[2016.04.08-17.17.24:208][275]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.17.24:243][275]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Double_Door/lambert1'
+[2016.04.08-17.17.24:244][275]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Double_Door/lambert1'
+[2016.04.08-17.17.24:260][275]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.04.08-17.17.24:293][275]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Double_Door/Vidrio'
+[2016.04.08-17.17.24:296][275]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Double_Door/Vidrio'
+[2016.04.08-17.17.24:423][275]LogMaterial: Missing cached shader map for material Vidrio, compiling. 
+[2016.04.08-17.17.24:584][275]LogStaticMesh: Building static mesh Puerta_Grande...
+[2016.04.08-17.17.24:592][275]LogStaticMesh: Built static mesh [0.031170.2s] /Game/FirstPersonBP/Models/Double_Door/Puerta_Grande.Puerta_Grande
+[2016.04.08-17.17.24:597][275]LogStaticMesh:Warning: Puerta_Grande has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-17.17.24:626][275]FBXImport:Warning: Warning Puerta_Grande has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-17.17.24:626][275]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.04.08-17.17.33:881][655]LogStaticMesh: Building static mesh Puerta_Grande...
+[2016.04.08-17.17.33:889][655]LogStaticMesh: Built static mesh [0.066961.2s] /Game/FirstPersonBP/Models/Double_Door/Puerta_Grande.Puerta_Grande
+[2016.04.08-17.17.33:891][655]LogStaticMesh:Warning: Puerta_Grande has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-17.17.39:828][896]LogSavePackage: Save=18.822803ms
+[2016.04.08-17.17.39:829][896]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Puerta_Grande87FBAE104735D6D82A2C9A9300D71607.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Double_Door/Puerta_Grande.uasset'
+[2016.04.08-17.17.39:833][896]LogSavePackage: Total save time: 23.890514ms
+[2016.04.08-17.17.39:833][896]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Double_Door/Puerta_Grande.uasset
+[2016.04.08-17.17.42:880][ 34]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD04B4C860
+[2016.04.08-17.17.48:444][ 34]LogSavePackage: Save=5280.806152ms
+[2016.04.08-17.17.48:444][ 34]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap0ABB3C3B440FFBF7CA32DBA1A0BFA09B.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-17.17.48:452][ 34]LogSavePackage: Total save time: 5320.074461ms
+[2016.04.08-17.17.48:452][ 34]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-17.17.48:491][ 34]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 5.579
+[2016.04.08-17.17.48:543][ 34]LogSavePackage: Save=14.381179ms
+[2016.04.08-17.17.48:543][ 34]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/lambert175351BDF4BACBDCC8839AF88A23718BD.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Double_Door/lambert1.uasset'
+[2016.04.08-17.17.48:547][ 34]LogSavePackage: Total save time: 18.164642ms
+[2016.04.08-17.17.48:547][ 34]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Double_Door/lambert1.uasset
+[2016.04.08-17.17.48:603][ 34]LogSavePackage: Save=13.234636ms
+[2016.04.08-17.17.48:603][ 34]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Vidrio1B6E2BAF4996FD90D1D7E095BD0428F3.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Double_Door/Vidrio.uasset'
+[2016.04.08-17.17.48:608][ 34]LogSavePackage: Total save time: 18.438771ms
+[2016.04.08-17.17.48:608][ 34]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Double_Door/Vidrio.uasset
+[2016.04.08-17.18.03:547][807]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Modelos V2\Rifle_Auto\Rifle_Auto.fbx)
+[2016.04.08-17.18.03:562][807]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-17.18.03:562][807]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-17.18.03:562][807]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-17.18.03:562][807]LogFbx: ItemName: NodeAttribute, ItemCount : 6
+[2016.04.08-17.18.03:562][807]LogFbx: ItemName: Model, ItemCount : 61
+[2016.04.08-17.18.03:562][807]LogFbx: ItemName: Material, ItemCount : 1
+[2016.04.08-17.18.03:562][807]LogFbx: ItemName: Geometry, ItemCount : 55
+[2016.04.08-17.18.03:562][807]LogFbx: ItemName: CollectionExclusive, ItemCount : 6
+[2016.04.08-17.18.03:670][807]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Rifle_Auto\Rifle_Auto.fbx
+[2016.04.08-17.18.04:045][807]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.18.07:949][807]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Modelos V2\Rifle_Auto\Rifle_Auto.fbx
+[2016.04.08-17.18.08:341][807]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-17.18.08:380][807]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Auto_Rifle/lambert1'
+[2016.04.08-17.18.08:380][807]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Models/Auto_Rifle/lambert1'
+[2016.04.08-17.18.08:397][807]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.04.08-17.18.08:565][807]LogStaticMesh: Building static mesh Rifle_Auto...
+[2016.04.08-17.18.09:728][807]LogStaticMesh: Built static mesh [1.180079.2s] /Game/FirstPersonBP/Models/Auto_Rifle/Rifle_Auto.Rifle_Auto
+[2016.04.08-17.18.09:738][807]LogStaticMesh:Warning: Rifle_Auto has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-17.18.09:799][807]FBXImport:Warning: Warning Rifle_Auto has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-17.18.09:799][807]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2016.04.08-17.18.19:619][243]LogStaticMesh: Building static mesh Rifle_Auto...
+[2016.04.08-17.18.20:220][243]LogStaticMesh: Built static mesh [0.601401.2s] /Game/FirstPersonBP/Models/Auto_Rifle/Rifle_Auto.Rifle_Auto
+[2016.04.08-17.18.20:247][243]LogStaticMesh:Warning: Rifle_Auto has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-17.18.24:857][466]LogSavePackage: Save=15.726582ms
+[2016.04.08-17.18.24:857][466]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Rifle_Auto697BBCA4403001EFE9CE74B16EA0DDEC.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Auto_Rifle/Rifle_Auto.uasset'
+[2016.04.08-17.18.24:861][466]LogSavePackage: Total save time: 20.480394ms
+[2016.04.08-17.18.24:861][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Auto_Rifle/Rifle_Auto.uasset
+[2016.04.08-17.18.27:686][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000CD0FE78220
+[2016.04.08-17.18.31:751][663]LogSavePackage: Save=3882.508301ms
+[2016.04.08-17.18.31:751][663]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMapC022998B4F0CE2191BDE6098EB895813.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-17.18.31:760][663]LogSavePackage: Total save time: 3895.784777ms
+[2016.04.08-17.18.31:760][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.04.08-17.18.31:807][663]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.106
+[2016.04.08-17.18.31:850][663]LogSavePackage: Save=13.534422ms
+[2016.04.08-17.18.31:850][663]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/lambert1D5F1CCB947D10DFB5D6B1B87BDE9FF4D.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Models/Auto_Rifle/lambert1.uasset'
+[2016.04.08-17.18.31:855][663]LogSavePackage: Total save time: 18.480252ms
+[2016.04.08-17.18.31:855][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Doc
