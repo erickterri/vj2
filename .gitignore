@@ -80,3 +80,15 @@ Axioma/Saved/Config/Windows/Engine.ini
 Axioma/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
 Axioma/Intermediate/Config/CoalescedSourceConfigs/Game.ini
 Axioma/Saved/Config/Windows/Engine.ini
+Axioma/Intermediate/CachedAssetRegistry.bin
+*.bin
+Axioma/Saved/Config/Windows/Editor.ini
+Axioma/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+*.ini
+Axioma/Saved/Config/Windows/Engine.ini
+Axioma/Saved/Config/Windows/Editor.ini
+Axioma/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Axioma/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+Axioma/Saved/Logs/Axioma.log
+Axioma/Saved/Config/Windows/Engine.ini
+Axioma/Intermediate/CachedAssetRegistry.bin
