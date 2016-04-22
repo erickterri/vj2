@@ -1,0 +1,619 @@
+﻿[2016.04.21-23.11.01:146][  0]Log file open, 04/21/16 18:11:01
+[2016.04.21-23.11.01:146][  0]LogInit:Display: Running engine for game: Axioma
+[2016.04.21-23.11.01:146][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.21-23.11.01:146][  0]LogInit:Display: RandInit(1567965471) SRandInit(1567965472).
+[2016.04.21-23.11.01:146][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.04.21-23.11.01:146][  0]LogStats: Stats thread started at 0.073079
+[2016.04.21-23.11.01:146][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.21-23.11.01:146][  0]LogInit: API Version: 2758231
+[2016.04.21-23.11.01:146][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.21-23.11.01:146][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.21-23.11.01:146][  0]LogInit: Build Configuration: Development
+[2016.04.21-23.11.01:146][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.21-23.11.01:146][  0]LogInit: Command line:  
+[2016.04.21-23.11.01:146][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.21-23.11.01:146][  0]LogInit: Rocket: 1
+[2016.04.21-23.11.01:146][  0]LogInit: Using libcurl 7.41.0
+[2016.04.21-23.11.01:146][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.21-23.11.01:146][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.21-23.11.01:146][  0]LogInit:  - other features:
+[2016.04.21-23.11.01:146][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.21-23.11.01:146][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.21-23.11.01:146][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.21-23.11.01:146][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.21-23.11.01:146][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.21-23.11.01:146][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.21-23.11.01:146][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.21-23.11.01:146][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.21-23.11.01:146][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.21-23.11.01:146][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.21-23.11.01:161][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.21-23.11.01:177][  0]LogInit: Object subsystem initialized
+[2016.04.21-23.11.01:177][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.21-23.11.01:177][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.21-23.11.01:190][  0]LogInit: Computer: LAPTOP-RAY
+[2016.04.21-23.11.01:190][  0]LogInit: User: ray
+[2016.04.21-23.11.01:190][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.21-23.11.01:190][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2016.04.21-23.11.01:190][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.04.21-23.11.01:190][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.21-23.11.01:190][  0]LogMemory: Process Physical Memory: 55.13 MB used, 55.13 MB peak
+[2016.04.21-23.11.01:190][  0]LogMemory: Process Virtual Memory: 55.39 MB used, 55.39 MB peak
+[2016.04.21-23.11.01:190][  0]LogMemory: Physical Memory: 2050.42 MB used, 3976.27 MB total
+[2016.04.21-23.11.01:190][  0]LogMemory: Virtual Memory: 358.91 MB used, 134217728.00 MB total
+[2016.04.21-23.11.01:246][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.21-23.11.01:875][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.04.21-23.11.01:875][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.04.21-23.11.01:877][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.21-23.11.01:877][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.21-23.11.01:877][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.21-23.11.01:884][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.21-23.11.01:884][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.04.21-23.11.01:891][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.21-23.11.01:896][  0]LogShaderCompilers: Guid format shader working directory is -71 characters bigger than the processId version (../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Intermediate/Shaders/WorkingDirectory/9456/).
+[2016.04.21-23.11.01:896][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ray/AppData/Local/Temp/UnrealShaderWorkingDir/007598304F310D0908233A923BB146FC/'.
+[2016.04.21-23.11.01:896][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.21-23.11.05:184][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.21-23.11.05:238][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.21-23.11.05:243][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.21-23.11.05:249][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.21-23.11.05:255][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.21-23.11.05:268][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.21-23.11.05:311][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.21-23.11.05:320][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.21-23.11.05:328][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.21-23.11.05:338][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.21-23.11.05:372][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.21-23.11.05:386][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.21-23.11.05:386][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.21-23.11.05:398][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.21-23.11.05:472][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.21-23.11.05:505][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.21-23.11.05:515][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.21-23.11.05:567][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.21-23.11.05:567][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.21-23.11.06:212][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.21-23.11.06:275][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.21-23.11.06:275][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.21-23.11.06:275][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.21-23.11.06:275][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.21-23.11.06:276][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.21-23.11.06:276][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.21-23.11.06:355][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.21-23.11.06:368][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ray/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.21-23.11.11:924][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.21-23.11.11:933][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.21-23.11.12:436][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.21-23.11.12:436][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.21-23.11.12:976][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.21-23.11.31:357][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.21-23.11.31:869][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2016.04.21-23.11.32:704][  0]SourceControl: Info Source control is disabled
+[2016.04.21-23.11.32:778][  0]SourceControl: Info Source control is disabled
+[2016.04.21-23.11.32:954][  0]SourceControl: Info Source control is disabled
+[2016.04.21-23.11.33:077][  0]SourceControl: Info Source control is disabled
+[2016.04.21-23.11.35:540][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.21-23.11.35:540][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.21-23.11.36:164][  0]LogEngine: Initializing Engine...
+[2016.04.21-23.11.36:245][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.21-23.11.36:365][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.21-23.11.36:743][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.21-23.11.36:803][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-23.11.36:844][  0]LogInit: FAudioDevice initialized.
+[2016.04.21-23.11.36:876][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.21-23.11.36:881][  0]LogInit: Texture streaming: Enabled
+[2016.04.21-23.11.37:554][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.21-23.11.37:554][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.21-23.11.37:554][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f6d84d504b8c91be90ceca84e0ba1004|f68b6959a5b94dccb13faa64bd594851|592e87cd-9efb-44c2-bcd9-891f7d9d6dd4
+[2016.04.21-23.11.38:047][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.21-23.11.38:126][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.21-23.11.40:335][  0]LogInit: Transaction tracking system initialized
+[2016.04.21-23.11.41:401][  0]BlueprintLog: New page: Editor Load
+[2016.04.21-23.11.43:401][  0]LocalizationService: Info Localization service is disabled
+[2016.04.21-23.11.45:048][  0]LogConsoleResponse:Display: 
+[2016.04.21-23.11.45:212][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.21-23.11.46:680][  0]SourceControl: Info Source control is disabled
+[2016.04.21-23.11.46:680][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.21-23.11.46:681][  0]LightingResults: New page: Lighting Build
+[2016.04.21-23.11.46:684][  0]MapCheck: New page: Map Check
+[2016.04.21-23.11.46:684][  0]LightingResults: New page: Lighting Build
+[2016.04.21-23.11.46:709][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056FAE0FB00
+[2016.04.21-23.11.56:501][  0]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-23.12.17:620][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint_106] 38.31599
+[2016.04.21-23.12.17:620][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint2_469] 136.196167
+[2016.04.21-23.12.17:621][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint4_689] 102.945038
+[2016.04.21-23.12.17:622][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint5_932] 65.189369
+[2016.04.21-23.12.17:622][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint6_1029] 178.489334
+[2016.04.21-23.12.17:623][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint8_1271] 51.016571
+[2016.04.21-23.12.17:624][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint9_1356] 55.196999
+[2016.04.21-23.12.17:625][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint10_1497] 156.570938
+[2016.04.21-23.12.17:625][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint11_1580] 34.822227
+[2016.04.21-23.12.17:626][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint12_1679] 179.813217
+[2016.04.21-23.12.17:626][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint13_1780] 118.980064
+[2016.04.21-23.12.17:627][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint14_1905] 133.976868
+[2016.04.21-23.12.17:627][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint15_2056] 55.636459
+[2016.04.21-23.12.17:628][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint16_2187] 171.18869
+[2016.04.21-23.12.17:628][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint17_2302] 136.954254
+[2016.04.21-23.12.17:629][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint18_2365] 67.721794
+[2016.04.21-23.12.17:629][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint19_2476] 31.471296
+[2016.04.21-23.12.17:630][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint20_2589] 98.989845
+[2016.04.21-23.12.17:630][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint21_2642] 43.897213
+[2016.04.21-23.12.17:630][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint22_2721] 2.323679
+[2016.04.21-23.12.17:631][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint23_2804] 105.515915
+[2016.04.21-23.12.17:631][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint24_2915] 15.820795
+[2016.04.21-23.12.17:632][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint25_3036] 168.3871
+[2016.04.21-23.12.17:632][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint3_3151] 151.225922
+[2016.04.21-23.12.17:633][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint7_3284] 6.487625
+[2016.04.21-23.12.17:634][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint26_3401] 69.051178
+[2016.04.21-23.12.17:656][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.21-23.12.17:657][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.21-23.12.18:167][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-23.12.18:167][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-23.12.18:167][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-23.12.18:167][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-23.12.18:167][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-23.12.18:167][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning Mesh2P SkeletalMeshComponent /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint_106.Body : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint2_469.Body : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint4_689.Body : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint5_932.Body : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint6_1029.Body : Externally referenced 
+[2016.04.21-23.12.18:168][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint8_1271.Body : Externally referenced 
+[2016.04.21-23.12.18:169][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint9_1356.Body : Externally referenced 
+[2016.04.21-23.12.18:169][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint10_1497.Body : Externally referenced 
+[2016.04.21-23.12.18:169][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint11_1580.Body : Externally referenced 
+[2016.04.21-23.12.18:169][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint12_1679.Body : Externally referenced 
+[2016.04.21-23.12.18:169][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint13_1780.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint14_1905.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint15_2056.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint16_2187.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint17_2302.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint18_2365.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint19_2476.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint20_2589.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint21_2642.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint22_2721.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint23_2804.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint24_2915.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint25_3036.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint3_3151.Body : Externally referenced 
+[2016.04.21-23.12.18:170][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint7_3284.Body : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint26_3401.Body : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint_106.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint2_469.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint4_689.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint5_932.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint6_1029.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint8_1271.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint9_1356.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint10_1497.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint11_1580.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint12_1679.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint13_1780.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint14_1905.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint15_2056.Rotor : Externally referenced 
+[2016.04.21-23.12.18:171][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint16_2187.Rotor : Externally referenced 
+[2016.04.21-23.12.18:172][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint17_2302.Rotor : Externally referenced 
+[2016.04.21-23.12.18:172][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint18_2365.Rotor : Externally referenced 
+[2016.04.21-23.12.18:172][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint19_2476.Rotor : Externally referenced 
+[2016.04.21-23.12.18:172][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint20_2589.Rotor : Externally referenced 
+[2016.04.21-23.12.18:172][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint21_2642.Rotor : Externally referenced 
+[2016.04.21-23.12.18:172][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint22_2721.Rotor : Externally referenced 
+[2016.04.21-23.12.18:172][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint23_2804.Rotor : Externally referenced 
+[2016.04.21-23.12.18:172][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint24_2915.Rotor : Externally referenced 
+[2016.04.21-23.12.18:172][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint25_3036.Rotor : Externally referenced 
+[2016.04.21-23.12.18:172][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint3_3151.Rotor : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint7_3284.Rotor : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint26_3401.Rotor : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning FoliageInstancedStaticMeshComponent_1 FoliageInstancedStaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_1 : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedFoliageActor /Game/Axioma.Axioma:PersistentLevel.InstancedFoliageActor_0 : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning FoliageInstancedStaticMeshComponent_0 FoliageInstancedStaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0 : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedFoliageActor /Game/Axioma.Axioma:PersistentLevel.InstancedFoliageActor_0 : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning Landscape_1 Landscape /Game/Axioma.Axioma:PersistentLevel.Landscape_1 : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning Landscape_13 Landscape /Game/Axioma.Axioma:PersistentLevel.Landscape_13 : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.CupulaTriple_8.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Fuente_16.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Prueba_Cupula2_10.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-23.12.18:173][  0]MapCheck:Warning: Warning ProceduralFoliageComponent ProceduralFoliageComponent /Game/Axioma.Axioma:PersistentLevel.ProceduralFoliageSpawner_2.ProceduralFoliageComponent : Externally referenced 
+[2016.04.21-23.12.18:174][  0]MapCheck: Info Map check complete: 0 Error(s), 75 Warning(s), took 517.259ms to complete.
+[2016.04.21-23.12.18:179][  0]LogFileHelpers: Loading map 'Axioma' took 31.499
+[2016.04.21-23.12.18:555][  0]LogCollectionManager: Loaded 0 collections in 0.003644 seconds
+[2016.04.21-23.12.18:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Collections/' took 0.01s
+[2016.04.21-23.12.18:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Developers/ray/Collections/' took 0.01s
+[2016.04.21-23.12.18:596][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Collections/' took 0.01s
+[2016.04.21-23.12.18:596][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.21-23.12.18:608][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 1893 classes and 338 folders.
+[2016.04.21-23.12.18:616][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.21-23.12.20:265][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.21-23.12.20:284][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.04.21-23.12.20:337][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.21-23.12.20:342][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.21-23.12.20:373][  0]LogLoad: Full Startup: 79.72 seconds (BP compile: 0.42 seconds)
+[2016.04.21-23.12.20:386][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.21-23.12.20:740][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.21-23.12.20:923][  0]LogRenderer: Reallocating scene render targets to support 816x348 (Frame:2).
+[2016.04.21-23.12.21:543][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.21-23.12.22:332][  8]LogAssetRegistry: Asset discovery search completed in 50.4747 seconds
+[2016.04.21-23.12.22:332][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.21-23.12.22:332][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2016.04.21-23.13.38:468][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Prueba_Cupula2)
+[2016.04.21-23.13.58:046][179]LogMaterial: Missing cached shader map for material M_Banqueta, compiling. 
+[2016.04.21-23.13.58:048][179]LogMaterial:Warning: Failed to compile Material /Game/Components/Models/M_Banqueta.M_Banqueta for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.21-23.13.58:048][179]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.04.21-23.13.58:051][179]LogMaterial: Missing cached shader map for material M_Calle, compiling. 
+[2016.04.21-23.13.58:051][179]LogMaterial:Warning: Failed to compile Material /Game/Components/Models/M_Calle.M_Calle for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.21-23.13.58:051][179]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.04.21-23.14.36:999][383]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\TriCupula_y_Calles.fbx)
+[2016.04.21-23.14.37:170][383]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.21-23.14.37:170][383]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.21-23.14.37:170][383]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.21-23.14.37:170][383]LogFbx: ItemName: Material, ItemCount : 5
+[2016.04.21-23.14.37:170][383]LogFbx: ItemName: Texture, ItemCount : 4
+[2016.04.21-23.14.37:170][383]LogFbx: ItemName: Model, ItemCount : 1
+[2016.04.21-23.14.37:170][383]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.04.21-23.14.37:170][383]LogFbx: ItemName: Video, ItemCount : 4
+[2016.04.21-23.14.37:291][383]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\TriCupula_y_Calles.fbx
+[2016.04.21-23.14.37:496][383]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.21-23.14.40:301][383]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\TriCupula_y_Calles.fbx
+[2016.04.21-23.14.40:508][383]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.21-23.14.40:631][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/M_Vigas'
+[2016.04.21-23.14.40:632][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/M_Vigas'
+[2016.04.21-23.14.40:680][383]LogMaterial: Missing cached shader map for material M_Vigas, compiling. 
+[2016.04.21-23.14.40:786][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/M_Cristal'
+[2016.04.21-23.14.40:786][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/M_Cristal'
+[2016.04.21-23.14.40:939][383]LogMaterial: Missing cached shader map for material M_Cristal, compiling. 
+[2016.04.21-23.14.41:116][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/lambert2'
+[2016.04.21-23.14.41:117][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/lambert2'
+[2016.04.21-23.14.41:138][383]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2016.04.21-23.14.41:176][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/M_Banqueta'
+[2016.04.21-23.14.41:176][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/M_Banqueta'
+[2016.04.21-23.14.41:307][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/Seamless_Asphalt_Texture'
+[2016.04.21-23.14.41:307][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/Seamless_Asphalt_Texture'
+[2016.04.21-23.14.41:307][383]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Components/Models/CupulaTriple/Seamless_Asphalt_Texture.Seamless_Asphalt_Texture'
+[2016.04.21-23.14.41:784][383]LogTexture:Display: Building textures: Seamless_Asphalt_Texture (AutoDXT)
+[2016.04.21-23.14.46:031][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/Seamless_Asphalt_Texture__Normal_'
+[2016.04.21-23.14.46:031][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/Seamless_Asphalt_Texture__Normal_'
+[2016.04.21-23.14.46:031][383]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Components/Models/CupulaTriple/Seamless_Asphalt_Texture__Normal_.Seamless_Asphalt_Texture__Normal_'
+[2016.04.21-23.14.46:032][383]LogStreaming:Warning: Failed to read file 'C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\Seamless Asphalt Texture (Normal).png' error.
+[2016.04.21-23.14.46:032][383]LogStreaming:Warning: Failed to read file 'C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula/Seamless Asphalt Texture (Normal).png' error.
+[2016.04.21-23.14.46:032][383]LogStreaming:Warning: Failed to read file 'C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula/Seamless Asphalt Texture (Normal).png' error.
+[2016.04.21-23.14.46:032][383]LogFbxMaterialImport:Warning: Unable to find TEXTure file Seamless Asphalt Texture (Normal).png. Tried:
+ - C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\Seamless Asphalt Texture (Normal).png
+ - C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula/Seamless Asphalt Texture (Normal).png
+ - C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula/Seamless Asphalt Texture (Normal).png
+[2016.04.21-23.14.46:073][383]LogMaterial: Missing cached shader map for material M_Banqueta, compiling. 
+[2016.04.21-23.14.46:158][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/M_Calle'
+[2016.04.21-23.14.46:158][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/M_Calle'
+[2016.04.21-23.14.46:161][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/Seamless_Road_Texture'
+[2016.04.21-23.14.46:168][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/Seamless_Road_Texture'
+[2016.04.21-23.14.46:168][383]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Components/Models/CupulaTriple/Seamless_Road_Texture.Seamless_Road_Texture'
+[2016.04.21-23.14.46:361][383]LogTexture:Display: Building textures: Seamless_Road_Texture (BGRA8)
+[2016.04.21-23.14.46:496][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/Seamless_Road_Texture__Normal_'
+[2016.04.21-23.14.46:496][383]LogLinker:Warning: Can't find file '/Game/Components/Models/CupulaTriple/Seamless_Road_Texture__Normal_'
+[2016.04.21-23.14.46:496][383]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Components/Models/CupulaTriple/Seamless_Road_Texture__Normal_.Seamless_Road_Texture__Normal_'
+[2016.04.21-23.14.46:497][383]LogStreaming:Warning: Failed to read file 'C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\Seamless Road Texture (Normal).png' error.
+[2016.04.21-23.14.46:497][383]LogStreaming:Warning: Failed to read file 'C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula/Seamless Road Texture (Normal).png' error.
+[2016.04.21-23.14.46:497][383]LogStreaming:Warning: Failed to read file 'C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula/Seamless Road Texture (Normal).png' error.
+[2016.04.21-23.14.46:497][383]LogFbxMaterialImport:Warning: Unable to find TEXTure file Seamless Road Texture (Normal).png. Tried:
+ - C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\Seamless Road Texture (Normal).png
+ - C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula/Seamless Road Texture (Normal).png
+ - C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula/Seamless Road Texture (Normal).png
+[2016.04.21-23.14.46:540][383]LogMaterial: Missing cached shader map for material M_Calle, compiling. 
+[2016.04.21-23.14.46:843][383]LogStaticMesh: Building static mesh TriCupula_y_Calles...
+[2016.04.21-23.14.48:055][383]LogStaticMesh: Built static mesh [1.281492.2s] /Game/Components/Models/CupulaTriple/TriCupula_y_Calles.TriCupula_y_Calles
+[2016.04.21-23.14.48:108][383]LogStaticMesh:Warning: TriCupula_y_Calles has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.21-23.14.48:306][383]FBXImport:Warning: Warning TriCupula_y_Calles has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.21-23.14.53:275][514]LogRenderer: Reallocating scene render targets to support 1016x608 (Frame:2471).
+[2016.04.21-23.15.06:310][845]LogStaticMesh: Building static mesh TriCupula_y_Calles...
+[2016.04.21-23.15.07:513][845]LogStaticMesh: Built static mesh [1.225042.2s] /Game/Components/Models/CupulaTriple/TriCupula_y_Calles.TriCupula_y_Calles
+[2016.04.21-23.15.07:586][845]LogStaticMesh:Warning: TriCupula_y_Calles has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.21-23.15.13:510][986]LogSavePackage: Save=309.637024ms
+[2016.04.21-23.15.13:510][986]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/TriCupula_y_CallesE3461867422CB02E504AF685B9737ECD.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/TriCupula_y_Calles.uasset'
+[2016.04.21-23.15.13:515][986]LogSavePackage: Total save time: 469.759293ms
+[2016.04.21-23.15.13:515][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/TriCupula_y_Calles.uasset
+[2016.04.21-23.15.17:563][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056FF6032E0
+[2016.04.21-23.15.24:690][ 66]LogSavePackage: Save=4923.196289ms
+[2016.04.21-23.15.24:690][ 66]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma205B2914472900F0D55ED1BDAFF32723.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-23.15.24:698][ 66]LogSavePackage: Total save time: 5053.055204ms
+[2016.04.21-23.15.24:698][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-23.15.24:822][ 66]LogFileHelpers: Saving map 'Axioma' took 7.114
+[2016.04.21-23.15.25:081][ 66]LogSavePackage: Save=235.165314ms
+[2016.04.21-23.15.25:081][ 66]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Seamless_Road_TextureEBE09B49494D48E265E49393DB6120B1.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/Seamless_Road_Texture.uasset'
+[2016.04.21-23.15.25:088][ 66]LogSavePackage: Total save time: 242.083907ms
+[2016.04.21-23.15.25:088][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/Seamless_Road_Texture.uasset
+[2016.04.21-23.16.07:660][ 66]LogSavePackage: Save=21.436165ms
+[2016.04.21-23.16.07:660][ 66]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Calle5828C29B4292601E4E562FBDAAF40FC6.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/M_Calle.uasset'
+[2016.04.21-23.16.07:666][ 66]LogSavePackage: Total save time: 27.774427ms
+[2016.04.21-23.16.07:666][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/M_Calle.uasset
+[2016.04.21-23.16.08:203][ 66]LogSavePackage: Save=500.067566ms
+[2016.04.21-23.16.08:203][ 66]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Seamless_Asphalt_Texture9792D31649AA5CE8051D18846A00052A.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/Seamless_Asphalt_Texture.uasset'
+[2016.04.21-23.16.08:207][ 66]LogSavePackage: Total save time: 504.796144ms
+[2016.04.21-23.16.08:207][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/Seamless_Asphalt_Texture.uasset
+[2016.04.21-23.16.08:282][ 66]LogSavePackage: Save=21.913855ms
+[2016.04.21-23.16.08:282][ 66]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Banqueta953B3C834C41934BB8F4BC88387A5E84.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/M_Banqueta.uasset'
+[2016.04.21-23.16.08:287][ 66]LogSavePackage: Total save time: 26.457250ms
+[2016.04.21-23.16.08:287][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/M_Banqueta.uasset
+[2016.04.21-23.16.08:344][ 66]LogSavePackage: Save=16.079369ms
+[2016.04.21-23.16.08:344][ 66]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/lambert29C5095FE430357ED6F4707BFAA6B644B.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/lambert2.uasset'
+[2016.04.21-23.16.08:348][ 66]LogSavePackage: Total save time: 20.360187ms
+[2016.04.21-23.16.08:348][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/lambert2.uasset
+[2016.04.21-23.16.08:398][ 66]LogSavePackage: Save=16.191843ms
+[2016.04.21-23.16.08:398][ 66]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Cristal91476EDD407FBD26B2503F8CC3D830EE.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/M_Cristal.uasset'
+[2016.04.21-23.16.08:402][ 66]LogSavePackage: Total save time: 20.437166ms
+[2016.04.21-23.16.08:402][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/M_Cristal.uasset
+[2016.04.21-23.16.08:454][ 66]LogSavePackage: Save=16.232042ms
+[2016.04.21-23.16.08:454][ 66]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Vigas6474BE49412DBA6B3BAD0BA13BCB272D.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/M_Vigas.uasset'
+[2016.04.21-23.16.08:458][ 66]LogSavePackage: Total save time: 20.329826ms
+[2016.04.21-23.16.08:458][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/CupulaTriple/M_Vigas.uasset
+[2016.04.21-23.16.58:342][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-23.17.25:004][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.21-23.17.25:076][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056FF730C20
+[2016.04.21-23.17.25:079][618]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2016.04.21-23.17.34:318][946]LogActorFactory: Actor Factory created TriCupula_y_Calles
+[2016.04.21-23.17.35:693][990]LogActorFactory: Actor Factory created TriCupula_y_Calles
+[2016.04.21-23.17.42:174][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-23.17.45:504][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TriCupula_y_Calles)
+[2016.04.21-23.17.51:331][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-23.18.31:986][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TriCupula_y_Calles)
+[2016.04.21-23.18.42:670][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-23.18.46:357][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TriCupula_y_Calles)
+[2016.04.21-23.18.50:282][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-23.18.55:407][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TriCupula_y_Calles)
+[2016.04.21-23.19.00:704][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-23.19.07:853][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TriCupula_y_Calles)
+[2016.04.21-23.19.12:166][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-23.19.18:486][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TriCupula_y_Calles)
+[2016.04.21-23.19.23:696][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-23.19.25:401][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TriCupula_y_Calles)
+[2016.04.21-23.19.30:541][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-23.19.38:648][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TriCupula_y_Calles)
+[2016.04.21-23.20.07:445][431]Cmd: TRANSACTION UNDO
+[2016.04.21-23.20.07:445][431]LogEditorTransaction: Undo Move Actors
+[2016.04.21-23.21.34:069][589]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.21-23.21.39:797][626]LogSavePackage: Save=2564.275879ms
+[2016.04.21-23.21.39:797][626]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma0E3783744C5E4FBF345154BB6889E112.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-23.21.39:805][626]LogSavePackage: Total save time: 2696.577229ms
+[2016.04.21-23.21.39:805][626]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-23.21.39:899][626]LogFileHelpers: Saving map 'Axioma' took 4.654
+[2016.04.21-23.22.43:665][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuente)
+[2016.04.21-23.22.53:234][  4]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.21-23.23.02:806][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Fuente)
+[2016.04.21-23.23.11:489][654]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.21-23.23.35:929][719]LogSavePackage: Save=2649.099854ms
+[2016.04.21-23.23.35:929][719]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma12DFDAE24661F0476C8C3BBD54CF9015.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-23.23.35:937][719]LogSavePackage: Total save time: 2661.068246ms
+[2016.04.21-23.23.35:937][719]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-23.23.36:019][719]LogFileHelpers: Saving map 'Axioma' took 22.505
+[2016.04.21-23.32.15:998][903]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.04.21-23.32.26:159][155]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.04.21-23.32.58:755][  3]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.32.58:755][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.21-23.32.58:966][  3]PIE: New page: PIE session: Axioma (Apr 21, 2016, 1:32:58 PM)
+[2016.04.21-23.32.59:131][  3]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Axioma
+[2016.04.21-23.32.59:574][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.442612s)
+[2016.04.21-23.32.59:575][  3]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-23.32.59:575][  3]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2016.04.21-23.32.59:605][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Axioma.Axioma to /Game/UEDPIE_0_Axioma.Axioma (0.539967s)
+[2016.04.21-23.32.59:791][  3]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-23.32.59:806][  3]LogInit: FAudioDevice initialized.
+[2016.04.21-23.33.00:394][  3]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.21-23.33.01:094][  3]LogWorld: Bringing World /Game/UEDPIE_0_Axioma.Axioma up for play (max tick rate 0) at 2016.04.21-18.33.01
+[2016.04.21-23.33.01:094][  3]LogActor:Warning: GameSession /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-23.33.01:209][  3]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-23.33.01:390][  3]LogWorld: Bringing up level for play took: 0.580744
+[2016.04.21-23.33.02:191][  3]PIE: Info Play in editor start time for /Game/UEDPIE_0_Axioma 3.022
+[2016.04.21-23.33.02:191][  3]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.34.16:728][674]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.34.16:925][674]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.34.17:148][674]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056841CF920
+[2016.04.21-23.35.05:042][692]LogStaticMesh: Building static mesh Casa_Chica_1_Buena...
+[2016.04.21-23.35.05:235][692]LogStaticMesh: Built static mesh [0.218436.2s] /Game/Components/Models/Small_House/Casa_Chica_1_Buena.Casa_Chica_1_Buena
+[2016.04.21-23.35.05:248][692]LogStaticMesh:Warning: Casa_Chica_1_Buena has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.21-23.35.06:909][726]LogSavePackage: Save=16.443731ms
+[2016.04.21-23.35.06:909][726]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Casa_Chica_1_BuenaE149EC01469AC3FDFF935A97EFB8ACF2.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/Casa_Chica_1_Buena.uasset'
+[2016.04.21-23.35.06:960][726]LogSavePackage: Total save time: 73.443618ms
+[2016.04.21-23.35.06:960][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/Casa_Chica_1_Buena.uasset
+[2016.04.21-23.35.11:788][852]LogActorFactory: Actor Factory created Casa_Chica_1_Buena
+[2016.04.21-23.35.12:659][875]LogActorFactory: Actor Factory created Casa_Chica_1_Buena
+[2016.04.21-23.35.20:356][117]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.04.21-23.35.23:299][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.35.23:299][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.21-23.35.23:300][210]PIE: New page: PIE session: Axioma (Apr 21, 2016, 1:35:23 PM)
+[2016.04.21-23.35.23:300][210]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Axioma
+[2016.04.21-23.35.23:507][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.207571s)
+[2016.04.21-23.35.23:514][210]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-23.35.23:515][210]LogPlayLevel: PIE: World Init took: (0.007855s)
+[2016.04.21-23.35.23:516][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Axioma.Axioma to /Game/UEDPIE_0_Axioma.Axioma (0.216384s)
+[2016.04.21-23.35.23:562][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056AF7D2700
+[2016.04.21-23.35.23:563][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056AF7D0B80
+[2016.04.21-23.35.23:569][210]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-23.35.23:580][210]LogInit: FAudioDevice initialized.
+[2016.04.21-23.35.23:655][210]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.21-23.35.23:893][210]LogWorld: Bringing World /Game/UEDPIE_0_Axioma.Axioma up for play (max tick rate 0) at 2016.04.21-18.35.23
+[2016.04.21-23.35.23:893][210]LogActor:Warning: GameSession /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-23.35.23:893][210]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-23.35.23:899][210]LogWorld: Bringing up level for play took: 0.242711
+[2016.04.21-23.35.23:901][210]PIE: Info Play in editor start time for /Game/UEDPIE_0_Axioma 0.732
+[2016.04.21-23.35.23:901][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.35.43:490][229]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.35.43:559][229]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.35.43:611][229]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056ADB1E7A0
+[2016.04.21-23.35.46:322][313]Cmd: DELETE
+[2016.04.21-23.35.46:322][313]Cmd: ACTOR DELETE
+[2016.04.21-23.35.46:345][313]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.21-23.35.46:389][313]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2016.04.21-23.35.55:282][545]LogStaticMesh: Building static mesh Casa_Chica_1_Buena...
+[2016.04.21-23.35.55:475][545]LogStaticMesh: Built static mesh [0.217987.2s] /Game/Components/Models/Small_House/Casa_Chica_1_Buena.Casa_Chica_1_Buena
+[2016.04.21-23.35.55:496][545]LogStaticMesh:Warning: Casa_Chica_1_Buena has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.21-23.35.58:311][623]LogActorFactory: Actor Factory created Casa_Chica_1_Buena
+[2016.04.21-23.36.00:070][684]LogActorFactory: Actor Factory created Casa_Chica_1_Buena
+[2016.04.21-23.36.00:829][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.36.00:829][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.21-23.36.00:829][696]PIE: New page: PIE session: Axioma (Apr 21, 2016, 1:36:00 PM)
+[2016.04.21-23.36.00:829][696]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Axioma
+[2016.04.21-23.36.01:027][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.198358s)
+[2016.04.21-23.36.01:031][696]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-23.36.01:032][696]LogPlayLevel: PIE: World Init took: (0.004451s)
+[2016.04.21-23.36.01:032][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Axioma.Axioma to /Game/UEDPIE_0_Axioma.Axioma (0.203623s)
+[2016.04.21-23.36.01:072][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056FF6C8860
+[2016.04.21-23.36.01:077][696]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-23.36.01:087][696]LogInit: FAudioDevice initialized.
+[2016.04.21-23.36.01:126][696]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.21-23.36.01:357][696]LogWorld: Bringing World /Game/UEDPIE_0_Axioma.Axioma up for play (max tick rate 0) at 2016.04.21-18.36.01
+[2016.04.21-23.36.01:357][696]LogActor:Warning: GameSession /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-23.36.01:358][696]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-23.36.01:362][696]LogWorld: Bringing up level for play took: 0.236586
+[2016.04.21-23.36.01:365][696]PIE: Info Play in editor start time for /Game/UEDPIE_0_Axioma 0.196
+[2016.04.21-23.36.01:365][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.37.24:650][278]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.37.24:718][278]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.37.24:772][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000568746EFC0
+[2016.04.21-23.37.32:167][381]LogSavePackage: Save=2556.452393ms
+[2016.04.21-23.37.32:167][381]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma469B551E43198430804011B56AA6B1F6.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-23.37.32:240][381]LogSavePackage: Total save time: 2675.502431ms
+[2016.04.21-23.37.32:240][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-23.37.32:309][381]LogFileHelpers: Saving map 'Axioma' took 4.368
+[2016.04.21-23.37.32:356][381]LogSavePackage: Save=16.099468ms
+[2016.04.21-23.37.32:356][381]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Casa_Chica_1_Buena7A628DAF41283F35FBC503944CBE1940.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/Casa_Chica_1_Buena.uasset'
+[2016.04.21-23.37.32:361][381]LogSavePackage: Total save time: 23.863532ms
+[2016.04.21-23.37.32:361][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/Casa_Chica_1_Buena.uasset
+[2016.04.21-23.37.42:476][622]LogStaticMesh: Building static mesh Casa_Chica_2_Buena...
+[2016.04.21-23.37.42:738][622]LogStaticMesh: Built static mesh [0.274837.2s] /Game/Components/Models/Small_House/Casa_Chica_2_Buena.Casa_Chica_2_Buena
+[2016.04.21-23.37.42:758][622]LogStaticMesh:Warning: Casa_Chica_2_Buena has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.21-23.37.50:290][869]LogActorFactory: Actor Factory created Casa_Chica_2_Buena
+[2016.04.21-23.37.53:598][980]LogActorFactory: Actor Factory created Casa_Chica_2_Buena
+[2016.04.21-23.37.54:532][  8]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.37.54:532][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.21-23.37.54:532][  8]PIE: New page: PIE session: Axioma (Apr 21, 2016, 1:37:54 PM)
+[2016.04.21-23.37.54:533][  8]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Axioma
+[2016.04.21-23.37.54:756][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.223682s)
+[2016.04.21-23.37.54:758][  8]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-23.37.54:759][  8]LogPlayLevel: PIE: World Init took: (0.002551s)
+[2016.04.21-23.37.54:759][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Axioma.Axioma to /Game/UEDPIE_0_Axioma.Axioma (0.226638s)
+[2016.04.21-23.37.54:801][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056A31A2200
+[2016.04.21-23.37.54:806][  8]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-23.37.54:818][  8]LogInit: FAudioDevice initialized.
+[2016.04.21-23.37.54:860][  8]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.21-23.37.55:091][  8]LogWorld: Bringing World /Game/UEDPIE_0_Axioma.Axioma up for play (max tick rate 0) at 2016.04.21-18.37.55
+[2016.04.21-23.37.55:091][  8]LogActor:Warning: GameSession /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-23.37.55:092][  8]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-23.37.55:097][  8]LogWorld: Bringing up level for play took: 0.236842
+[2016.04.21-23.37.55:100][  8]PIE: Info Play in editor start time for /Game/UEDPIE_0_Axioma -0.069
+[2016.04.21-23.37.55:100][  8]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.38.07:539][662]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=190950.891 Y=174037.016 Z=-17711.355] for [FirstPersonProjectile_C]
+[2016.04.21-23.38.07:860][680]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=190950.891 Y=174037.016 Z=-17711.355] for [FirstPersonProjectile_C]
+[2016.04.21-23.38.48:436][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.38.48:521][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-23.38.48:580][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056AEC5AD40
+[2016.04.21-23.38.51:745][994]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Casa_Chica_1_Buena)
+[2016.04.21-23.38.52:742][ 28]Cmd: DELETE
+[2016.04.21-23.38.52:742][ 28]Cmd: ACTOR DELETE
+[2016.04.21-23.38.52:747][ 28]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.21-23.38.52:751][ 28]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.21-23.38.52:788][ 28]LogEditorActor: Deleted 2 Actors (0.046 secs)
+[2016.04.21-23.39.00:081][131]LogSavePackage: Save=2671.967041ms
+[2016.04.21-23.39.00:081][131]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/AxiomaACA81F6D4629E0688CE8F88DD30DAE60.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-23.39.00:089][131]LogSavePackage: Total save time: 2685.292717ms
+[2016.04.21-23.39.00:089][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-23.39.00:149][131]LogFileHelpers: Saving map 'Axioma' took 4.757
+[2016.04.21-23.39.00:201][131]LogSavePackage: Save=16.941521ms
+[2016.04.21-23.39.00:201][131]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Casa_Chica_2_Buena0046B8CD41B5F023E07592AEAB37A317.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/Casa_Chica_2_Buena.uasset'
+[2016.04.21-23.39.00:205][131]LogSavePackage: Total save time: 27.300157ms
+[2016.04.21-23.39.00:205][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/Casa_Chica_2_Buena.uasset
+[2016.04.21-23.50.37:523][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.21-23.50.37:550][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.21-23.50.37:857][502]LogMetaData: Removing '/Game/Components/Blueprints/House_Spawner.House_Spawner:UserConstructionScript.K2Node_FunctionEntry_117' ref from Metadata '/Game/Components/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.21-23.50.37:857][502]LogMetaData: Removing '/Game/Components/Blueprints/House_Spawner.SKEL_House_Spawner_C' ref from Metadata '/Game/Components/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.21-23.50.37:857][502]LogMetaData: Removing '/Game/Components/Blueprints/House_Spawner.House_Spawner_C' ref from Metadata '/Game/Components/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.21-23.50.37:857][502]LogMetaData: Removing '/Game/Components/Blueprints/House_Spawner.House_Spawner:EventGraph.K2Node_Event_26' ref from Metadata '/Game/Components/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.21-23.50.37:857][502]LogMetaData: Removing '/Game/Components/Blueprints/House_Spawner.House_Spawner:EventGraph.K2Node_Event_27' ref from Metadata '/Game/Components/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.21-23.50.37:857][502]LogMetaData: Removing '/Game/Components/Blueprints/House_Spawner.House_Spawner:EventGraph.K2Node_Event_28' ref from Metadata '/Game/Components/Blueprints/NewBlueprint.PackageMetaData'
+[2016.04.21-23.50.38:971][502]LogSavePackage: Save=541.887878ms
+[2016.04.21-23.50.38:971][502]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/House_Spawner33543054463D2220618F52BBF7EEE4ED.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Blueprints/House_Spawner.uasset'
+[2016.04.21-23.50.39:003][502]LogSavePackage: Total save time: 629.059616ms
+[2016.04.21-23.50.39:003][502]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Blueprints/House_Spawner.uasset
+[2016.04.21-23.51.13:997][263]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.21-23.51.40:728][263]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.1441 seconds. Added 107 classes and 0 folders.
+[2016.04.21-23.59.38:808][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.21-23.59.38:808][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.21-23.59.39:048][543]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Axioma' took 0.229
+[2016.04.21-23.59.39:104][543]LogSavePackage: Save=1.904772ms
+[2016.04.21-23.59.39:104][543]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/NewBlueprint_Auto17FB7C56147E1D5B1FC57F7AACEBB3907.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Autosaves/Game/Components/Blueprints/NewBlueprint_Auto1.uasset'
+[2016.04.21-23.59.39:106][543]LogSavePackage: Total save time: 3.906619ms
+[2016.04.21-23.59.39:106][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Autosaves/Game/Components/Blueprints/NewBlueprint_Auto1.uasset
+[2016.04.21-23.59.39:106][543]LogFileHelpers: Auto-saving content packages took 0.048
+[2016.04.22-00.09.39:473][611]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Axioma' took 0.073
+[2016.04.22-00.09.39:522][611]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Components/Blueprints/House_Spawner] ([1] browsable assets)...
+[2016.04.22-00.09.39:697][611]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Components/Blueprints/House_Spawner.House_Spawner]
+[2016.04.22-00.09.39:697][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/Components/Blueprints/House_Spawner]
+[2016.04.22-00.09.40:384][611]LogSavePackage: Save=167.642151ms
+[2016.04.22-00.09.40:384][611]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/House_Spawner_Auto2CF908BBB49843740BBA76893237090E7.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Autosaves/Game/Components/Blueprints/House_Spawner_Auto2.uasset'
+[2016.04.22-00.09.40:386][611]LogSavePackage: Total save time: 652.603690ms
+[2016.04.22-00.09.40:386][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Autosaves/Game/Components/Blueprints/House_Spawner_Auto2.uasset
+[2016.04.22-00.09.40:386][611]LogFileHelpers: Auto-saving content packages took 0.912
+[2016.04.22-00.16.40:537][323]BlueprintLog: New page: Compile House_Spawner
+[2016.04.22-00.16.40:932][323]BlueprintEditorCompileResults: Info [3940.26] Compile of House_Spawner successful! [in 368 ms]
+[2016.04.22-00.16.43:951][396]LogSavePackage: Save=49.583508ms
+[2016.04.22-00.16.43:951][396]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/House_SpawnerFDDCDF0047A8EED20224C3AD49677188.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Blueprints/House_Spawner.uasset'
+[2016.04.22-00.16.43:956][396]LogSavePackage: Total save time: 59.953265ms
+[2016.04.22-00.16.43:956][396]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Blueprints/House_Spawner.uasset
+[2016.04.22-00.17.12:858][219]Cmd: DELETE
+[2016.04.22-00.17.12:858][219]Cmd: ACTOR DELETE
+[2016.04.22-00.17.13:074][219]LogEditorActor: Deleted Actor: House_Spawner_C
+[2016.04.22-00.17.13:075][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.22-00.17.13:075][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.22-00.17.13:279][219]LogEditorActor: Deleted 1 Actors (0.209 secs)
+[2016.04.22-00.17.57:870][958]BlueprintLog: New page: Compile House_Spawner
+[2016.04.22-00.17.58:047][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.22-00.17.58:048][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.22-00.17.58:135][958]BlueprintEditorCompileResults: Info [4017.48] Compile of House_Spawner successful! [in 264 ms]
+[2016.04.22-00.18.21:363][387]LogMaterial: Missing cached shader map for material M_CambioColor, compiling. 
+[2016.04.22-00.18.22:993][387]LogMaterial: Missing cached shader map for material M_CambioColor, compiling. 
+[2016.04.22-00.18.23:134][387]LogMaterial: 0.000342 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.22-00.18.23:247][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.04.22-00.20.46:796][485]BlueprintLog: New page: Compile House_Spawner
+[2016.04.22-00.20.47:040][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.22-00.20.47:040][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.22-00.20.47:652][485]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000056B5DE9120
+[2016.04.22-00.20.47:654][485]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000568ABF8D60
+[2016.04.22-00.20.47:757][485]BlueprintEditorCompileResults: Info [4187.11] Compile of House_Spawner successful! [in 961 ms]
+[2016.04.22-00.20.49:283][514]LogSavePackage: Save=67.791740ms
+[2016.04.22-00.20.49:283][514]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/House_Spawner0ADA5A3B4370DE9D83F806A082C8383B.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Blueprints/House_Spawner.uasset'
+[2016.04.22-00.20.49:306][514]LogSavePackage: Total save time: 183.864351ms
+[2016.04.22-00.20.49:307][514]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Blueprints/House_Spawner.uasset
+[2016.04.22-00.20.59:659][767]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.22-00.21.01:339][767]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.22-00.21.01:347][767]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.22-00.21.01:533][767]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.04.22-00.21.13:505][  3]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.22-00.21.13:818][  3]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.22-00.21.13:868][  3]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.22-00.21.13:999][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.04.22-00.21.21:796][ 64]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.22-00.21.22:039][ 64]LogMaterial: 0.000194 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.22-00.21.31:317][274]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.22-00.21.31:325][274]LogMaterial: 0.000228 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.22-00.21.31:366][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.22-00.21.35:809][373]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.22-00.21.35:817][373]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.22-00.21.35:945][373]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.22-00.21.54:023][801]LogMaterialEditor: Saving and Compiling material M_CambioColor
+[2016.04.22-00.22.02:505][801]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.22-00.22.02:528][801]LogMaterial: 0.000249 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.22-00.22.03:224][801]LogMaterial: Missing cached shader map for material M_CambioColor, compiling. 
+[2016.04.22-00.22.03:449][801]LogMaterial: Missing cached shader map for material M_CambioColor, compiling. 
+[2016.04.22-00.22.03:736][801]LogMaterial: 0.241164 seconds spent updating 1 materials, 1 interfaces, 2 instances, 0 with static permutations.
+[2016.04.22-00.22.37:019][801]LogSavePackage: Save=103.777557ms
+[2016.04.22-00.22.37:019][801]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_CambioColor3E783F274DB3E5E06BC7D0B117C5EEB1.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_CambioColor.uasset'
+[2016.04.22-00.22.37:048][801]LogSavePackage: Total save time: 154.447302ms
+[2016.04.22-00.22.37:048][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_CambioColor.uasset
+[2016.04.22-00.22.37:090][801]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.22-00.22.37:090][801]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.22-00.22.37:090][801]Materia

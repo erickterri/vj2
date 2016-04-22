@@ -1,0 +1,662 @@
+﻿[2016.04.08-19.59.12:654][  0]Log file open, 04/08/16 14:59:12
+[2016.04.08-19.59.12:654][  0]LogInit:Display: Running engine for game: Axioma
+[2016.04.08-19.59.12:654][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.08-19.59.12:654][  0]LogInit:Display: RandInit(563179726) SRandInit(563179727).
+[2016.04.08-19.59.12:654][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.04.08-19.59.12:654][  0]LogStats: Stats thread started at 0.051321
+[2016.04.08-19.59.12:654][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.08-19.59.12:654][  0]LogInit: API Version: 2758231
+[2016.04.08-19.59.12:654][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.08-19.59.12:654][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.08-19.59.12:654][  0]LogInit: Build Configuration: Development
+[2016.04.08-19.59.12:654][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.08-19.59.12:654][  0]LogInit: Command line:  
+[2016.04.08-19.59.12:654][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.08-19.59.12:654][  0]LogInit: Rocket: 1
+[2016.04.08-19.59.12:666][  0]LogInit: Using libcurl 7.41.0
+[2016.04.08-19.59.12:666][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.08-19.59.12:666][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.08-19.59.12:666][  0]LogInit:  - other features:
+[2016.04.08-19.59.12:666][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.08-19.59.12:666][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.08-19.59.12:666][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.08-19.59.12:666][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.08-19.59.12:666][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.08-19.59.12:666][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.08-19.59.12:666][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.08-19.59.12:666][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.08-19.59.12:666][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.08-19.59.12:666][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.08-19.59.12:677][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.08-19.59.12:688][  0]LogInit: Object subsystem initialized
+[2016.04.08-19.59.12:689][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.08-19.59.12:689][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.08-19.59.12:701][  0]LogInit: Computer: LAPTOP-RAY
+[2016.04.08-19.59.12:701][  0]LogInit: User: ray
+[2016.04.08-19.59.12:701][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.08-19.59.12:701][  0]LogInit: High frequency timer resolution =2.338339 MHz
+[2016.04.08-19.59.12:701][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.04.08-19.59.12:701][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.08-19.59.12:701][  0]LogMemory: Process Physical Memory: 54.88 MB used, 54.88 MB peak
+[2016.04.08-19.59.12:701][  0]LogMemory: Process Virtual Memory: 55.27 MB used, 55.27 MB peak
+[2016.04.08-19.59.12:701][  0]LogMemory: Physical Memory: 2615.59 MB used, 3976.27 MB total
+[2016.04.08-19.59.12:701][  0]LogMemory: Virtual Memory: 364.53 MB used, 134217728.00 MB total
+[2016.04.08-19.59.12:740][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.08-19.59.13:176][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.04.08-19.59.13:176][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.04.08-19.59.13:178][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.08-19.59.13:178][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.08-19.59.13:178][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.08-19.59.13:183][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.08-19.59.13:183][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.04.08-19.59.13:190][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.08-19.59.13:195][  0]LogShaderCompilers: Guid format shader working directory is -71 characters bigger than the processId version (../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Intermediate/Shaders/WorkingDirectory/5284/).
+[2016.04.08-19.59.13:196][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ray/AppData/Local/Temp/UnrealShaderWorkingDir/1DFA5F9F439D12403861BF97D615AA65/'.
+[2016.04.08-19.59.13:196][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.08-19.59.14:136][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.08-19.59.14:140][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.08-19.59.14:145][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.08-19.59.14:149][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.08-19.59.14:153][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.08-19.59.14:156][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.08-19.59.14:160][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.08-19.59.14:163][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.08-19.59.14:166][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.08-19.59.14:170][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.08-19.59.14:174][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.08-19.59.14:181][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.08-19.59.14:181][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.08-19.59.14:182][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.08-19.59.14:199][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.08-19.59.14:202][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.08-19.59.14:206][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.08-19.59.14:209][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.08-19.59.14:209][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.08-19.59.14:295][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.08-19.59.14:347][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.08-19.59.14:347][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.08-19.59.14:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.08-19.59.14:347][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.08-19.59.14:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.08-19.59.14:347][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.08-19.59.14:406][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.08-19.59.14:419][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ray/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.08-19.59.55:544][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.08-19.59.56:143][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.08-19.59.58:306][  0]LogConfig:Warning: Failed to saved backup for config[GameplayTags]
+[2016.04.08-20.00.01:800][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.08-20.00.01:800][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.08-20.00.13:499][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.08-20.00.41:749][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.08-20.00.43:257][  0]LogAssetRegistry: FAssetRegistry took 0.0169 seconds to start up
+[2016.04.08-20.00.56:926][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
+[2016.04.08-20.00.57:043][  0]SourceControl: Info Source control is disabled
+[2016.04.08-20.00.57:176][  0]SourceControl: Info Source control is disabled
+[2016.04.08-20.00.58:085][  0]SourceControl: Info Source control is disabled
+[2016.04.08-20.00.58:706][  0]SourceControl: Info Source control is disabled
+[2016.04.08-20.01.08:175][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.08-20.01.08:175][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.08-20.01.09:691][  0]LogEngine: Initializing Engine...
+[2016.04.08-20.01.09:918][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.08-20.01.10:170][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.08-20.01.12:937][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.08-20.01.13:743][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-20.01.15:148][  0]LogInit: FAudioDevice initialized.
+[2016.04.08-20.01.15:205][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.08-20.01.15:211][  0]LogInit: Texture streaming: Enabled
+[2016.04.08-20.01.18:109][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.08-20.01.18:187][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.08-20.01.18:187][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f6d84d504b8c91be90ceca84e0ba1004|f68b6959a5b94dccb13faa64bd594851|592e87cd-9efb-44c2-bcd9-891f7d9d6dd4
+[2016.04.08-20.01.18:334][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.08-20.01.19:222][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.08-20.01.20:809][  0]LogInit: Transaction tracking system initialized
+[2016.04.08-20.01.25:433][  0]BlueprintLog: New page: Editor Load
+[2016.04.08-20.01.47:055][  0]LocalizationService: Info Localization service is disabled
+[2016.04.08-20.01.57:773][  0]LogConsoleResponse:Display: 
+[2016.04.08-20.02.07:036][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.08-20.02.16:761][  0]SourceControl: Info Source control is disabled
+[2016.04.08-20.02.17:115][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.04.08-20.02.17:227][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.08-20.02.17:463][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 234.754ms to complete.
+[2016.04.08-20.02.17:463][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.521
+[2016.04.08-20.02.27:732][  0]LogCollectionManager: Loaded 0 collections in 0.053936 seconds
+[2016.04.08-20.02.29:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Collections/' took 0.01s
+[2016.04.08-20.02.29:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Developers/ray/Collections/' took 0.01s
+[2016.04.08-20.02.29:756][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Collections/' took 0.01s
+[2016.04.08-20.02.29:756][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2016.04.08-20.02.30:026][  0]LogContentBrowser: Native class hierarchy populated in 0.1722 seconds. Added 1893 classes and 338 folders.
+[2016.04.08-20.02.30:662][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.04.08-20.02.33:346][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.04.08-20.02.33:461][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.04.08-20.02.34:390][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.08-20.02.34:918][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.08-20.02.35:074][  0]LogLoad: Full Startup: 203.18 seconds (BP compile: 1.55 seconds)
+[2016.04.08-20.02.35:180][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.08-20.02.38:254][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.08-20.02.40:727][  0]LogRenderer: Reallocating scene render targets to support 816x348 (Frame:2).
+[2016.04.08-20.02.48:591][  4]LogAssetRegistry: Asset discovery search completed in 125.3470 seconds
+[2016.04.08-20.02.48:714][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.08-20.02.48:714][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2016.04.08-20.06.06:055][887]LightingResults: New page: Lighting Build
+[2016.04.08-20.06.06:229][887]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0016 seconds. Added 5 classes and 0 folders.
+[2016.04.08-20.06.06:298][887]LoadErrors: New page: Loading map: FirstPersonExampleMap_2016-04-08-13-52-13.umap
+[2016.04.08-20.06.06:364][887]MapCheck: New page: Map Check
+[2016.04.08-20.06.06:364][887]LightingResults: New page: Lighting Build
+[2016.04.08-20.06.06:591][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001778063B00
+[2016.04.08-20.06.29:828][887]LogAIModule: Creating AISystem for world FirstPersonExampleMap_2016-04-08-13-52-13
+[2016.04.08-20.06.30:006][887]LogMaterial:Warning: Material /Game/Components/Models/Oak_Tree/Oak_Bark.Oak_Bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.04.08-20.06.30:041][887]LogMaterial: Missing cached shader map for material Oak_Bark, compiling. 
+[2016.04.08-20.06.30:135][887]MapCheck:Warning: Warning Oak_Bark Material /Game/Components/Models/Oak_Tree/Oak_Bark.Oak_Bark was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.04.08-20.06.30:253][887]LogMaterial: 0.000336 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.08-20.06.30:253][887]LogMaterial:Warning: Material /Game/Components/Models/Oak_Tree/Oak_Branch.Oak_Branch needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.04.08-20.06.30:257][887]LogMaterial: Missing cached shader map for material Oak_Branch, compiling. 
+[2016.04.08-20.06.30:276][887]MapCheck:Warning: Warning Oak_Branch Material /Game/Components/Models/Oak_Tree/Oak_Branch.Oak_Branch was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.04.08-20.06.30:277][887]LogMaterial: 0.000469 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.08-20.06.30:278][887]LogMaterial:Warning: Material /Game/Components/Models/Oak_Tree/pasted__Tree_Bark.pasted__Tree_Bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.04.08-20.06.30:358][887]LogMaterial: Missing cached shader map for material pasted__Tree_Bark, compiling. 
+[2016.04.08-20.06.30:366][887]MapCheck:Warning: Warning pasted__Tree_Bark Material /Game/Components/Models/Oak_Tree/pasted__Tree_Bark.pasted__Tree_Bark was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.04.08-20.06.30:367][887]LogMaterial: 0.000279 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.08-20.06.30:464][887]LogMaterial:Warning: Material /Game/Components/Models/Pine_Tree/lambert1.lambert1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.04.08-20.06.30:528][887]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.04.08-20.06.30:559][887]MapCheck:Warning: Warning lambert1 Material /Game/Components/Models/Pine_Tree/lambert1.lambert1 was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.04.08-20.06.30:562][887]LogMaterial: 0.000630 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.08-20.06.30:562][887]LogMaterial:Warning: Material /Game/Components/Models/Pine_Tree/Pine_Bark.Pine_Bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.04.08-20.06.30:599][887]LogMaterial: Missing cached shader map for material Pine_Bark, compiling. 
+[2016.04.08-20.06.30:618][887]MapCheck:Warning: Warning Pine_Bark Material /Game/Components/Models/Pine_Tree/Pine_Bark.Pine_Bark was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.04.08-20.06.30:620][887]LogMaterial: 0.000499 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.08-20.06.30:620][887]LogMaterial:Warning: Material /Game/Components/Models/Default_Tree/Tree_Bark.Tree_Bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.04.08-20.06.30:746][887]LogMaterial: Missing cached shader map for material Tree_Bark, compiling. 
+[2016.04.08-20.06.30:759][887]MapCheck:Warning: Warning Tree_Bark Material /Game/Components/Models/Default_Tree/Tree_Bark.Tree_Bark was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.04.08-20.06.30:761][887]LogMaterial: 0.000343 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.08-20.06.30:761][887]LogMaterial:Warning: Material /Game/Components/Models/Default_Tree/Tree_Leaves.Tree_Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.04.08-20.06.30:763][887]LogMaterial: Missing cached shader map for material Tree_Leaves, compiling. 
+[2016.04.08-20.06.30:776][887]MapCheck:Warning: Warning Tree_Leaves Material /Game/Components/Models/Default_Tree/Tree_Leaves.Tree_Leaves was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.04.08-20.06.30:777][887]LogMaterial: 0.000234 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.08-20.07.18:355][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint_2974] 150.297562
+[2016.04.08-20.07.18:356][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint2_3040] 111.075165
+[2016.04.08-20.07.18:356][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint3_3120] 97.77581
+[2016.04.08-20.07.18:357][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint4_3190] 1.373333
+[2016.04.08-20.07.18:357][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint5_3240] 117.343063
+[2016.04.08-20.07.18:358][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint6_3306] 60.388199
+[2016.04.08-20.07.18:358][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint7_3340] 147.342148
+[2016.04.08-20.07.18:359][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint8_3384] 74.429146
+[2016.04.08-20.07.18:359][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint9_3438] 75.423447
+[2016.04.08-20.07.18:360][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint10_3562] 28.88394
+[2016.04.08-20.07.18:360][887]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint11] 98.572342
+[2016.04.08-20.07.18:567][887]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2016.04.08-20.07.18:812][887]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.08-20.07.18:965][887]MapCheck: Info Map check complete: 0 Error(s), 7 Warning(s), took 152.977ms to complete.
+[2016.04.08-20.07.18:968][887]LogFileHelpers: Loading map 'FirstPersonExampleMap_2016-04-08-13-52-13' took 72.945
+[2016.04.08-20.07.19:384][888]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.08-20.08.16:226][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13' with GeneratedClass '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13'
+[2016.04.08-20.08.16:226][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.08-20.08.16:282][469]PIE: New page: PIE session: FirstPersonExampleMap_2016-04-08-13-52-13 (Apr 8, 2016, 10:08:16 AM)
+[2016.04.08-20.08.16:292][469]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13
+[2016.04.08-20.08.16:701][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.408580s)
+[2016.04.08-20.08.16:702][469]LogAIModule: Creating AISystem for world FirstPersonExampleMap_2016-04-08-13-52-13
+[2016.04.08-20.08.16:702][469]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2016.04.08-20.08.16:702][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13 to /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13 (0.409807s)
+[2016.04.08-20.08.17:064][469]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-20.08.17:079][469]LogInit: FAudioDevice initialized.
+[2016.04.08-20.08.17:629][469]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.08-20.08.17:940][469]LogWorld: Bringing World /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13 up for play (max tick rate 0) at 2016.04.08-15.08.17
+[2016.04.08-20.08.17:940][469]LogActor:Warning: GameSession /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-20.08.17:940][469]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-20.08.18:086][469]LogWorld: Bringing up level for play took: 0.372439
+[2016.04.08-20.08.18:531][469]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13 1.456
+[2016.04.08-20.08.18:532][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13' with GeneratedClass '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13'
+[2016.04.08-20.08.41:983][784]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13' with GeneratedClass '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13'
+[2016.04.08-20.08.42:303][784]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13' with GeneratedClass '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13'
+[2016.04.08-20.08.42:517][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000017088F5B20
+[2016.04.08-20.08.44:302][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wood_Bench5)
+[2016.04.08-20.08.59:575][837]LogSavePackage: Save=4641.645996ms
+[2016.04.08-20.08.59:575][837]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap_2016-04-08-13-52-138DC5D1414EB98BB2B78362A9262FB8B2.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonExampleMap_2016-04-08-13-52-13.umap'
+[2016.04.08-20.08.59:605][837]LogSavePackage: Total save time: 4820.361376ms
+[2016.04.08-20.08.59:605][837]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonExampleMap_2016-04-08-13-52-13.umap
+[2016.04.08-20.08.59:663][837]LogFileHelpers: Saving map 'FirstPersonExampleMap_2016-04-08-13-52-13' took 5.130
+[2016.04.08-20.09.04:621][881]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wood_Bench6)
+[2016.04.08-20.09.19:317][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wood_Bench3)
+[2016.04.08-20.09.24:507][ 39]LogEditorViewport: Clicking on Actor (LMB): Street_Lamp_Normal_Blueprint_C (Street_Lamp_Normal_Blueprint13)
+[2016.04.08-20.09.26:540][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wood_Bench4)
+[2016.04.08-20.09.50:799][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wood_Bench2)
+[2016.04.08-20.09.58:004][308]LogUnrealMath: Expression Error : Unrecognized Operator
+[2016.04.08-20.09.58:005][308]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.Wood_Bench2.StaticMeshComponent0)
+[2016.04.08-20.09.58:005][308]LogPrimitiveComponent: Zero scaling not supported (/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.Wood_Bench2.StaticMeshComponent0)
+[2016.04.08-20.10.05:256][365]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2016.04.08-20.10.07:059][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wood_Bench)
+[2016.04.08-20.10.18:520][434]LogSavePackage: Save=3548.785156ms
+[2016.04.08-20.10.18:520][434]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap_2016-04-08-13-52-134470EF2F4D77DEB4447CBD9C59FE2242.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonExampleMap_2016-04-08-13-52-13.umap'
+[2016.04.08-20.10.18:557][434]LogSavePackage: Total save time: 3589.238770ms
+[2016.04.08-20.10.18:557][434]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonExampleMap_2016-04-08-13-52-13.umap
+[2016.04.08-20.10.18:589][434]LogFileHelpers: Saving map 'FirstPersonExampleMap_2016-04-08-13-52-13' took 3.777
+[2016.04.08-20.10.19:101][438]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2016.04.08-20.11.21:204][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13' with GeneratedClass '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13'
+[2016.04.08-20.11.21:204][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.08-20.11.21:204][750]PIE: New page: PIE session: FirstPersonExampleMap_2016-04-08-13-52-13 (Apr 8, 2016, 10:11:21 AM)
+[2016.04.08-20.11.21:204][750]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13
+[2016.04.08-20.11.21:383][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178994s)
+[2016.04.08-20.11.21:397][750]LogAIModule: Creating AISystem for world FirstPersonExampleMap_2016-04-08-13-52-13
+[2016.04.08-20.11.21:398][750]LogPlayLevel: PIE: World Init took: (0.014495s)
+[2016.04.08-20.11.21:399][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13 to /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13 (0.194308s)
+[2016.04.08-20.11.21:531][750]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-20.11.21:558][750]LogInit: FAudioDevice initialized.
+[2016.04.08-20.11.21:597][750]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.08-20.11.21:785][750]LogWorld: Bringing World /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13 up for play (max tick rate 0) at 2016.04.08-15.11.21
+[2016.04.08-20.11.21:785][750]LogActor:Warning: GameSession /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-20.11.21:785][750]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-20.11.21:788][750]LogWorld: Bringing up level for play took: 0.190363
+[2016.04.08-20.11.21:790][750]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstPersonExampleMap_2016-04-08-13-52-13 0.715
+[2016.04.08-20.11.21:791][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13' with GeneratedClass '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13'
+[2016.04.08-20.12.08:510][476]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13' with GeneratedClass '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13'
+[2016.04.08-20.12.08:727][476]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13' with GeneratedClass '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonExampleMap_2016-04-08-13-52-13.FirstPersonExampleMap_2016-04-08-13-52-13:PersistentLevel.FirstPersonExampleMap_2016-04-08-13-52-13'
+[2016.04.08-20.12.08:769][476]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001703BEE0C0
+[2016.04.08-20.12.14:152][482]LogSavePackage: Save=3750.675537ms
+[2016.04.08-20.12.14:152][482]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonExampleMap_2016-04-08-13-52-137C654B8947038319A067FA808A84AB2F.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonExampleMap_2016-04-08-13-52-13.umap'
+[2016.04.08-20.12.14:189][482]LogSavePackage: Total save time: 3791.105568ms
+[2016.04.08-20.12.14:189][482]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/FirstPersonExampleMap_2016-04-08-13-52-13.umap
+[2016.04.08-20.12.14:223][482]LogFileHelpers: Saving map 'FirstPersonExampleMap_2016-04-08-13-52-13' took 3.961
+[2016.04.08-20.13.39:041][726]LogSavePackage: Save=3684.799316ms
+[2016.04.08-20.13.39:041][726]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma1B9136164798CBB692DE70A171F4A105.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.08-20.13.39:044][726]LogSavePackage: Total save time: 3688.899685ms
+[2016.04.08-20.13.39:044][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.08-20.13.39:096][726]LogFileHelpers: Saving map 'Axioma' took 14.536
+[2016.04.08-20.13.47:864][769]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.08-20.13.47:864][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.08-20.13.47:864][769]PIE: New page: PIE session: Axioma (Apr 8, 2016, 10:13:47 AM)
+[2016.04.08-20.13.47:864][769]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Axioma
+[2016.04.08-20.13.48:019][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.154328s)
+[2016.04.08-20.13.48:027][769]LogAIModule: Creating AISystem for world Axioma
+[2016.04.08-20.13.48:027][769]LogPlayLevel: PIE: World Init took: (0.008496s)
+[2016.04.08-20.13.48:028][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Axioma.Axioma to /Game/UEDPIE_0_Axioma.Axioma (0.163590s)
+[2016.04.08-20.13.48:092][769]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.08-20.13.48:101][769]LogInit: FAudioDevice initialized.
+[2016.04.08-20.13.48:145][769]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.08-20.13.48:356][769]LogWorld: Bringing World /Game/UEDPIE_0_Axioma.Axioma up for play (max tick rate 0) at 2016.04.08-15.13.48
+[2016.04.08-20.13.48:357][769]LogActor:Warning: GameSession /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-20.13.48:357][769]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.08-20.13.48:360][769]LogWorld: Bringing up level for play took: 0.213561
+[2016.04.08-20.13.48:362][769]PIE: Info Play in editor start time for /Game/UEDPIE_0_Axioma 1.287
+[2016.04.08-20.13.48:362][769]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.08-20.13.51:900][802]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Flashlight Off
+[2016.04.08-20.13.52:746][812]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Flashlight On
+[2016.04.08-20.13.53:741][824]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Flashlight Off
+[2016.04.08-20.13.54:294][831]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Gravity Off
+[2016.04.08-20.16.25:397][906]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Gravity On
+[2016.04.08-20.16.31:563][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.08-20.16.31:688][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.08-20.16.31:730][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001707A96FC0
+[2016.04.08-20.16.49:526][144]Cmd: SELECT NONE
+[2016.04.08-20.17.45:522][596]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Casa Grande\Casa_Grande.fbx)
+[2016.04.08-20.17.46:889][596]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-20.17.46:889][596]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-20.17.46:889][596]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-20.17.46:889][596]LogFbx: ItemName: Material, ItemCount : 8
+[2016.04.08-20.17.46:889][596]LogFbx: ItemName: Model, ItemCount : 1
+[2016.04.08-20.17.46:889][596]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.04.08-20.17.47:261][596]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Casa Grande\Casa_Grande.fbx
+[2016.04.08-20.17.47:759][596]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.17.51:312][596]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Casa Grande\Casa_Grande.fbx
+[2016.04.08-20.17.51:412][596]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.17.51:580][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_Patio'
+[2016.04.08-20.17.51:581][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_Patio'
+[2016.04.08-20.17.51:752][596]LogMaterial: Missing cached shader map for material M_Patio, compiling. 
+[2016.04.08-20.17.51:904][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_Techo'
+[2016.04.08-20.17.51:904][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_Techo'
+[2016.04.08-20.17.51:922][596]LogMaterial: Missing cached shader map for material M_Techo, compiling. 
+[2016.04.08-20.17.51:955][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_Casa'
+[2016.04.08-20.17.51:955][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_Casa'
+[2016.04.08-20.17.52:067][596]LogMaterial: Missing cached shader map for material M_Casa, compiling. 
+[2016.04.08-20.17.52:203][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_MaderaEntrada'
+[2016.04.08-20.17.52:204][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_MaderaEntrada'
+[2016.04.08-20.17.52:224][596]LogMaterial: Missing cached shader map for material M_MaderaEntrada, compiling. 
+[2016.04.08-20.17.52:261][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_VigasCasa'
+[2016.04.08-20.17.52:262][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_VigasCasa'
+[2016.04.08-20.17.52:518][596]LogMaterial: Missing cached shader map for material M_VigasCasa, compiling. 
+[2016.04.08-20.17.52:677][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/Vidrio'
+[2016.04.08-20.17.52:677][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/Vidrio'
+[2016.04.08-20.17.52:715][596]LogMaterial: Missing cached shader map for material Vidrio, compiling. 
+[2016.04.08-20.17.52:753][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_ParedEntrada'
+[2016.04.08-20.17.52:753][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_ParedEntrada'
+[2016.04.08-20.17.52:898][596]LogMaterial: Missing cached shader map for material M_ParedEntrada, compiling. 
+[2016.04.08-20.17.53:060][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_SueloTierra'
+[2016.04.08-20.17.53:060][596]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_House/M_SueloTierra'
+[2016.04.08-20.17.53:081][596]LogMaterial: Missing cached shader map for material M_SueloTierra, compiling. 
+[2016.04.08-20.17.53:474][596]LogStaticMesh: Building static mesh Casa_Grande...
+[2016.04.08-20.17.53:764][596]LogStaticMesh: Built static mesh [0.312861.2s] /Game/Components/Models/Big_House/Casa_Grande.Casa_Grande
+[2016.04.08-20.17.53:852][596]LogStaticMesh:Warning: Casa_Grande has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-20.17.54:111][596]FBXImport:Warning: Warning Casa_Grande has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-20.18.12:517][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.08-20.18.12:517][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.08-20.19.10:638][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House1)
+[2016.04.08-20.19.12:501][176]Cmd: DELETE
+[2016.04.08-20.19.12:502][176]Cmd: ACTOR DELETE
+[2016.04.08-20.19.12:564][176]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-20.19.12:632][176]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2016.04.08-20.19.13:069][183]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House2)
+[2016.04.08-20.19.13:347][185]Cmd: DELETE
+[2016.04.08-20.19.13:347][185]Cmd: ACTOR DELETE
+[2016.04.08-20.19.13:357][185]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-20.19.13:411][185]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2016.04.08-20.19.14:074][194]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House3)
+[2016.04.08-20.19.14:521][198]Cmd: DELETE
+[2016.04.08-20.19.14:521][198]Cmd: ACTOR DELETE
+[2016.04.08-20.19.14:524][198]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.08-20.19.14:555][198]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2016.04.08-20.19.41:933][448]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Casa_Chica\Casa_Chica.fbx)
+[2016.04.08-20.19.41:999][448]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-20.19.41:999][448]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-20.19.41:999][448]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-20.19.41:999][448]LogFbx: ItemName: Material, ItemCount : 6
+[2016.04.08-20.19.41:999][448]LogFbx: ItemName: Model, ItemCount : 1
+[2016.04.08-20.19.41:999][448]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.04.08-20.19.42:116][448]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Casa_Chica\Casa_Chica.fbx
+[2016.04.08-20.19.42:208][448]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.19.46:051][448]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Casa_Chica\Casa_Chica.fbx
+[2016.04.08-20.19.46:150][448]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.19.46:179][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_Suelo'
+[2016.04.08-20.19.46:179][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_Suelo'
+[2016.04.08-20.19.46:195][448]LogMaterial: Missing cached shader map for material M_Suelo, compiling. 
+[2016.04.08-20.19.46:223][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_Ventanas'
+[2016.04.08-20.19.46:223][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_Ventanas'
+[2016.04.08-20.19.46:274][448]LogMaterial: Missing cached shader map for material M_Ventanas, compiling. 
+[2016.04.08-20.19.46:327][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_Puertas'
+[2016.04.08-20.19.46:327][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_Puertas'
+[2016.04.08-20.19.46:386][448]LogMaterial: Missing cached shader map for material M_Puertas, compiling. 
+[2016.04.08-20.19.46:468][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_Vidrio'
+[2016.04.08-20.19.46:468][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_Vidrio'
+[2016.04.08-20.19.46:512][448]LogMaterial: Missing cached shader map for material M_Vidrio, compiling. 
+[2016.04.08-20.19.46:549][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_Maderas'
+[2016.04.08-20.19.46:550][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_Maderas'
+[2016.04.08-20.19.46:625][448]LogMaterial: Missing cached shader map for material M_Maderas, compiling. 
+[2016.04.08-20.19.46:715][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_CasaChica'
+[2016.04.08-20.19.46:716][448]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_House/M_CasaChica'
+[2016.04.08-20.19.46:744][448]LogMaterial: Missing cached shader map for material M_CasaChica, compiling. 
+[2016.04.08-20.19.46:850][448]LogStaticMesh: Building static mesh Casa_Chica...
+[2016.04.08-20.19.47:086][448]LogStaticMesh: Built static mesh [0.255892.2s] /Game/Components/Models/Small_House/Casa_Chica.Casa_Chica
+[2016.04.08-20.19.47:110][448]LogStaticMesh:Warning: Casa_Chica has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-20.19.47:152][448]FBXImport:Warning: Warning Casa_Chica has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-20.19.51:461][482]LogRenderer: Reallocating scene render targets to support 1016x608 (Frame:7951).
+[2016.04.08-20.20.03:292][581]LogStaticMesh: Building static mesh Casa_Chica...
+[2016.04.08-20.20.03:469][581]LogStaticMesh: Built static mesh [0.176721.2s] /Game/Components/Models/Small_House/Casa_Chica.Casa_Chica
+[2016.04.08-20.20.03:494][581]LogStaticMesh:Warning: Casa_Chica has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-20.20.09:370][632]LogSavePackage: Save=25.208492ms
+[2016.04.08-20.20.09:370][632]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Casa_Chica40989CE947468CBE802BDBA926EF88C4.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/Casa_Chica.uasset'
+[2016.04.08-20.20.09:377][632]LogSavePackage: Total save time: 32.505978ms
+[2016.04.08-20.20.09:377][632]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/Casa_Chica.uasset
+[2016.04.08-20.20.41:983][912]LogStaticMesh: Building static mesh Casa_Grande...
+[2016.04.08-20.20.42:169][912]LogStaticMesh: Built static mesh [0.314415.2s] /Game/Components/Models/Big_House/Casa_Grande.Casa_Grande
+[2016.04.08-20.20.42:194][912]LogStaticMesh:Warning: Casa_Grande has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-20.20.48:381][964]LogSavePackage: Save=23.082624ms
+[2016.04.08-20.20.48:381][964]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Casa_Grande7295C50B40971D460BAD31AA3259318C.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/Casa_Grande.uasset'
+[2016.04.08-20.20.48:385][964]LogSavePackage: Total save time: 27.695298ms
+[2016.04.08-20.20.48:385][964]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/Casa_Grande.uasset
+[2016.04.08-20.20.55:627][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000170298F560
+[2016.04.08-20.20.55:627][ 25]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001704B879C0
+[2016.04.08-20.20.59:926][ 25]LogSavePackage: Save=3860.963379ms
+[2016.04.08-20.20.59:926][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma0D9757DD48536DFF4BA80C801DA52DB7.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.08-20.20.59:932][ 25]LogSavePackage: Total save time: 3926.058624ms
+[2016.04.08-20.20.59:932][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.08-20.20.59:983][ 25]LogFileHelpers: Saving map 'Axioma' took 4.212
+[2016.04.08-20.21.00:125][ 25]LogSavePackage: Save=48.733738ms
+[2016.04.08-20.21.00:125][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Patio47669B1B4B36FF6D642FC3B04CF574B4.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_Patio.uasset'
+[2016.04.08-20.21.00:134][ 25]LogSavePackage: Total save time: 59.357949ms
+[2016.04.08-20.21.00:135][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_Patio.uasset
+[2016.04.08-20.21.00:251][ 25]LogSavePackage: Save=28.615183ms
+[2016.04.08-20.21.00:251][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Techo5E3F24134DF0B4318A5DB5B5CD60667C.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_Techo.uasset'
+[2016.04.08-20.21.00:255][ 25]LogSavePackage: Total save time: 32.361861ms
+[2016.04.08-20.21.00:255][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_Techo.uasset
+[2016.04.08-20.21.00:330][ 25]LogSavePackage: Save=40.460770ms
+[2016.04.08-20.21.00:330][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Casa52D75BDE48C35D5B0575B8962496289E.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_Casa.uasset'
+[2016.04.08-20.21.00:333][ 25]LogSavePackage: Total save time: 44.152707ms
+[2016.04.08-20.21.00:333][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_Casa.uasset
+[2016.04.08-20.21.00:400][ 25]LogSavePackage: Save=30.461794ms
+[2016.04.08-20.21.00:400][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_MaderaEntradaC8AD817545E66C8854AABA8E0AD545B0.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_MaderaEntrada.uasset'
+[2016.04.08-20.21.00:404][ 25]LogSavePackage: Total save time: 34.334201ms
+[2016.04.08-20.21.00:404][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_MaderaEntrada.uasset
+[2016.04.08-20.21.00:478][ 25]LogSavePackage: Save=12.936533ms
+[2016.04.08-20.21.00:478][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_VigasCasa095B7C984EE70E58D91B40987C36D789.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_VigasCasa.uasset'
+[2016.04.08-20.21.00:481][ 25]LogSavePackage: Total save time: 16.413361ms
+[2016.04.08-20.21.00:481][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_VigasCasa.uasset
+[2016.04.08-20.21.00:528][ 25]LogSavePackage: Save=11.804533ms
+[2016.04.08-20.21.00:528][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/VidrioDAEB141C41ABF3E4810F959EAAEA37E3.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/Vidrio.uasset'
+[2016.04.08-20.21.00:531][ 25]LogSavePackage: Total save time: 15.675228ms
+[2016.04.08-20.21.00:531][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/Vidrio.uasset
+[2016.04.08-20.21.00:578][ 25]LogSavePackage: Save=11.853286ms
+[2016.04.08-20.21.00:578][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_ParedEntrada17A748DF415603AB6C610CB5227638A4.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_ParedEntrada.uasset'
+[2016.04.08-20.21.00:582][ 25]LogSavePackage: Total save time: 15.780430ms
+[2016.04.08-20.21.00:582][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_ParedEntrada.uasset
+[2016.04.08-20.21.00:665][ 25]LogSavePackage: Save=20.719835ms
+[2016.04.08-20.21.00:665][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_SueloTierraC4A2DEA340876480F44497A48F4CF95A.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_SueloTierra.uasset'
+[2016.04.08-20.21.00:671][ 25]LogSavePackage: Total save time: 27.284324ms
+[2016.04.08-20.21.00:671][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_House/M_SueloTierra.uasset
+[2016.04.08-20.21.00:719][ 25]LogSavePackage: Save=11.985858ms
+[2016.04.08-20.21.00:719][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Suelo4845CCEE4B358DAF098F339A39BB2B65.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_Suelo.uasset'
+[2016.04.08-20.21.00:723][ 25]LogSavePackage: Total save time: 15.997250ms
+[2016.04.08-20.21.00:723][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_Suelo.uasset
+[2016.04.08-20.21.00:786][ 25]LogSavePackage: Save=11.637321ms
+[2016.04.08-20.21.00:786][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Ventanas11275E41448B11514DAACCB2E0FCDAC9.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_Ventanas.uasset'
+[2016.04.08-20.21.00:790][ 25]LogSavePackage: Total save time: 15.507162ms
+[2016.04.08-20.21.00:790][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_Ventanas.uasset
+[2016.04.08-20.21.00:911][ 25]LogSavePackage: Save=44.242088ms
+[2016.04.08-20.21.00:911][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_PuertasE0593980401461C54C7BDFA9D16D9C8B.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_Puertas.uasset'
+[2016.04.08-20.21.00:916][ 25]LogSavePackage: Total save time: 49.618553ms
+[2016.04.08-20.21.00:916][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_Puertas.uasset
+[2016.04.08-20.21.00:995][ 25]LogSavePackage: Save=19.244001ms
+[2016.04.08-20.21.00:995][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Vidrio270751F9448F2860E5CEB18D7406AFAE.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_Vidrio.uasset'
+[2016.04.08-20.21.01:001][ 25]LogSavePackage: Total save time: 25.379125ms
+[2016.04.08-20.21.01:001][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_Vidrio.uasset
+[2016.04.08-20.21.01:050][ 25]LogSavePackage: Save=11.685218ms
+[2016.04.08-20.21.01:050][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Maderas6820A5EC4728D5022ACEEF9B791D17F4.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_Maderas.uasset'
+[2016.04.08-20.21.01:054][ 25]LogSavePackage: Total save time: 15.954487ms
+[2016.04.08-20.21.01:054][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_Maderas.uasset
+[2016.04.08-20.21.01:102][ 25]LogSavePackage: Save=12.059415ms
+[2016.04.08-20.21.01:103][ 25]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_CasaChicaEC04EFE64AEE1A03283626A777F1CEE0.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_CasaChica.uasset'
+[2016.04.08-20.21.01:106][ 25]LogSavePackage: Total save time: 16.042158ms
+[2016.04.08-20.21.01:106][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_House/M_CasaChica.uasset
+[2016.04.08-20.21.37:970][392]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Fabrica Chica\Fabrica_Chica.fbx)
+[2016.04.08-20.21.38:061][392]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-20.21.38:061][392]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-20.21.38:061][392]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-20.21.38:061][392]LogFbx: ItemName: Material, ItemCount : 6
+[2016.04.08-20.21.38:061][392]LogFbx: ItemName: Model, ItemCount : 1
+[2016.04.08-20.21.38:061][392]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.04.08-20.21.38:163][392]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Fabrica Chica\Fabrica_Chica.fbx
+[2016.04.08-20.21.38:271][392]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.21.41:631][392]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Fabrica Chica\Fabrica_Chica.fbx
+[2016.04.08-20.21.41:739][392]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.21.41:770][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Cilindros'
+[2016.04.08-20.21.41:770][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Cilindros'
+[2016.04.08-20.21.41:785][392]LogMaterial: Missing cached shader map for material M_Cilindros, compiling. 
+[2016.04.08-20.21.41:812][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Escaleras'
+[2016.04.08-20.21.41:813][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Escaleras'
+[2016.04.08-20.21.41:887][392]LogMaterial: Missing cached shader map for material M_Escaleras, compiling. 
+[2016.04.08-20.21.41:925][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Metales'
+[2016.04.08-20.21.41:925][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Metales'
+[2016.04.08-20.21.41:989][392]LogMaterial: Missing cached shader map for material M_Metales, compiling. 
+[2016.04.08-20.21.42:076][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Vigas'
+[2016.04.08-20.21.42:076][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Vigas'
+[2016.04.08-20.21.42:096][392]LogMaterial: Missing cached shader map for material M_Vigas, compiling. 
+[2016.04.08-20.21.42:133][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Vidrio'
+[2016.04.08-20.21.42:134][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Vidrio'
+[2016.04.08-20.21.42:203][392]LogMaterial: Missing cached shader map for material M_Vidrio, compiling. 
+[2016.04.08-20.21.42:292][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Fabrica'
+[2016.04.08-20.21.42:293][392]LogLinker:Warning: Can't find file '/Game/Components/Models/Small_Factory/M_Fabrica'
+[2016.04.08-20.21.42:316][392]LogMaterial: Missing cached shader map for material M_Fabrica, compiling. 
+[2016.04.08-20.21.42:431][392]LogStaticMesh: Building static mesh Fabrica_Chica...
+[2016.04.08-20.21.42:601][392]LogStaticMesh: Built static mesh [0.187604.2s] /Game/Components/Models/Small_Factory/Fabrica_Chica.Fabrica_Chica
+[2016.04.08-20.21.42:612][392]LogStaticMesh:Warning: Fabrica_Chica has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-20.21.42:645][392]FBXImport:Warning: Warning Fabrica_Chica has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-20.21.55:722][502]LogStaticMesh: Building static mesh Fabrica_Chica...
+[2016.04.08-20.21.55:845][502]LogStaticMesh: Built static mesh [0.146538.2s] /Game/Components/Models/Small_Factory/Fabrica_Chica.Fabrica_Chica
+[2016.04.08-20.21.55:876][502]LogStaticMesh:Warning: Fabrica_Chica has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-20.22.06:680][580]LogSavePackage: Save=42.330475ms
+[2016.04.08-20.22.06:680][580]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Fabrica_Chica6F3FF6D044C10C860E00CD88DB79BA32.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/Fabrica_Chica.uasset'
+[2016.04.08-20.22.06:683][580]LogSavePackage: Total save time: 46.299104ms
+[2016.04.08-20.22.06:683][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/Fabrica_Chica.uasset
+[2016.04.08-20.22.33:531][826]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Fabrica Grande\Fabrica_Grande.fbx)
+[2016.04.08-20.22.33:627][826]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-20.22.33:627][826]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-20.22.33:627][826]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-20.22.33:627][826]LogFbx: ItemName: Material, ItemCount : 9
+[2016.04.08-20.22.33:627][826]LogFbx: ItemName: Model, ItemCount : 1
+[2016.04.08-20.22.33:627][826]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.04.08-20.22.33:723][826]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Fabrica Grande\Fabrica_Grande.fbx
+[2016.04.08-20.22.33:855][826]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.22.39:125][826]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Fabrica Grande\Fabrica_Grande.fbx
+[2016.04.08-20.22.39:263][826]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.22.39:297][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_Suelo'
+[2016.04.08-20.22.39:297][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_Suelo'
+[2016.04.08-20.22.39:315][826]LogMaterial: Missing cached shader map for material M_Suelo, compiling. 
+[2016.04.08-20.22.39:340][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_CilindrosDFabrica'
+[2016.04.08-20.22.39:340][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_CilindrosDFabrica'
+[2016.04.08-20.22.39:378][826]LogMaterial: Missing cached shader map for material M_CilindrosDFabrica, compiling. 
+[2016.04.08-20.22.39:418][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_Vidrio'
+[2016.04.08-20.22.39:418][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_Vidrio'
+[2016.04.08-20.22.39:442][826]LogMaterial: Missing cached shader map for material M_Vidrio, compiling. 
+[2016.04.08-20.22.39:479][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_MetalTubosNegros'
+[2016.04.08-20.22.39:479][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_MetalTubosNegros'
+[2016.04.08-20.22.39:510][826]LogMaterial: Missing cached shader map for material M_MetalTubosNegros, compiling. 
+[2016.04.08-20.22.39:600][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_Fabrica'
+[2016.04.08-20.22.39:600][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_Fabrica'
+[2016.04.08-20.22.39:661][826]LogMaterial: Missing cached shader map for material M_Fabrica, compiling. 
+[2016.04.08-20.22.39:697][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_MetalPlateado'
+[2016.04.08-20.22.39:697][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_MetalPlateado'
+[2016.04.08-20.22.39:758][826]LogMaterial: Missing cached shader map for material M_MetalPlateado, compiling. 
+[2016.04.08-20.22.39:842][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_MetalNegro'
+[2016.04.08-20.22.39:842][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_MetalNegro'
+[2016.04.08-20.22.39:878][826]LogMaterial: Missing cached shader map for material M_MetalNegro, compiling. 
+[2016.04.08-20.22.39:915][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_TanqueChico'
+[2016.04.08-20.22.39:915][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_TanqueChico'
+[2016.04.08-20.22.39:987][826]LogMaterial: Missing cached shader map for material M_TanqueChico, compiling. 
+[2016.04.08-20.22.40:122][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_TanqueGrande2'
+[2016.04.08-20.22.40:122][826]LogLinker:Warning: Can't find file '/Game/Components/Models/Big_Factory/M_TanqueGrande2'
+[2016.04.08-20.22.40:156][826]LogMaterial: Missing cached shader map for material M_TanqueGrande2, compiling. 
+[2016.04.08-20.22.40:348][826]LogStaticMesh: Building static mesh Fabrica_Grande...
+[2016.04.08-20.22.41:032][826]LogStaticMesh: Built static mesh [0.704016.2s] /Game/Components/Models/Big_Factory/Fabrica_Grande.Fabrica_Grande
+[2016.04.08-20.22.41:125][826]LogStaticMesh:Warning: Fabrica_Grande has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-20.22.41:156][826]FBXImport:Warning: Warning Fabrica_Grande has degenerate tangent bases which will result in incorrect shading.  
+[2016.04.08-20.23.16:423][152]LogStaticMesh: Building static mesh Fabrica_Grande...
+[2016.04.08-20.23.16:799][152]LogStaticMesh: Built static mesh [0.375201.2s] /Game/Components/Models/Big_Factory/Fabrica_Grande.Fabrica_Grande
+[2016.04.08-20.23.16:929][152]LogStaticMesh:Warning: Fabrica_Grande has degenerate tangent bases which will result in incorrect shading. 
+[2016.04.08-20.23.48:417][418]LogSavePackage: Save=70.051865ms
+[2016.04.08-20.23.48:417][418]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Fabrica_GrandeFC1848E140542083AF46D1A2BA5160FC.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/Fabrica_Grande.uasset'
+[2016.04.08-20.23.48:420][418]LogSavePackage: Total save time: 73.734820ms
+[2016.04.08-20.23.48:420][418]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/Fabrica_Grande.uasset
+[2016.04.08-20.23.56:392][494]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001777E3B6A0
+[2016.04.08-20.23.56:392][494]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000176C7A2980
+[2016.04.08-20.24.00:541][494]LogSavePackage: Save=3635.892822ms
+[2016.04.08-20.24.00:541][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/AxiomaE9B56D1944A05C7EB6097594679F42DA.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.08-20.24.00:549][494]LogSavePackage: Total save time: 3647.108484ms
+[2016.04.08-20.24.00:549][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.08-20.24.00:731][494]LogFileHelpers: Saving map 'Axioma' took 4.205
+[2016.04.08-20.24.00:782][494]LogSavePackage: Save=15.863825ms
+[2016.04.08-20.24.00:782][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_CilindrosC4EF30A540C0D5BCE14BE89499E13BB1.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Cilindros.uasset'
+[2016.04.08-20.24.00:786][494]LogSavePackage: Total save time: 20.113423ms
+[2016.04.08-20.24.00:786][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Cilindros.uasset
+[2016.04.08-20.24.00:832][494]LogSavePackage: Save=12.286499ms
+[2016.04.08-20.24.00:832][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Escaleras07001BFB475E6E870901FF8F5BF914A8.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Escaleras.uasset'
+[2016.04.08-20.24.00:836][494]LogSavePackage: Total save time: 16.058836ms
+[2016.04.08-20.24.00:836][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Escaleras.uasset
+[2016.04.08-20.24.00:883][494]LogSavePackage: Save=13.016504ms
+[2016.04.08-20.24.00:883][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Metales85AA705647319CAA69B9E48C02B7EDE0.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Metales.uasset'
+[2016.04.08-20.24.00:887][494]LogSavePackage: Total save time: 16.688772ms
+[2016.04.08-20.24.00:887][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Metales.uasset
+[2016.04.08-20.24.00:938][494]LogSavePackage: Save=13.601108ms
+[2016.04.08-20.24.00:938][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_VigasD8754B5546B9D71368ACE6978AE5C30D.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Vigas.uasset'
+[2016.04.08-20.24.00:941][494]LogSavePackage: Total save time: 17.407227ms
+[2016.04.08-20.24.00:941][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Vigas.uasset
+[2016.04.08-20.24.00:988][494]LogSavePackage: Save=12.583718ms
+[2016.04.08-20.24.00:988][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Vidrio01D5F43145D935F3C4179CBE7AC574DC.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Vidrio.uasset'
+[2016.04.08-20.24.00:992][494]LogSavePackage: Total save time: 16.120419ms
+[2016.04.08-20.24.00:992][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Vidrio.uasset
+[2016.04.08-20.24.01:038][494]LogSavePackage: Save=12.115438ms
+[2016.04.08-20.24.01:038][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_FabricaAE23C2364DBF2451BBDCC786D9269634.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Fabrica.uasset'
+[2016.04.08-20.24.01:041][494]LogSavePackage: Total save time: 15.878364ms
+[2016.04.08-20.24.01:041][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Small_Factory/M_Fabrica.uasset
+[2016.04.08-20.24.01:112][494]LogSavePackage: Save=35.937904ms
+[2016.04.08-20.24.01:112][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_SueloE23D1D3746DA62D7E944C594477E370E.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_Suelo.uasset'
+[2016.04.08-20.24.01:115][494]LogSavePackage: Total save time: 39.262056ms
+[2016.04.08-20.24.01:115][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_Suelo.uasset
+[2016.04.08-20.24.01:223][494]LogSavePackage: Save=12.100042ms
+[2016.04.08-20.24.01:223][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_CilindrosDFabrica2F50B8574B53BB63D387E38382DF89C2.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_CilindrosDFabrica.uasset'
+[2016.04.08-20.24.01:227][494]LogSavePackage: Total save time: 15.878793ms
+[2016.04.08-20.24.01:227][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_CilindrosDFabrica.uasset
+[2016.04.08-20.24.01:274][494]LogSavePackage: Save=12.051717ms
+[2016.04.08-20.24.01:274][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Vidrio7FD18AA74D4E18162DED55B260B52A88.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_Vidrio.uasset'
+[2016.04.08-20.24.01:277][494]LogSavePackage: Total save time: 15.716713ms
+[2016.04.08-20.24.01:277][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_Vidrio.uasset
+[2016.04.08-20.24.01:338][494]LogSavePackage: Save=11.961055ms
+[2016.04.08-20.24.01:338][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_MetalTubosNegros6559B41C4236DC74DF4AB49E196002AF.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_MetalTubosNegros.uasset'
+[2016.04.08-20.24.01:341][494]LogSavePackage: Total save time: 15.352353ms
+[2016.04.08-20.24.01:341][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_MetalTubosNegros.uasset
+[2016.04.08-20.24.01:413][494]LogSavePackage: Save=11.565475ms
+[2016.04.08-20.24.01:413][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Fabrica08ADAD504F869B28D9D734A34326F0A4.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_Fabrica.uasset'
+[2016.04.08-20.24.01:417][494]LogSavePackage: Total save time: 15.471663ms
+[2016.04.08-20.24.01:417][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_Fabrica.uasset
+[2016.04.08-20.24.01:520][494]LogSavePackage: Save=46.386345ms
+[2016.04.08-20.24.01:520][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_MetalPlateado2F6A804946DA19875B0420B38A3C4CC8.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_MetalPlateado.uasset'
+[2016.04.08-20.24.01:527][494]LogSavePackage: Total save time: 54.002009ms
+[2016.04.08-20.24.01:527][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_MetalPlateado.uasset
+[2016.04.08-20.24.01:584][494]LogSavePackage: Save=13.773025ms
+[2016.04.08-20.24.01:584][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_MetalNegro9A26C0324EA224B65EA369AB52D50DC5.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_MetalNegro.uasset'
+[2016.04.08-20.24.01:587][494]LogSavePackage: Total save time: 17.276365ms
+[2016.04.08-20.24.01:587][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_MetalNegro.uasset
+[2016.04.08-20.24.01:646][494]LogSavePackage: Save=11.654854ms
+[2016.04.08-20.24.01:646][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_TanqueChico6DD42733450CDFF1253405B8CD5281B2.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_TanqueChico.uasset'
+[2016.04.08-20.24.01:650][494]LogSavePackage: Total save time: 16.322270ms
+[2016.04.08-20.24.01:650][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_TanqueChico.uasset
+[2016.04.08-20.24.01:698][494]LogSavePackage: Save=12.667539ms
+[2016.04.08-20.24.01:698][494]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_TanqueGrande2AAE0ED4D44A43624C35201944EF7BC1B.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_TanqueGrande2.uasset'
+[2016.04.08-20.24.01:702][494]LogSavePackage: Total save time: 16.790550ms
+[2016.04.08-20.24.01:702][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Big_Factory/M_TanqueGrande2.uasset
+[2016.04.08-20.24.32:419][783]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Tanque_Redondo\Tanque_Redondo.fbx)
+[2016.04.08-20.24.32:603][783]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-20.24.32:603][783]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-20.24.32:603][783]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-20.24.32:603][783]LogFbx: ItemName: Material, ItemCount : 2
+[2016.04.08-20.24.32:603][783]LogFbx: ItemName: Model, ItemCount : 1
+[2016.04.08-20.24.32:603][783]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.04.08-20.24.32:702][783]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Tanque_Redondo\Tanque_Redondo.fbx
+[2016.04.08-20.24.32:804][783]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.24.37:501][783]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\Tanque_Redondo\Tanque_Redondo.fbx
+[2016.04.08-20.24.37:611][783]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.24.37:646][783]LogLinker:Warning: Can't find file '/Game/Components/Models/Round_Tank/M_MetalPlateado1'
+[2016.04.08-20.24.37:646][783]LogLinker:Warning: Can't find file '/Game/Components/Models/Round_Tank/M_MetalPlateado1'
+[2016.04.08-20.24.37:718][783]LogMaterial: Missing cached shader map for material M_MetalPlateado1, compiling. 
+[2016.04.08-20.24.37:759][783]LogLinker:Warning: Can't find file '/Game/Components/Models/Round_Tank/M_MetalNegro1'
+[2016.04.08-20.24.37:759][783]LogLinker:Warning: Can't find file '/Game/Components/Models/Round_Tank/M_MetalNegro1'
+[2016.04.08-20.24.37:817][783]LogMaterial: Missing cached shader map for material M_MetalNegro1, compiling. 
+[2016.04.08-20.24.37:894][783]LogStaticMesh: Building static mesh Tanque_Redondo...
+[2016.04.08-20.24.38:042][783]LogStaticMesh: Built static mesh [0.148455.2s] /Game/Components/Models/Round_Tank/Tanque_Redondo.Tanque_Redondo
+[2016.04.08-20.24.50:328][890]LogStaticMesh: Building static mesh Tanque_Redondo...
+[2016.04.08-20.24.50:405][890]LogStaticMesh: Built static mesh [0.125272.2s] /Game/Components/Models/Round_Tank/Tanque_Redondo.Tanque_Redondo
+[2016.04.08-20.24.58:002][947]LogSavePackage: Save=12.820639ms
+[2016.04.08-20.24.58:002][947]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Tanque_RedondoA09741AD4892C8DDFAB975A1DEDE6409.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Round_Tank/Tanque_Redondo.uasset'
+[2016.04.08-20.24.58:005][947]LogSavePackage: Total save time: 16.607944ms
+[2016.04.08-20.24.58:005][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Round_Tank/Tanque_Redondo.uasset
+[2016.04.08-20.25.01:623][982]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000170C9856C0
+[2016.04.08-20.25.05:522][982]LogSavePackage: Save=3537.978516ms
+[2016.04.08-20.25.05:522][982]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma4B15A2A54AC37A186DB8689E4CCA9DBB.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.08-20.25.05:530][982]LogSavePackage: Total save time: 3549.630743ms
+[2016.04.08-20.25.05:530][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.08-20.25.05:725][982]LogFileHelpers: Saving map 'Axioma' took 3.970
+[2016.04.08-20.25.05:772][982]LogSavePackage: Save=12.370319ms
+[2016.04.08-20.25.05:772][982]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_MetalPlateado1E2B600414C3FB1D307FAA296966889E8.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Round_Tank/M_MetalPlateado1.uasset'
+[2016.04.08-20.25.05:776][982]LogSavePackage: Total save time: 16.580570ms
+[2016.04.08-20.25.05:776][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Round_Tank/M_MetalPlateado1.uasset
+[2016.04.08-20.25.05:834][982]LogSavePackage: Save=11.761767ms
+[2016.04.08-20.25.05:834][982]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_MetalNegro1F8C2E440472D55CAD083A2893BCF2B41.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Round_Tank/M_MetalNegro1.uasset'
+[2016.04.08-20.25.05:837][982]LogSavePackage: Total save time: 15.925836ms
+[2016.04.08-20.25.05:837][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Round_Tank/M_MetalNegro1.uasset
+[2016.04.08-20.25.31:764][227]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\TanqueCilindro_Chico\TanqueCilindro_Chico.fbx)
+[2016.04.08-20.25.31:957][227]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.08-20.25.31:957][227]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.08-20.25.31:957][227]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.08-20.25.31:957][227]LogFbx: ItemName: Material, ItemCount : 1
+[2016.04.08-20.25.31:957][227]LogFbx: ItemName: Model, ItemCount : 1
+[2016.04.08-20.25.31:957][227]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.04.08-20.25.32:072][227]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\TanqueCilindro_Chico\TanqueCilindro_Chico.fbx
+[2016.04.08-20.25.32:162][227]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.25.36:230][227]LogFbx: Loading FBX Scene from C:\Users\ray\SkyDrive\Axioma\Casas y Fabricas\TanqueCilindro_Chico\TanqueCilindro_Chico.fbx
+[2016.04.08-20.25.36:321][227]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.08-20.25.36:351][227]LogLinker:Warning: Ca

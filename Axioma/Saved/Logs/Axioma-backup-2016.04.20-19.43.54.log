@@ -1,0 +1,698 @@
+﻿[2016.04.21-00.05.09:075][  0]Log file open, 04/20/16 19:05:09
+[2016.04.21-00.05.09:075][  0]LogInit:Display: Running engine for game: Axioma
+[2016.04.21-00.05.09:075][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.21-00.05.09:075][  0]LogInit:Display: RandInit(327848630) SRandInit(327848631).
+[2016.04.21-00.05.09:075][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.04.21-00.05.09:075][  0]LogStats: Stats thread started at 0.211612
+[2016.04.21-00.05.09:075][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.21-00.05.09:075][  0]LogInit: API Version: 2758231
+[2016.04.21-00.05.09:075][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.21-00.05.09:075][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.21-00.05.09:075][  0]LogInit: Build Configuration: Development
+[2016.04.21-00.05.09:075][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.21-00.05.09:075][  0]LogInit: Command line:  
+[2016.04.21-00.05.09:075][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.21-00.05.09:075][  0]LogInit: Rocket: 1
+[2016.04.21-00.05.09:183][  0]LogInit: Using libcurl 7.41.0
+[2016.04.21-00.05.09:183][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.21-00.05.09:183][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.21-00.05.09:183][  0]LogInit:  - other features:
+[2016.04.21-00.05.09:183][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.21-00.05.09:183][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.21-00.05.09:183][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.21-00.05.09:183][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.21-00.05.09:183][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.21-00.05.09:183][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.21-00.05.09:183][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.21-00.05.09:183][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.21-00.05.09:183][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.21-00.05.09:183][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.21-00.05.09:193][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.21-00.05.09:203][  0]LogInit: Object subsystem initialized
+[2016.04.21-00.05.09:204][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.21-00.05.09:204][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.21-00.05.09:214][  0]LogInit: Computer: LAPTOP-RAY
+[2016.04.21-00.05.09:214][  0]LogInit: User: ray
+[2016.04.21-00.05.09:214][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.21-00.05.09:214][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2016.04.21-00.05.09:214][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.04.21-00.05.09:214][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.21-00.05.09:214][  0]LogMemory: Process Physical Memory: 54.97 MB used, 54.97 MB peak
+[2016.04.21-00.05.09:214][  0]LogMemory: Process Virtual Memory: 55.37 MB used, 55.37 MB peak
+[2016.04.21-00.05.09:214][  0]LogMemory: Physical Memory: 2355.82 MB used, 3976.27 MB total
+[2016.04.21-00.05.09:215][  0]LogMemory: Virtual Memory: 358.91 MB used, 134217728.00 MB total
+[2016.04.21-00.05.09:297][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.21-00.05.09:978][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.04.21-00.05.09:978][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.04.21-00.05.09:979][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.21-00.05.09:979][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.21-00.05.09:980][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.21-00.05.09:986][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.21-00.05.09:986][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.04.21-00.05.09:993][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.21-00.05.09:999][  0]LogShaderCompilers: Guid format shader working directory is -71 characters bigger than the processId version (../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Intermediate/Shaders/WorkingDirectory/3476/).
+[2016.04.21-00.05.09:999][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ray/AppData/Local/Temp/UnrealShaderWorkingDir/88703FE24D31DA6EB5D45EBCE03422DD/'.
+[2016.04.21-00.05.09:999][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.21-00.05.13:200][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.21-00.05.13:237][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.21-00.05.13:246][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.21-00.05.13:255][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.21-00.05.13:281][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.21-00.05.13:330][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.21-00.05.13:365][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.21-00.05.13:384][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.21-00.05.13:401][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.21-00.05.13:410][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.21-00.05.13:446][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.21-00.05.13:485][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.21-00.05.13:485][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.21-00.05.13:492][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.21-00.05.13:601][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.21-00.05.13:655][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.21-00.05.13:697][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.21-00.05.13:738][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.21-00.05.13:738][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.21-00.05.14:536][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.21-00.05.15:282][  0]LogDerivedDataCache: Loaded boot cache 0.74s 41MB C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.21-00.05.15:282][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.21-00.05.15:282][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.21-00.05.15:282][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.21-00.05.15:282][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.21-00.05.15:282][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.21-00.05.15:439][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.21-00.05.15:497][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ray/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.21-00.05.25:982][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.21-00.05.26:004][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.21-00.05.26:956][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.21-00.05.26:956][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.21-00.05.28:986][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.21-00.05.48:884][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.21-00.05.49:949][  0]LogAssetRegistry: FAssetRegistry took 0.0117 seconds to start up
+[2016.04.21-00.05.54:835][  0]SourceControl: Info Source control is disabled
+[2016.04.21-00.05.55:014][  0]SourceControl: Info Source control is disabled
+[2016.04.21-00.05.55:534][  0]SourceControl: Info Source control is disabled
+[2016.04.21-00.05.55:730][  0]SourceControl: Info Source control is disabled
+[2016.04.21-00.06.00:859][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.21-00.06.00:859][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.21-00.06.02:036][  0]LogEngine: Initializing Engine...
+[2016.04.21-00.06.02:100][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.21-00.06.02:150][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.21-00.06.02:918][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.21-00.06.03:120][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-00.06.03:147][  0]LogInit: FAudioDevice initialized.
+[2016.04.21-00.06.03:208][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.21-00.06.03:212][  0]LogInit: Texture streaming: Enabled
+[2016.04.21-00.06.03:317][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.21-00.06.03:317][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.21-00.06.03:317][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f6d84d504b8c91be90ceca84e0ba1004|f68b6959a5b94dccb13faa64bd594851|592e87cd-9efb-44c2-bcd9-891f7d9d6dd4
+[2016.04.21-00.06.03:317][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.21-00.06.03:361][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.21-00.06.03:953][  0]LogInit: Transaction tracking system initialized
+[2016.04.21-00.06.06:808][  0]BlueprintLog: New page: Editor Load
+[2016.04.21-00.06.11:498][  0]LocalizationService: Info Localization service is disabled
+[2016.04.21-00.06.14:856][  0]LogConsoleResponse:Display: 
+[2016.04.21-00.06.18:911][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.21-00.06.22:691][  0]SourceControl: Info Source control is disabled
+[2016.04.21-00.06.22:736][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.21-00.06.22:824][  0]LightingResults: New page: Lighting Build
+[2016.04.21-00.06.23:067][  0]MapCheck: New page: Map Check
+[2016.04.21-00.06.23:067][  0]LightingResults: New page: Lighting Build
+[2016.04.21-00.06.23:094][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021CB1DBB00
+[2016.04.21-00.06.29:660][  0]LogBlueprint:Warning: [compiler Axioma] Warning Node  Unknown  is not referencing a valid level actor
+[2016.04.21-00.06.29:660][  0]LogBlueprint:Warning: [compiler Axioma] Warning Node  Unknown  is not referencing a valid level actor
+[2016.04.21-00.06.29:660][  0]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2016.04.21-00.06.29:660][  0]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2016.04.21-00.06.29:660][  0]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2016.04.21-00.06.29:661][  0]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2016.04.21-00.06.29:663][  0]LogBlueprint:Warning: [compiler Axioma] Warning [0081.82] Compile of Axioma failed. 4 Fatal Issue(s) 2 Warning(s) [in 6 ms]
+[2016.04.21-00.06.29:663][  0]LogBlueprint:Warning: [compiler Axioma] Warning [0081.82] Compile of Axioma failed. 4 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.04.21-00.06.29:663][  0]LogBlueprint:Warning: [compiler Axioma] Warning [0081.82] Compile of Axioma failed. 4 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.04.21-00.06.42:952][  0]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-00.07.47:259][  0]LogEditorServer: Finished looking for orphan Actors (0.018 secs)
+[2016.04.21-00.07.47:499][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.21-00.07.47:942][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-00.07.47:942][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-00.07.47:942][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-00.07.47:942][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-00.07.47:942][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-00.07.47:942][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-00.07.47:942][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-00.07.47:942][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning Mesh2P SkeletalMeshComponent /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_0.Mesh2P : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning Landscape_1 Landscape /Game/Axioma.Axioma:PersistentLevel.Landscape_1 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.CupulaTriple2.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning SplineMeshComponent_1005 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1005 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning SplineMeshComponent_1006 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1006 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning SplineMeshComponent_1007 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1007 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning SplineMeshComponent_1008 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1008 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning SplineMeshComponent_1009 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1009 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning SplineMeshComponent_101 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_101 : Externally referenced 
+[2016.04.21-00.07.47:943][  0]MapCheck:Warning: Warning SplineMeshComponent_1010 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1010 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1024 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1024 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1025 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1025 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1026 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1026 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1027 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1027 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1028 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1028 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1029 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1029 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1044 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1044 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1045 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1045 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1046 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1046 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1047 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1047 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1048 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1048 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_105 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_105 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1085 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1085 : Externally referenced 
+[2016.04.21-00.07.47:944][  0]MapCheck:Warning: Warning SplineMeshComponent_1086 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1086 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_109 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_109 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_11 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_11 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1100 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1100 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1101 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1101 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1102 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1102 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1103 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1103 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1104 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1104 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1105 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1105 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_112 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_112 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1120 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1120 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1121 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1121 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1122 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1122 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1123 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1123 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1124 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1124 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1140 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1140 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1141 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1141 : Externally referenced 
+[2016.04.21-00.07.47:945][  0]MapCheck:Warning: Warning SplineMeshComponent_1142 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1142 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1143 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1143 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1161 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1161 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1162 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1162 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1181 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1181 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1182 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1182 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1183 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1183 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1184 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1184 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1185 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1185 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1186 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1186 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1187 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1187 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1188 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1188 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1189 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1189 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1190 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1190 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1191 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1191 : Externally referenced 
+[2016.04.21-00.07.47:946][  0]MapCheck:Warning: Warning SplineMeshComponent_1192 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1192 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1193 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1193 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1194 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1194 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1195 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1195 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1196 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1196 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1197 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1197 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_12 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_12 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1200 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1200 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1201 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1201 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1202 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1202 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1203 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1203 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1204 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1204 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1205 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1205 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1206 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1206 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1207 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1207 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1208 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1208 : Externally referenced 
+[2016.04.21-00.07.47:947][  0]MapCheck:Warning: Warning SplineMeshComponent_1209 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_1209 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_125 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_125 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_126 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_126 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_127 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_127 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_128 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_128 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_129 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_129 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_13 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_13 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_130 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_130 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_132 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_132 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_29 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_29 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_30 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_30 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_31 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_31 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_32 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_32 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_33 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_33 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_34 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_34 : Externally referenced 
+[2016.04.21-00.07.47:948][  0]MapCheck:Warning: Warning SplineMeshComponent_35 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_35 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_40 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_40 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_45 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_45 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_50 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_50 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_55 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_55 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_57 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_57 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_60 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_60 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_63 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_63 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_68 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_68 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_72 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_72 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_77 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_77 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_81 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_81 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_85 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_85 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_91 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_91 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_912 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_912 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_913 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_913 : Externally referenced 
+[2016.04.21-00.07.47:949][  0]MapCheck:Warning: Warning SplineMeshComponent_914 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_914 : Externally referenced 
+[2016.04.21-00.07.47:950][  0]MapCheck:Warning: Warning SplineMeshComponent_915 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_915 : Externally referenced 
+[2016.04.21-00.07.47:950][  0]MapCheck:Warning: Warning SplineMeshComponent_930 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_930 : Externally referenced 
+[2016.04.21-00.07.47:950][  0]MapCheck:Warning: Warning SplineMeshComponent_931 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_931 : Externally referenced 
+[2016.04.21-00.07.47:958][  0]MapCheck:Warning: Warning SplineMeshComponent_932 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_932 : Externally referenced 
+[2016.04.21-00.07.47:958][  0]MapCheck:Warning: Warning SplineMeshComponent_933 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_933 : Externally referenced 
+[2016.04.21-00.07.47:958][  0]MapCheck:Warning: Warning SplineMeshComponent_934 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_934 : Externally referenced 
+[2016.04.21-00.07.47:958][  0]MapCheck:Warning: Warning SplineMeshComponent_949 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_949 : Externally referenced 
+[2016.04.21-00.07.47:958][  0]MapCheck:Warning: Warning SplineMeshComponent_950 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_950 : Externally referenced 
+[2016.04.21-00.07.47:958][  0]MapCheck:Warning: Warning SplineMeshComponent_951 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_951 : Externally referenced 
+[2016.04.21-00.07.47:958][  0]MapCheck:Warning: Warning SplineMeshComponent_952 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_952 : Externally referenced 
+[2016.04.21-00.07.47:958][  0]MapCheck:Warning: Warning SplineMeshComponent_953 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_953 : Externally referenced 
+[2016.04.21-00.07.47:958][  0]MapCheck:Warning: Warning SplineMeshComponent_96 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_96 : Externally referenced 
+[2016.04.21-00.07.47:958][  0]MapCheck:Warning: Warning SplineMeshComponent_967 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_967 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning SplineMeshComponent_968 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_968 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning SplineMeshComponent_969 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_969 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning SplineMeshComponent_970 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_970 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning SplineMeshComponent_971 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_971 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning SplineMeshComponent_972 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_972 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning SplineMeshComponent_989 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_989 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning SplineMeshComponent_990 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_990 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning SplineMeshComponent_991 SplineMeshComponent /Game/Axioma.Axioma:PersistentLevel.Landscape_2.SplineMeshComponent_991 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning LandscapeSplineSegment_10 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_10 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning LandscapeSplineSegment_11 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_11 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning LandscapeSplineSegment_12 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_12 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning LandscapeSplineSegment_13 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_13 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning LandscapeSplineSegment_14 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_14 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning LandscapeSplineSegment_15 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_15 : Externally referenced 
+[2016.04.21-00.07.47:959][  0]MapCheck:Warning: Warning LandscapeSplineSegment_16 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_16 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_17 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_17 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_18 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_18 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_19 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_19 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_2 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_2 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_20 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_20 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_21 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_21 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_23 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_23 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_27 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_27 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_28 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_28 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_29 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_29 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_3 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_3 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_30 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_30 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_31 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_31 : Externally referenced 
+[2016.04.21-00.07.47:960][  0]MapCheck:Warning: Warning LandscapeSplineSegment_32 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_32 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_34 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_34 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_4 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_4 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_5 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_5 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_6 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_6 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_7 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_7 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_70 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_70 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_72 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_72 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_73 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_73 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_74 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_74 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_75 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_75 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_76 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_76 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_77 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_77 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_78 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_78 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_79 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_79 : Externally referenced 
+[2016.04.21-00.07.47:961][  0]MapCheck:Warning: Warning LandscapeSplineSegment_8 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_8 : Externally referenced 
+[2016.04.21-00.07.47:962][  0]MapCheck:Warning: Warning LandscapeSplineSegment_80 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_80 : Externally referenced 
+[2016.04.21-00.07.47:962][  0]MapCheck:Warning: Warning LandscapeSplineSegment_82 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_82 : Externally referenced 
+[2016.04.21-00.07.47:962][  0]MapCheck:Warning: Warning LandscapeSplineSegment_83 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_83 : Externally referenced 
+[2016.04.21-00.07.47:962][  0]MapCheck:Warning: Warning LandscapeSplineSegment_85 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_85 : Externally referenced 
+[2016.04.21-00.07.47:962][  0]MapCheck:Warning: Warning LandscapeSplineSegment_86 LandscapeSplineSegment /Game/Axioma.Axioma:PersistentLevel.Landscape_2.LandscapeSplinesComponent_0.LandscapeSplineSegment_86 : Externally referenced 
+[2016.04.21-00.07.47:962][  0]MapCheck: Info Map check complete: 0 Error(s), 177 Warning(s), took 462.723ms to complete.
+[2016.04.21-00.07.48:003][  0]LogFileHelpers: Loading map 'Axioma' took 85.267
+[2016.04.21-00.07.50:511][  0]LogCollectionManager: Loaded 0 collections in 0.002518 seconds
+[2016.04.21-00.07.50:889][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Collections/' took 0.01s
+[2016.04.21-00.07.50:889][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Developers/ray/Collections/' took 0.01s
+[2016.04.21-00.07.50:889][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Collections/' took 0.01s
+[2016.04.21-00.07.50:889][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.21-00.07.51:139][  0]LogContentBrowser: Native class hierarchy populated in 0.2020 seconds. Added 1893 classes and 338 folders.
+[2016.04.21-00.07.51:403][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.21-00.07.53:727][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.21-00.07.53:857][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.04.21-00.07.54:520][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.21-00.07.54:789][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.21-00.07.54:904][  0]LogLoad: Full Startup: 167.06 seconds (BP compile: 2.46 seconds)
+[2016.04.21-00.07.54:943][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.21-00.07.55:156][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.21-00.07.56:224][  0]LogRenderer: Reallocating scene render targets to support 816x348 (Frame:2).
+[2016.04.21-00.07.56:900][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.21-00.07.59:557][  9]LogAssetRegistry: Asset discovery search completed in 129.6199 seconds
+[2016.04.21-00.07.59:633][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.04.21-00.07.59:699][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.040952 seconds (updated 0 objects)
+[2016.04.21-00.09.12:430][854]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2016.04.21-00.12.13:653][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.12.13:653][ 70]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.21-00.12.13:653][ 70]LogPlayLevel: [PlayLevel] Compiling Axioma before play...
+[2016.04.21-00.12.14:117][ 70]LogBlueprint:Warning: [compiler Axioma] Warning Node  Unknown  is not referencing a valid level actor
+[2016.04.21-00.12.14:117][ 70]LogBlueprint:Warning: [compiler Axioma] Warning Node  Unknown  is not referencing a valid level actor
+[2016.04.21-00.12.14:117][ 70]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2016.04.21-00.12.14:117][ 70]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2016.04.21-00.12.14:118][ 70]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2016.04.21-00.12.14:118][ 70]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2016.04.21-00.12.14:881][ 70]LogBlueprint:Warning: [compiler Axioma] Warning [0427.04] Compile of Axioma failed. 4 Fatal Issue(s) 2 Warning(s) [in 1,223 ms]
+[2016.04.21-00.12.14:881][ 70]LogBlueprint:Warning: [compiler Axioma] Warning [0427.04] Compile of Axioma failed. 4 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.04.21-00.12.14:882][ 70]LogBlueprint:Warning: [compiler Axioma] Warning [0427.04] Compile of Axioma failed. 4 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.04.21-00.12.14:882][ 70]LogBlueprint:Warning: [compiler Axioma] Warning [0427.04] Compile of Axioma failed. 4 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.04.21-00.12.14:882][ 70]LogBlueprint:Warning: [compiler Axioma] Warning [0427.04] Compile of Axioma failed. 4 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2016.04.21-00.12.14:882][ 70]LogBlueprint:Warning: [compiler Axioma] Warning [0427.04] Compile of Axioma failed. 4 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2016.04.21-00.12.14:884][ 70]LogPlayLevel: PlayLevel: Blueprint regeneration took 1230 ms (1 blueprints)
+[2016.04.21-00.12.15:507][ 70]BlueprintLog: Info Blueprint Axioma failed to compile
+[2016.04.21-00.12.17:859][ 70]PIE: New page: PIE session: Axioma (Apr 20, 2016, 2:12:17 PM)
+[2016.04.21-00.12.17:871][ 70]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Axioma
+[2016.04.21-00.12.18:244][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.373099s)
+[2016.04.21-00.12.18:246][ 70]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-00.12.18:247][ 70]LogPlayLevel: PIE: World Init took: (0.003035s)
+[2016.04.21-00.12.18:255][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Axioma.Axioma to /Game/UEDPIE_0_Axioma.Axioma (0.385044s)
+[2016.04.21-00.12.18:421][ 70]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-00.12.18:432][ 70]LogInit: FAudioDevice initialized.
+[2016.04.21-00.12.19:014][ 70]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.21-00.12.19:550][ 70]LogWorld: Bringing World /Game/UEDPIE_0_Axioma.Axioma up for play (max tick rate 60) at 2016.04.20-19.12.19
+[2016.04.21-00.12.19:550][ 70]LogActor:Warning: GameSession /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-00.12.19:571][ 70]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-00.12.19:730][ 70]LogWorld: Bringing up level for play took: 0.446905
+[2016.04.21-00.12.20:400][ 70]PIE: Info Play in editor start time for /Game/UEDPIE_0_Axioma 7.317
+[2016.04.21-00.12.20:400][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.13.15:809][630]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Gravity Off
+[2016.04.21-00.16.29:283][360]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] Jetpack On
+[2016.04.21-00.17.39:794][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.17.40:140][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.17.40:413][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021D0E8CA40
+[2016.04.21-00.17.52:119][716]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.04.21-00.17.52:403][725]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.04.21-00.17.53:346][756]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.04.21-00.18.23:050][743]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.04.21-00.18.35:495][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.18.35:495][141]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.21-00.18.35:495][141]LogPlayLevel: [PlayLevel] Compiling Axioma before play...
+[2016.04.21-00.18.35:504][141]LogBlueprint:Warning: [compiler Axioma] Warning Node  Unknown  is not referencing a valid level actor
+[2016.04.21-00.18.35:504][141]LogBlueprint:Warning: [compiler Axioma] Warning Node  Unknown  is not referencing a valid level actor
+[2016.04.21-00.18.35:505][141]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2016.04.21-00.18.35:505][141]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2016.04.21-00.18.35:505][141]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorEndOverlap (None) 
+[2016.04.21-00.18.35:505][141]LogBlueprint:Error: [compiler Axioma] Error Couldn't find object for bound event node  OnActorBeginOverlap (None) 
+[2016.04.21-00.18.35:618][141]LogBlueprint:Warning: [compiler Axioma] Warning [0807.78] Compile of Axioma failed. 4 Fatal Issue(s) 2 Warning(s) [in 119 ms]
+[2016.04.21-00.18.35:618][141]LogBlueprint:Warning: [compiler Axioma] Warning [0807.78] Compile of Axioma failed. 4 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.04.21-00.18.35:619][141]LogBlueprint:Warning: [compiler Axioma] Warning [0807.78] Compile of Axioma failed. 4 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.04.21-00.18.35:619][141]LogBlueprint:Warning: [compiler Axioma] Warning [0807.78] Compile of Axioma failed. 4 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.04.21-00.18.35:619][141]LogBlueprint:Warning: [compiler Axioma] Warning [0807.78] Compile of Axioma failed. 4 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2016.04.21-00.18.35:619][141]LogBlueprint:Warning: [compiler Axioma] Warning [0807.78] Compile of Axioma failed. 4 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2016.04.21-00.18.35:619][141]LogPlayLevel: PlayLevel: Blueprint regeneration took 124 ms (1 blueprints)
+[2016.04.21-00.18.35:674][141]BlueprintLog: Info Blueprint Axioma failed to compile
+[2016.04.21-00.18.41:027][193]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.21-00.18.42:641][193]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0219 seconds. Added 107 classes and 0 folders.
+[2016.04.21-00.18.52:874][393]BlueprintLog: New page: Compile Axioma
+[2016.04.21-00.18.53:016][393]BlueprintEditorCompileResults: Info [0825.17] Compile of Axioma successful! [in 141 ms]
+[2016.04.21-00.18.55:977][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.18.55:977][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.21-00.18.55:977][469]PIE: New page: PIE session: Axioma (Apr 20, 2016, 2:18:55 PM)
+[2016.04.21-00.18.55:977][469]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Axioma
+[2016.04.21-00.18.56:265][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.288000s)
+[2016.04.21-00.18.56:268][469]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-00.18.56:269][469]LogPlayLevel: PIE: World Init took: (0.003791s)
+[2016.04.21-00.18.56:269][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Axioma.Axioma to /Game/UEDPIE_0_Axioma.Axioma (0.292073s)
+[2016.04.21-00.18.56:332][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021E0EC07C0
+[2016.04.21-00.18.56:365][469]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-00.18.56:377][469]LogInit: FAudioDevice initialized.
+[2016.04.21-00.18.56:414][469]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.21-00.18.56:663][469]LogWorld: Bringing World /Game/UEDPIE_0_Axioma.Axioma up for play (max tick rate 60) at 2016.04.20-19.18.56
+[2016.04.21-00.18.56:663][469]LogActor:Warning: GameSession /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-00.18.56:664][469]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-00.18.56:669][469]LogWorld: Bringing up level for play took: 0.255159
+[2016.04.21-00.18.56:672][469]PIE: Info Play in editor start time for /Game/UEDPIE_0_Axioma 1.59
+[2016.04.21-00.18.56:672][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.19.41:758][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.19.41:855][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.19.41:929][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021EC75F240
+[2016.04.21-00.19.42:800][104]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape13)
+[2016.04.21-00.19.43:939][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple2)
+[2016.04.21-00.20.50:663][881]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.04.21-00.21.09:757][412]LogSavePackage: Save=3387.680908ms
+[2016.04.21-00.21.09:757][412]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/AxiomaEB64103243476D32AA46A99423F0E3D8.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-00.21.09:800][412]LogSavePackage: Total save time: 3650.726710ms
+[2016.04.21-00.21.09:800][412]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-00.21.09:888][412]LogFileHelpers: Saving map 'Axioma' took 5.847
+[2016.04.21-00.21.23:446][959]Cmd: TRANSACTION UNDO
+[2016.04.21-00.21.23:446][959]LogEditorTransaction: Undo Edit Brush Size
+[2016.04.21-00.21.26:450][ 85]Cmd: TRANSACTION REDO
+[2016.04.21-00.21.26:450][ 85]LogEditorTransaction: Redo Edit Brush Size
+[2016.04.21-00.21.43:410][809]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.21-00.21.43:488][809]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2016.04.21-00.21.46:705][958]Cmd: TRANSACTION UNDO
+[2016.04.21-00.21.46:705][958]LogEditorTransaction: Undo Delete selection
+[2016.04.21-00.21.48:368][ 23]LogMaterial: 0.005905 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.04.21-00.21.48:414][ 23]LogMaterial: 0.005775 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.04.21-00.21.48:483][ 23]LogMaterial: 0.005691 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.04.21-00.22.32:887][637]Cmd: DELETE
+[2016.04.21-00.22.32:887][637]Cmd: ACTOR DELETE
+[2016.04.21-00.22.32:936][637]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.21-00.22.32:942][637]LogEditorActor: Deleted Actor: Landscape
+[2016.04.21-00.22.33:071][637]LogEditorActor: Deleted 2 Actors (0.140 secs)
+[2016.04.21-00.22.33:090][638]Cmd: UpdateLandscapeEditorData
+[2016.04.21-00.22.43:334][ 17]LogActorFactory: Actor Factory created CupulaTriple
+[2016.04.21-00.22.44:149][ 49]LogActorFactory: Actor Factory created CupulaTriple
+[2016.04.21-00.22.51:503][336]Cmd: TRANSACTION UNDO
+[2016.04.21-00.22.51:503][336]LogEditorTransaction: Undo Create Actors
+[2016.04.21-00.22.53:612][408]LogActorFactory: Actor Factory created CupulaTriple
+[2016.04.21-00.22.54:583][447]LogActorFactory: Actor Factory created CupulaTriple
+[2016.04.21-00.24.22:759][843]Cmd: TRANSACTION UNDO
+[2016.04.21-00.24.22:759][843]LogEditorTransaction: Undo Rotate Actors
+[2016.04.21-00.24.23:783][878]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape13)
+[2016.04.21-00.24.24:686][899]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape13)
+[2016.04.21-00.24.50:846][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-00.25.54:144][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CupulaTriple)
+[2016.04.21-00.26.27:252][331]LogSavePackage: Save=2772.373779ms
+[2016.04.21-00.26.27:252][331]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma4DD07F21468EA18CA7948D91F4C080A5.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-00.26.27:262][331]LogSavePackage: Total save time: 2869.972177ms
+[2016.04.21-00.26.27:262][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-00.26.27:349][331]LogFileHelpers: Saving map 'Axioma' took 17.887
+[2016.04.21-00.28.13:756][742]Cmd: TRANSACTION UNDO
+[2016.04.21-00.28.13:756][742]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2016.04.21-00.28.13:901][742]LogMaterial: 0.054617 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.28.26:275][292]Cmd: TRANSACTION UNDO
+[2016.04.21-00.28.26:275][292]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.04.21-00.28.26:367][292]LogMaterial: 0.000246 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.28.32:935][577]Cmd: TRANSACTION UNDO
+[2016.04.21-00.28.32:935][577]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.04.21-00.28.33:049][577]LogMaterial: 0.000256 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.28.33:105][577]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2016.04.21-00.28.33:938][609]Cmd: TRANSACTION UNDO
+[2016.04.21-00.28.33:938][609]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.04.21-00.28.34:052][609]LogMaterial: 0.000221 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.28.46:621][147]Cmd: TRANSACTION UNDO
+[2016.04.21-00.28.46:621][147]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.04.21-00.28.46:732][147]LogMaterial: 0.000279 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.28.46:741][147]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2016.04.21-00.28.47:164][163]Cmd: TRANSACTION UNDO
+[2016.04.21-00.28.47:165][163]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.04.21-00.28.47:265][163]LogMaterial: 0.000179 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.28.47:301][163]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2016.04.21-00.28.47:682][179]Cmd: TRANSACTION UNDO
+[2016.04.21-00.28.47:682][179]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2016.04.21-00.28.47:792][179]LogMaterial: 0.000239 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.28.59:039][647]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape13)
+[2016.04.21-00.29.00:482][701]Cmd: TRANSACTION UNDO
+[2016.04.21-00.29.00:482][701]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2016.04.21-00.29.01:258][734]Cmd: TRANSACTION UNDO
+[2016.04.21-00.29.01:258][734]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.04.21-00.29.01:372][734]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.29.13:396][249]Cmd: TRANSACTION UNDO
+[2016.04.21-00.29.13:397][249]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.04.21-00.29.13:493][249]LogMaterial: 0.000205 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.29.20:114][532]Cmd: TRANSACTION UNDO
+[2016.04.21-00.29.20:114][532]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.04.21-00.29.20:202][532]LogMaterial: 0.000250 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.29.34:065][144]Cmd: TRANSACTION UNDO
+[2016.04.21-00.29.34:065][144]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2016.04.21-00.29.34:161][144]LogMaterial: 0.000192 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.21-00.33.12:972][897]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2016.04.21-00.33.15:729][897]LogSavePackage: Save=2886.277344ms
+[2016.04.21-00.33.15:729][897]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma9F5218D94855D6F7EF89D080AC933F59.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-00.33.15:739][897]LogSavePackage: Total save time: 3031.974848ms
+[2016.04.21-00.33.15:739][897]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-00.33.15:803][897]LogFileHelpers: Saving map 'Axioma' took 5.496
+[2016.04.21-00.33.15:826][898]Cmd: UpdateLandscapeEditorData
+[2016.04.21-00.33.25:213][289]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.33.25:213][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.21-00.33.25:213][289]PIE: New page: PIE session: Axioma (Apr 20, 2016, 2:33:25 PM)
+[2016.04.21-00.33.25:213][289]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Axioma
+[2016.04.21-00.33.25:423][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.210398s)
+[2016.04.21-00.33.25:431][289]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-00.33.25:432][289]LogPlayLevel: PIE: World Init took: (0.008730s)
+[2016.04.21-00.33.25:433][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Axioma.Axioma to /Game/UEDPIE_0_Axioma.Axioma (0.219945s)
+[2016.04.21-00.33.25:511][289]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-00.33.25:525][289]LogInit: FAudioDevice initialized.
+[2016.04.21-00.33.25:565][289]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.21-00.33.25:807][289]LogWorld: Bringing World /Game/UEDPIE_0_Axioma.Axioma up for play (max tick rate 60) at 2016.04.20-19.33.25
+[2016.04.21-00.33.25:807][289]LogActor:Warning: GameSession /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-00.33.25:807][289]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-00.33.25:812][289]LogWorld: Bringing up level for play took: 0.244745
+[2016.04.21-00.33.25:814][289]PIE: Info Play in editor start time for /Game/UEDPIE_0_Axioma 0.732
+[2016.04.21-00.33.25:814][289]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.34.10:860][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.34.10:914][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.34.10:994][843]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021D9BE0AE0
+[2016.04.21-00.35.40:344][788]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.35.40:344][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.21-00.35.40:345][788]PIE: New page: PIE session: Axioma (Apr 20, 2016, 2:35:40 PM)
+[2016.04.21-00.35.40:345][788]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Axioma
+[2016.04.21-00.35.40:552][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.207198s)
+[2016.04.21-00.35.40:560][788]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-00.35.40:561][788]LogPlayLevel: PIE: World Init took: (0.009432s)
+[2016.04.21-00.35.40:562][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Axioma.Axioma to /Game/UEDPIE_0_Axioma.Axioma (0.217444s)
+[2016.04.21-00.35.40:652][788]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-00.35.40:666][788]LogInit: FAudioDevice initialized.
+[2016.04.21-00.35.40:709][788]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.21-00.35.40:946][788]LogWorld: Bringing World /Game/UEDPIE_0_Axioma.Axioma up for play (max tick rate 60) at 2016.04.20-19.35.40
+[2016.04.21-00.35.40:946][788]LogActor:Warning: GameSession /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-00.35.40:947][788]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-00.35.40:950][788]LogWorld: Bringing up level for play took: 0.239767
+[2016.04.21-00.35.40:953][788]PIE: Info Play in editor start time for /Game/UEDPIE_0_Axioma -0.13
+[2016.04.21-00.35.40:953][788]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.36.00:868][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.36.00:917][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-00.36.01:016][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021CEA75620
+[2016.04.21-00.36.14:359][314]LogSavePackage: Save=2482.665527ms
+[2016.04.21-00.36.14:359][314]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma5BAE8EFF4BAFDCEC48F80E9016771BB9.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-00.36.14:369][314]LogSavePackage: Total save time: 2497.483253ms
+[2016.04.21-00.36.14:369][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-00.36.14:430][314]LogFileHelpers: Saving map 'Axioma' took 4.621
+[2016.04.21-00.37.52:042][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.04.21-00.37.52:043][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.21-00.37.52:119][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000021DE7234C0
+[2016.04.21-00.37.54:528][194]LogMaterial: Missing cached shader map for material Axioma_Valley_Splat_Map_Mat, compiling. 
+[2016.04.21-00.37.55:149][194]LogMaterial: Missing cached shader map for material Axioma_Valley_Splat_Map_Mat, compiling. 
+[2016.04.21-00.37.55:154][194]LogMaterial: 0.000230 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.37.55:198][194]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.21-00.38.14:930][679]LogTexture:Display: Building textures: Axioma_Valley_Height_Map__Merged-Normal_ (BGRA8)
+[2016.04.21-00.38.19:157][749]LogSavePackage: Save=174.577408ms
+[2016.04.21-00.38.19:157][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Red_Dirt__Normal_8DEE4F8D449DB5EC4E5D9FAE9B2D2269.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Red_Dirt__Normal_.uasset'
+[2016.04.21-00.38.19:161][749]LogSavePackage: Total save time: 179.155026ms
+[2016.04.21-00.38.19:161][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Red_Dirt__Normal_.uasset
+[2016.04.21-00.38.19:249][749]LogSavePackage: Save=2.566353ms
+[2016.04.21-00.38.19:249][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Red_Dirt__Normal_8764747749D6C518284AE9A21F4EB022.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Red_Dirt__Normal_.uasset'
+[2016.04.21-00.38.19:268][749]LogSavePackage: Total save time: 54.737598ms
+[2016.04.21-00.38.19:268][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Red_Dirt__Normal_.uasset
+[2016.04.21-00.38.19:344][749]LogSavePackage: Save=36.967709ms
+[2016.04.21-00.38.19:344][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma_Valley_Height_Map__Merged-Normal_9553BD4248F250DB0761F7B477589C5B.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Axioma_Valley_Height_Map__Merged-Normal_.uasset'
+[2016.04.21-00.38.19:348][749]LogSavePackage: Total save time: 41.358862ms
+[2016.04.21-00.38.19:348][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Axioma_Valley_Height_Map__Merged-Normal_.uasset
+[2016.04.21-00.38.19:577][749]LogSavePackage: Save=201.377213ms
+[2016.04.21-00.38.19:577][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma_Valley_Splat_Map__Merged_2C34B2DF470A7C64144A7BAB221240F6.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Axioma_Valley_Splat_Map__Merged_.uasset'
+[2016.04.21-00.38.19:581][749]LogSavePackage: Total save time: 205.854330ms
+[2016.04.21-00.38.19:581][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Axioma_Valley_Splat_Map__Merged_.uasset
+[2016.04.21-00.38.19:638][749]LogSavePackage: Save=7.593855ms
+[2016.04.21-00.38.19:638][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma_Valley_Splat_Map__Merged_7AE6373D4D2478588C1F5DAB46E12332.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Axioma_Valley_Splat_Map__Merged_.uasset'
+[2016.04.21-00.38.19:662][749]LogSavePackage: Total save time: 67.150258ms
+[2016.04.21-00.38.19:662][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Axioma_Valley_Splat_Map__Merged_.uasset
+[2016.04.21-00.38.19:679][749]LogSavePackage: Save=3.053023ms
+[2016.04.21-00.38.19:679][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonCrosshairB4A4FC1848C80CD695AF14910E1206C5.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/FirstPersonCrosshair.uasset'
+[2016.04.21-00.38.19:684][749]LogSavePackage: Total save time: 7.725574ms
+[2016.04.21-00.38.19:684][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/FirstPersonCrosshair.uasset
+[2016.04.21-00.38.19:788][749]LogSavePackage: Save=76.630920ms
+[2016.04.21-00.38.19:788][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Mars9BD4959D40C4EC2D3C98B2A354F18370.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Mars.uasset'
+[2016.04.21-00.38.19:793][749]LogSavePackage: Total save time: 82.251154ms
+[2016.04.21-00.38.19:793][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Mars.uasset
+[2016.04.21-00.38.19:824][749]LogSavePackage: Save=14.219501ms
+[2016.04.21-00.38.19:824][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/MarsFF1EFFF44ABBC1A5180C6C93B8582DCB.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Mars.uasset'
+[2016.04.21-00.38.19:829][749]LogSavePackage: Total save time: 25.110997ms
+[2016.04.21-00.38.19:829][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Mars.uasset
+[2016.04.21-00.38.19:922][749]LogSavePackage: Save=63.739716ms
+[2016.04.21-00.38.19:922][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Mars_Texture__Normal_7ABFFE5B4147DA18A41223B79FDB6E14.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Mars_Texture__Normal_.uasset'
+[2016.04.21-00.38.19:927][749]LogSavePackage: Total save time: 69.036640ms
+[2016.04.21-00.38.19:927][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Mars_Texture__Normal_.uasset
+[2016.04.21-00.38.20:027][749]LogSavePackage: Save=25.242716ms
+[2016.04.21-00.38.20:027][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Mars_Texture__Normal_40C9229145A09993F96F51A40EE645C1.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Mars_Texture__Normal_.uasset'
+[2016.04.21-00.38.20:031][749]LogSavePackage: Total save time: 92.278361ms
+[2016.04.21-00.38.20:031][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Mars_Texture__Normal_.uasset
+[2016.04.21-00.38.20:153][749]LogSavePackage: Save=64.500084ms
+[2016.04.21-00.38.20:153][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Red_DesertBDC38130428A98611BE721A7479800D5.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Red_Desert.uasset'
+[2016.04.21-00.38.20:158][749]LogSavePackage: Total save time: 69.100361ms
+[2016.04.21-00.38.20:158][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Red_Desert.uasset
+[2016.04.21-00.38.20:213][749]LogSavePackage: Save=2.335419ms
+[2016.04.21-00.38.20:213][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Red_Desert7B55FEEB44A13B7D088E5792CE528EC1.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Red_Desert.uasset'
+[2016.04.21-00.38.20:245][749]LogSavePackage: Total save time: 73.304627ms
+[2016.04.21-00.38.20:245][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Red_Desert.uasset
+[2016.04.21-00.38.20:326][749]LogSavePackage: Save=48.425846ms
+[2016.04.21-00.38.20:326][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Red_Desert__Normal_CCF4DC5A4A48AEBC1EBAE9A4DA82568C.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Red_Desert__Normal_.uasset'
+[2016.04.21-00.38.20:330][749]LogSavePackage: Total save time: 52.958556ms
+[2016.04.21-00.38.20:330][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Red_Desert__Normal_.uasset
+[2016.04.21-00.38.20:368][749]LogSavePackage: Save=18.167177ms
+[2016.04.21-00.38.20:368][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Red_Desert__Normal_F6603FD24879921CA31C7EA64C918EEA.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Red_Desert__Normal_.uasset'
+[2016.04.21-00.38.20:372][749]LogSavePackage: Total save time: 31.619038ms
+[2016.04.21-00.38.20:372][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Red_Desert__Normal_.uasset
+[2016.04.21-00.38.20:454][749]LogSavePackage: Save=53.734745ms
+[2016.04.21-00.38.20:454][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Red_Dirt559913DF472ABC21950E04B754953B64.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Red_Dirt.uasset'
+[2016.04.21-00.38.20:458][749]LogSavePackage: Total save time: 58.724612ms
+[2016.04.21-00.38.20:458][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/Red_Dirt.uasset
+[2016.04.21-00.38.20:504][749]LogSavePackage: Save=2.453880ms
+[2016.04.21-00.38.20:504][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Red_Dirt22CF98E844579DB3C435D0AD237D16A0.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Red_Dirt.uasset'
+[2016.04.21-00.38.20:542][749]LogSavePackage: Total save time: 73.060438ms
+[2016.04.21-00.38.20:542][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Textures/Red_Dirt.uasset
+[2016.04.21-00.38.20:857][749]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002181AAF100
+[2016.04.21-00.38.21:311][749]LogSavePackage: Save=51.037106ms
+[2016.04.21-00.38.21:311][749]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FirstPersonHUDEE34D1994681EA00A4DB1287C383815F.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Blueprints/FirstPersonHUD.uasset'
+[2016.04.21-00.38.21:313][749]LogSavePackage: Total save time: 97.629171ms
+[2016.04.21-00.38.21:313][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Blueprints/FirstPersonHUD.uasset
+[2016.04.21-00.39.49:296][333]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ray\SkyDrive\Axioma\New Axioma Valley\New Axioma Valley Height Map (Merged).png)
+[2016.04.21-00.39.49:471][333]LogTexture:Display: Building textures: New_Axioma_Valley_Height_Map__Merged_ (BGRA8)
+[2016.04.21-00.39.49:775][333]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\ray\SkyDrive\Axioma\New Axioma Valley\New Axioma Valley Height Map (Splat).png)
+[2016.04.21-00.39.50:376][333]LogTexture:Display: Building textures: New_Axioma_Valley_Height_Map__Splat_ (BGRA8)
+[2016.04.21-00.39.58:712][429]LogSavePackage: Save=2444.604248ms
+[2016.04.21-00.39.58:712][429]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma1D1A18E54EE0B971EE394384E82F5CBC.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-00.39.58:721][429]LogSavePackage: Total save time: 2796.884794ms
+[2016.04.21-00.39.58:721][429]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-00.39.58:770][429]LogFileHelpers: Saving map 'Axioma' took 5.251
+[2016.04.21-00.39.59:424][429]LogSavePackage: Save=630.184326ms
+[2016.04.21-00.39.59:424][429]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/New_Axioma_Valley_Height_Map__Splat_928EE8BC42578CE48EE3F1908F237A91.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/New_Axioma_Valley_Height_Map__Splat_.uasset'
+[2016.04.21-00.39.59:429][429]LogSavePackage: Total save time: 635.078419ms
+[2016.04.21-00.39.59:429][429]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/New_Axioma_Valley_Height_Map__Splat_.uasset
+[2016.04.21-00.39.59:851][429]LogSavePackage: Save=393.926361ms
+[2016.04.21-00.39.59:851][429]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/New_Axioma_Valley_Height_Map__Merged_20C7D9EC478B756B8D4C4A91CB98B4AA.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/New_Axioma_Valley_Height_Map__Merged_.uasset'
+[2016.04.21-00.39.59:855][429]LogSavePackage: Total save time: 398.467202ms
+[2016.04.21-00.39.59:855][429]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Materials/New_Axioma_Valley_Height_Map__Merged_.uasset
+[2016.04.21-00.40.05:239][613]LogMaterial: Missing cached shader map for material Axioma_Valley_Splat_Map_Mat, compiling. 
+[2016.04.21-00.40.05:453][613]LogMaterial: Missing cached shader map for material Axioma_Valley_Splat_Map_Mat, compiling. 
+[2016.04.21-00.40.05:460][613]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.40.05:490][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.21-00.40.33:789][543]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.40.35:183][543]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.40.35:191][543]LogMaterial: 0.000260 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.40.35:220][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.21-00.40.35:224][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.04.21-00.40.35:272][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.04.21-00.40.35:345][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.04.21-00.40.35:349][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2016.04.21-00.40.35:353][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2016.04.21-00.40.35:388][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.04.21-00.40.35:437][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.04.21-00.40.35:480][543]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.04.21-00.41.07:278][225]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.07:287][225]LogMaterial: 0.000165 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.41.11:735][348]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.11:743][348]LogMaterial: 0.000278 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.41.11:775][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.21-00.41.11:808][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.21-00.41.11:812][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.04.21-00.41.11:816][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.04.21-00.41.11:821][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2016.04.21-00.41.11:828][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_3, compiling. 
+[2016.04.21-00.41.11:832][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.04.21-00.41.11:851][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2016.04.21-00.41.11:871][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2016.04.21-00.41.11:875][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.21-00.41.17:016][494]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.17:025][494]LogMaterial: 0.000283 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.41.17:079][494]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_2, compiling. 
+[2016.04.21-00.41.17:101][494]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.21-00.41.26:516][732]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.26:528][732]LogMaterial: 0.000240 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.41.26:605][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.21-00.41.29:815][813]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.29:824][813]LogMaterial: 0.000249 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.41.29:852][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.21-00.41.33:066][892]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.33:075][892]LogMaterial: 0.000288 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.41.33:122][892]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.21-00.41.36:760][986]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.36:769][986]LogMaterial: 0.000257 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.41.36:796][986]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.21-00.41.38:823][ 37]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.38:832][ 37]LogMaterial: 0.000242 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.41.38:863][ 37]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.21-00.41.41:077][ 95]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.41:087][ 95]LogMaterial: 0.000325 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.41.41:115][ 95]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.21-00.41.43:938][168]LogMaterialEditor: Applying material MarsTerrain
+[2016.04.21-00.41.46:123][168]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.46:146][168]LogMaterial: 0.000235 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.21-00.41.46:174][168]LogMaterial: Missing cached shader map for material MarsTerrain, compiling. 
+[2016.04.21-00.41.46:247][168]LogMaterial: Missing cached shader map for materi

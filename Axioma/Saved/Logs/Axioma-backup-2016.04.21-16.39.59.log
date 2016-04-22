@@ -1,0 +1,547 @@
+﻿[2016.04.21-21.24.34:464][  0]Log file open, 04/21/16 16:24:34
+[2016.04.21-21.24.34:464][  0]LogInit:Display: Running engine for game: Axioma
+[2016.04.21-21.24.34:464][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.21-21.24.34:464][  0]LogInit:Display: RandInit(-502907382) SRandInit(-502907381).
+[2016.04.21-21.24.34:464][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.04.21-21.24.34:464][  0]LogStats: Stats thread started at 0.115398
+[2016.04.21-21.24.34:464][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.21-21.24.34:464][  0]LogInit: API Version: 2758231
+[2016.04.21-21.24.34:464][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.21-21.24.34:464][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.21-21.24.34:464][  0]LogInit: Build Configuration: Development
+[2016.04.21-21.24.34:464][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.21-21.24.34:464][  0]LogInit: Command line:  
+[2016.04.21-21.24.34:464][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.21-21.24.34:464][  0]LogInit: Rocket: 1
+[2016.04.21-21.24.34:605][  0]LogInit: Using libcurl 7.41.0
+[2016.04.21-21.24.34:605][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.21-21.24.34:605][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.21-21.24.34:605][  0]LogInit:  - other features:
+[2016.04.21-21.24.34:605][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.21-21.24.34:605][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.21-21.24.34:605][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.21-21.24.34:605][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.21-21.24.34:605][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.21-21.24.34:605][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.21-21.24.34:605][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.21-21.24.34:605][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.21-21.24.34:605][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.21-21.24.34:605][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.21-21.24.34:605][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.21-21.24.34:620][  0]LogInit: Object subsystem initialized
+[2016.04.21-21.24.34:620][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.21-21.24.34:620][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.21-21.24.34:644][  0]LogInit: Computer: LAPTOP-RAY
+[2016.04.21-21.24.34:644][  0]LogInit: User: ray
+[2016.04.21-21.24.34:644][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.21-21.24.34:644][  0]LogInit: High frequency timer resolution =2.338338 MHz
+[2016.04.21-21.24.34:644][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.04.21-21.24.34:644][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.21-21.24.34:644][  0]LogMemory: Process Physical Memory: 54.83 MB used, 54.83 MB peak
+[2016.04.21-21.24.34:644][  0]LogMemory: Process Virtual Memory: 55.38 MB used, 55.38 MB peak
+[2016.04.21-21.24.34:644][  0]LogMemory: Physical Memory: 1643.45 MB used, 3976.27 MB total
+[2016.04.21-21.24.34:644][  0]LogMemory: Virtual Memory: 358.91 MB used, 134217728.00 MB total
+[2016.04.21-21.24.34:822][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.21-21.24.35:458][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.04.21-21.24.35:458][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2016.04.21-21.24.35:491][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.21-21.24.35:491][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.04.21-21.24.35:491][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.21-21.24.35:498][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.21-21.24.35:498][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.04.21-21.24.35:505][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.21-21.24.35:510][  0]LogShaderCompilers: Guid format shader working directory is -71 characters bigger than the processId version (../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Intermediate/Shaders/WorkingDirectory/9104/).
+[2016.04.21-21.24.35:511][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ray/AppData/Local/Temp/UnrealShaderWorkingDir/958B64BF40A6C1A5F7D4E9B74E0B64C8/'.
+[2016.04.21-21.24.35:511][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.21-21.24.40:828][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.21-21.24.40:931][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.21-21.24.41:018][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.21-21.24.41:073][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.21-21.24.41:362][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.21-21.24.41:463][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.21-21.24.41:803][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.21-21.24.42:145][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.21-21.24.42:715][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.21-21.24.42:754][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.21-21.24.42:845][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.21-21.24.42:972][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.21-21.24.42:972][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.21-21.24.43:025][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.21-21.24.43:265][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.21-21.24.43:310][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.21-21.24.43:428][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.21-21.24.43:468][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.21-21.24.43:469][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.21-21.24.44:932][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.21-21.24.45:865][  0]LogDerivedDataCache: Loaded boot cache 0.93s 41MB C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.21-21.24.45:866][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.21-21.24.45:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.21-21.24.45:866][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.21-21.24.45:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.21-21.24.45:866][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.21-21.24.46:059][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.21-21.24.46:169][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ray/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.21-21.24.57:707][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.21-21.24.57:717][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.21-21.24.58:596][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.21-21.24.58:596][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.21-21.25.00:222][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.21-21.25.28:817][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.21-21.25.29:714][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2016.04.21-21.25.36:940][  0]SourceControl: Info Source control is disabled
+[2016.04.21-21.25.37:032][  0]SourceControl: Info Source control is disabled
+[2016.04.21-21.25.37:554][  0]SourceControl: Info Source control is disabled
+[2016.04.21-21.25.37:959][  0]SourceControl: Info Source control is disabled
+[2016.04.21-21.25.44:671][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.21-21.25.44:672][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.21-21.25.45:693][  0]LogEngine: Initializing Engine...
+[2016.04.21-21.25.45:724][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.21-21.25.45:774][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.21-21.25.46:155][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.21-21.25.46:270][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-21.25.46:297][  0]LogInit: FAudioDevice initialized.
+[2016.04.21-21.25.46:346][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/ray/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.21-21.25.46:351][  0]LogInit: Texture streaming: Enabled
+[2016.04.21-21.25.46:686][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.21-21.25.46:686][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.21-21.25.46:686][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f6d84d504b8c91be90ceca84e0ba1004|f68b6959a5b94dccb13faa64bd594851|592e87cd-9efb-44c2-bcd9-891f7d9d6dd4
+[2016.04.21-21.25.46:687][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.21-21.25.46:800][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.21-21.25.47:208][  0]LogInit: Transaction tracking system initialized
+[2016.04.21-21.25.51:318][  0]BlueprintLog: New page: Editor Load
+[2016.04.21-21.25.58:370][  0]LocalizationService: Info Localization service is disabled
+[2016.04.21-21.26.02:719][  0]LogConsoleResponse:Display: 
+[2016.04.21-21.26.05:867][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.21-21.26.10:941][  0]SourceControl: Info Source control is disabled
+[2016.04.21-21.26.11:020][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.21-21.26.11:328][  0]LightingResults: New page: Lighting Build
+[2016.04.21-21.26.11:816][  0]MapCheck: New page: Map Check
+[2016.04.21-21.26.11:816][  0]LightingResults: New page: Lighting Build
+[2016.04.21-21.26.11:842][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000098C3ABFB00
+[2016.04.21-21.26.38:675][  0]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-21.27.08:710][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint_106] 97.622002
+[2016.04.21-21.27.08:711][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint2_469] 155.873276
+[2016.04.21-21.27.08:711][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint4_689] 84.108398
+[2016.04.21-21.27.08:712][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint5_932] 28.823511
+[2016.04.21-21.27.08:713][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint6_1029] 119.787598
+[2016.04.21-21.27.08:713][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint8_1271] 50.664997
+[2016.04.21-21.27.08:714][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint9_1356] 42.875454
+[2016.04.21-21.27.08:714][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint10_1497] 138.679153
+[2016.04.21-21.27.08:715][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint11_1580] 129.373459
+[2016.04.21-21.27.08:716][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint12_1679] 80.47731
+[2016.04.21-21.27.08:717][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint13_1780] 120.985138
+[2016.04.21-21.27.08:718][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint14_1905] 10.552691
+[2016.04.21-21.27.08:718][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint15_2056] 139.261444
+[2016.04.21-21.27.08:719][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint16_2187] 42.062443
+[2016.04.21-21.27.08:720][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint17_2302] 116.387215
+[2016.04.21-21.27.08:720][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint18_2365] 49.385052
+[2016.04.21-21.27.08:721][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint19_2476] 43.446758
+[2016.04.21-21.27.08:722][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint20_2589] 147.160873
+[2016.04.21-21.27.08:722][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint21_2642] 6.630452
+[2016.04.21-21.27.08:723][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint22_2721] 161.366623
+[2016.04.21-21.27.08:724][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint23_2804] 152.115845
+[2016.04.21-21.27.08:724][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint24_2915] 78.142647
+[2016.04.21-21.27.08:725][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint25_3036] 90.173035
+[2016.04.21-21.27.08:725][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint3_3151] 125.868706
+[2016.04.21-21.27.08:726][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint7_3284] 39.194923
+[2016.04.21-21.27.08:727][  0]LogBlueprintUserMessages: [Wind_Turbine__Rotor__Blueprint26_3401] 136.251114
+[2016.04.21-21.27.08:797][  0]LogEditorServer: Finished looking for orphan Actors (0.008 secs)
+[2016.04.21-21.27.08:805][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.21-21.27.09:338][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_0 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.TRASH_SkeletalMeshComponent_5.FirstPerson_AnimBP_C_0 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning FirstPerson_AnimBP_C_1 FirstPerson_AnimBP_C /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P.FirstPerson_AnimBP_C_1 : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Mesh2P SkeletalMeshComponent /Game/Axioma.Axioma:PersistentLevel.FirstPersonCharacter_C_5.Mesh2P : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint_106.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint2_469.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint4_689.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint5_932.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint6_1029.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint8_1271.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint9_1356.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint10_1497.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint11_1580.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint12_1679.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint13_1780.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint14_1905.Body : Externally referenced 
+[2016.04.21-21.27.09:339][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint15_2056.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint16_2187.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint17_2302.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint18_2365.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint19_2476.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint20_2589.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint21_2642.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint22_2721.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint23_2804.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint24_2915.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint25_3036.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint3_3151.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint7_3284.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Body StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint26_3401.Body : Externally referenced 
+[2016.04.21-21.27.09:340][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint_106.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint2_469.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint4_689.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint5_932.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint6_1029.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint8_1271.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint9_1356.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint10_1497.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint11_1580.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint12_1679.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint13_1780.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint14_1905.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint15_2056.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint16_2187.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint17_2302.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint18_2365.Rotor : Externally referenced 
+[2016.04.21-21.27.09:341][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint19_2476.Rotor : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint20_2589.Rotor : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint21_2642.Rotor : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint22_2721.Rotor : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint23_2804.Rotor : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint24_2915.Rotor : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint25_3036.Rotor : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint3_3151.Rotor : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint7_3284.Rotor : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning Rotor StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Wind_Turbine__Rotor__Blueprint26_3401.Rotor : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning FoliageInstancedStaticMeshComponent_1 FoliageInstancedStaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_1 : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedFoliageActor /Game/Axioma.Axioma:PersistentLevel.InstancedFoliageActor_0 : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning FoliageInstancedStaticMeshComponent_0 FoliageInstancedStaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_0 : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning InstancedFoliageActor_0 InstancedFoliageActor /Game/Axioma.Axioma:PersistentLevel.InstancedFoliageActor_0 : Externally referenced 
+[2016.04.21-21.27.09:342][  0]MapCheck:Warning: Warning Landscape_1 Landscape /Game/Axioma.Axioma:PersistentLevel.Landscape_1 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning Landscape_13 Landscape /Game/Axioma.Axioma:PersistentLevel.Landscape_13 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.CupulaTriple_8.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Fuente_16.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Prueba_Cupula_7.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Prueba_Cupula2_10.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_1_Buena2.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_1_Buena3.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_1_Buena4.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_1_Buena5.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_1_Buena6.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_1_Buena_22.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena10.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena11.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena12.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:343][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena13_43.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena2_25.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena3.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena4.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena5.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena6.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena7.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena8.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena9.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Axioma.Axioma:PersistentLevel.Casa_Chica_2_Buena_19.StaticMeshComponent0 : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck:Warning: Warning ProceduralFoliageComponent ProceduralFoliageComponent /Game/Axioma.Axioma:PersistentLevel.ProceduralFoliageSpawner_2.ProceduralFoliageComponent : Externally referenced 
+[2016.04.21-21.27.09:344][  0]MapCheck: Info Map check complete: 0 Error(s), 95 Warning(s), took 539.093ms to complete.
+[2016.04.21-21.27.09:377][  0]LogFileHelpers: Loading map 'Axioma' took 58.356
+[2016.04.21-21.27.10:457][  0]LogCollectionManager: Loaded 0 collections in 0.002608 seconds
+[2016.04.21-21.27.10:720][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Collections/' took 0.01s
+[2016.04.21-21.27.10:720][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Developers/ray/Collections/' took 0.01s
+[2016.04.21-21.27.10:720][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Collections/' took 0.01s
+[2016.04.21-21.27.10:720][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000592 seconds
+[2016.04.21-21.27.10:833][  0]LogContentBrowser: Native class hierarchy populated in 0.0878 seconds. Added 1893 classes and 338 folders.
+[2016.04.21-21.27.10:909][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.04.21-21.27.13:418][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.04.21-21.27.13:469][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.04.21-21.27.13:891][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.21-21.27.14:003][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.21-21.27.14:154][  0]LogLoad: Full Startup: 160.37 seconds (BP compile: 2.56 seconds)
+[2016.04.21-21.27.14:500][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.21-21.27.14:903][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.21-21.27.15:246][  0]LogRenderer: Reallocating scene render targets to support 816x348 (Frame:2).
+[2016.04.21-21.27.16:195][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.21-21.27.18:187][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.21-21.27.18:538][  7]LogAssetRegistry: Asset discovery search completed in 108.8359 seconds
+[2016.04.21-21.27.18:538][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2016.04.21-21.27.35:072][647]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-21.27.35:072][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.21-21.27.35:154][647]PIE: New page: PIE session: Axioma (Apr 21, 2016, 11:27:35 AM)
+[2016.04.21-21.27.35:154][647]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Axioma
+[2016.04.21-21.27.35:510][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.356768s)
+[2016.04.21-21.27.35:513][647]LogAIModule: Creating AISystem for world Axioma
+[2016.04.21-21.27.35:513][647]LogPlayLevel: PIE: World Init took: (0.002311s)
+[2016.04.21-21.27.35:513][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Axioma.Axioma to /Game/UEDPIE_0_Axioma.Axioma (0.359721s)
+[2016.04.21-21.27.35:677][647]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.21-21.27.35:688][647]LogInit: FAudioDevice initialized.
+[2016.04.21-21.27.36:148][647]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.21-21.27.36:446][647]LogWorld: Bringing World /Game/UEDPIE_0_Axioma.Axioma up for play (max tick rate 0) at 2016.04.21-16.27.36
+[2016.04.21-21.27.36:446][647]LogActor:Warning: GameSession /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-21.27.36:446][647]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Axioma.Axioma:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.21-21.27.36:511][647]LogWorld: Bringing up level for play took: 0.361893
+[2016.04.21-21.27.36:585][647]PIE: Info Play in editor start time for /Game/UEDPIE_0_Axioma 2.379
+[2016.04.21-21.27.36:585][647]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-21.27.55:969][738]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Jetpack On
+[2016.04.21-21.28.06:078][325]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Jetpack Off
+[2016.04.21-21.28.13:359][766]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Jetpack On
+[2016.04.21-21.28.28:240][639]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Jetpack Off
+[2016.04.21-21.28.30:780][778]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Jetpack On
+[2016.04.21-21.28.32:482][876]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Jetpack Off
+[2016.04.21-21.28.33:078][910]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Jetpack On
+[2016.04.21-21.28.33:913][957]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Jetpack Off
+[2016.04.21-21.28.35:114][ 24]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Jetpack On
+[2016.04.21-21.29.00:362][470]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Jetpack Off
+[2016.04.21-21.29.13:932][305]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Gravity Off
+[2016.04.21-21.29.15:444][401]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Gravity On
+[2016.04.21-21.29.17:609][540]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Gravity Off
+[2016.04.21-21.29.23:951][931]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Gravity On
+[2016.04.21-21.29.38:316][796]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Flashlight Off
+[2016.04.21-21.29.41:342][986]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Flashlight On
+[2016.04.21-21.29.44:820][186]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Gravity Off
+[2016.04.21-21.30.04:695][363]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Flashlight Off
+[2016.04.21-21.30.06:448][470]LogBlueprintUserMessages: [FirstPersonCharacter_C_5] Flashlight On
+[2016.04.21-21.30.29:623][869]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-21.30.29:817][869]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Axioma.Axioma:PersistentLevel' has LevelScriptBlueprint '/Game/Axioma.Axioma:PersistentLevel.Axioma' with GeneratedClass '/Game/Axioma.Axioma_C' with ClassGeneratedBy '/Game/Axioma.Axioma:PersistentLevel.Axioma'
+[2016.04.21-21.30.29:869][869]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000098D14EAE80
+[2016.04.21-21.31.48:595][585]LogSavePackage: Save=16.912012ms
+[2016.04.21-21.31.48:595][585]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/FuenteFC30617A4303E2C910B6E4B1C83E4E0F.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Fuente/Fuente.uasset'
+[2016.04.21-21.31.48:600][585]LogSavePackage: Total save time: 34.422740ms
+[2016.04.21-21.31.48:600][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Fuente/Fuente.uasset
+[2016.04.21-21.31.48:663][585]LogSavePackage: Save=2.216532ms
+[2016.04.21-21.31.48:663][585]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Fuente636B3AA54561057C49C8C7BDC657D282.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Fuente.uasset'
+[2016.04.21-21.31.48:690][585]LogSavePackage: Total save time: 74.095789ms
+[2016.04.21-21.31.48:690][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Fuente.uasset
+[2016.04.21-21.31.48:744][585]LogSavePackage: Save=15.198401ms
+[2016.04.21-21.31.48:744][585]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_Fuente5CF1B02345332FE1CAA0F695E813CEEA.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Fuente/M_Fuente.uasset'
+[2016.04.21-21.31.48:748][585]LogSavePackage: Total save time: 19.464251ms
+[2016.04.21-21.31.48:748][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Fuente/M_Fuente.uasset
+[2016.04.21-21.31.48:802][585]LogSavePackage: Save=16.205526ms
+[2016.04.21-21.31.48:802][585]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_FuenteAgua83BC8C394B3F465AA26E60880E6B8A26.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Fuente/M_FuenteAgua.uasset'
+[2016.04.21-21.31.48:806][585]LogSavePackage: Total save time: 20.173728ms
+[2016.04.21-21.31.48:806][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Fuente/M_FuenteAgua.uasset
+[2016.04.21-21.31.48:855][585]LogSavePackage: Save=15.723989ms
+[2016.04.21-21.31.48:855][585]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/M_FuentePlat9AC692A04BB3EF606498C69BCC11A789.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Fuente/M_FuentePlat.uasset'
+[2016.04.21-21.31.48:859][585]LogSavePackage: Total save time: 20.394400ms
+[2016.04.21-21.31.48:859][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Components/Models/Fuente/M_FuentePlat.uasset
+[2016.04.21-21.32.52:358][664]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\TriCupula_y_Calles.fbx)
+[2016.04.21-21.32.52:358][664]LogStreaming:Warning: Failed to read file 'C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\TriCupula_y_Calles.fbx' error.
+[2016.04.21-21.32.52:358][664]Can't find file 'C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\TriCupula_y_Calles.fbx' for import
+[2016.04.21-21.32.54:329][664]LogAssetTools:Warning: Failed to import 'C:\Users\ray\SkyDrive\Axioma\4_21_16\Cupula\TriCupula_y_Calles.fbx'. Failed to create asset '/Game/Components/Models/CupulaTriple/TriCupula_y_Calles'
+[2016.04.21-21.33.16:662][946]LogSavePackage: Save=2683.092529ms
+[2016.04.21-21.33.16:662][946]LogSavePackage: Moving '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Saved/Axioma4EECA43748D75FAAAEABC983BC0E3CA6.tmp' to '../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap'
+[2016.04.21-21.33.16:711][946]LogSavePackage: Total save time: 2878.165603ms
+[2016.04.21-21.33.16:711][946]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ray/Documents/FCFM Stuff/Essays, Homework, and Stuff/7mo. Semestre/Videojuegos 2/vj2/Axioma/Content/Axioma.umap
+[2016.04.21-21.33.17:714][946]LogFileHelpers: Saving map 'Axioma' took 6.372
+[2016.04.21-21.33.20:877][ 51]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.21-21.33.21:916][ 52]Cmd: QUIT_EDITOR
+[2016.04.21-21.33.24:114][ 52]LogExit: Preparing to exit.
+[2016.04.21-21.33.25:334][ 52]LogExit: Editor shut down
+[2016.04.21-21.33.25:334][ 52]LogExit: Transaction tracking system shut down
+[2016.04.21-21.33.25:696][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000098C7064CC0
+[2016.04.21-21.33.25:710][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000098D4DAA7A0
+[2016.04.21-21.33.25:710][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000098D53DE020
+[2016.04.21-21.33.25:710][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000098D5B70680
+[2016.04.21-21.33.25:710][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000098D5B70720
+[2016.04.21-21.33.29:094][ 52]LogExit: Object subsystem successfully closed.
+[2016.04.21-21.33.29:856][ 52]LogD3D11RHI: Shutdown
+[2016.04.21-21.33.29:856][ 52]LogD3D11RHI: CleanupD3DDevice
+[2016.04.21-21.33.30:348][ 52]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.21-21.33.33:755][ 52]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.04.21-21.33.33:755][ 52]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.04.21-21.33.33:755][ 52]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.04.21-21.33.33:755][ 52]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.04.21-21.33.33:755][ 52]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.04.21-21.33.33:777][ 52]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.04.21-21.33.33:884][ 52]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.04.21-21.33.33:884][ 52]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.04.21-21.33.33:976][ 52]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.04.21-21.33.34:079][ 52]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.04.21-21.33.34:119][ 52]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.04.21-21.33.34:179][ 52]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.04.21-21.33.34:179][ 52]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.04.21-21.33.34:179][ 52]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.04.21-21.33.34:179][ 52]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.04.21-21.33.34:179][ 52]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.04.21-21.33.34:179][ 52]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.04.21-21.33.34:179][ 52]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.04.21-21.33.34:179][ 52]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.04.21-21.33.34:179][ 52]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.04.21-21.33.34:179][ 52]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.04.21-21.33.34:245][ 52]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.04.21-21.33.34:326][ 52]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.04.21-21.33.34:393][ 52]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.04.21-21.33.34:393][ 52]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.04.21-21.33.34:427][ 52]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.04.21-21.33.34:427][ 52]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.04.21-21.33.34:742][ 52]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.04.21-21.33.34:742][ 52]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.04.21-21.33.34:742][ 52]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.04.21-21.33.34:742][ 52]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.04.21-21.33.34:756][ 52]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.04.21-21.33.34:756][ 52]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.04.21-21.33.34:804][ 52]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.04.21-21.33.34:836][ 52]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.04.21-21.33.34:878][ 52]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.04.21-21.33.34:969][ 52]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.04.21-21.33.35:016][ 52]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.04.21-21.33.35:116][ 52]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.04.21-21.33.35:144][ 52]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.04.21-21.33.35:176][ 52]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.04.21-21.33.35:176][ 52]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.04.21-21.33.35:201][ 52]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.04.21-21.33.35:201][ 52]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.04.21-21.33.35:242][ 52]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.04.21-21.33.35:243][ 52]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.04.21-21.33.35:411][ 52]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.04.21-21.33.35:411][ 52]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.04.21-21.33.35:497][ 52]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.04.21-21.33.35:584][ 52]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.04.21-21.33.35:669][ 52]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.04.21-21.33.35:744][ 52]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.04.21-21.33.35:744][ 52]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.04.21-21.33.35:807][ 52]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.04.21-21.33.35:856][ 52]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.04.21-21.33.35:927][ 52]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.04.21-21.33.36:109][ 52]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.04.21-21.33.36:109][ 52]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.04.21-21.33.36:109][ 52]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.04.21-21.33.36:109][ 52]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.04.21-21.33.36:345][ 52]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.04.21-21.33.36:454][ 52]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.04.21-21.33.36:696][ 52]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.04.21-21.33.36:726][ 52]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.04.21-21.33.36:726][ 52]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.04.21-21.33.36:775][ 52]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.04.21-21.33.36:821][ 52]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.04.21-21.33.36:821][ 52]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.04.21-21.33.36:884][ 52]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.04.21-21.33.36:884][ 52]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.04.21-21.33.36:918][ 52]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.04.21-21.33.36:918][ 52]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.04.21-21.33.36:918][ 52]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.04.21-21.33.36:918][ 52]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.04.21-21.33.37:007][ 52]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.04.21-21.33.37:045][ 52]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.04.21-21.33.37:045][ 52]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.04.21-21.33.37:076][ 52]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.04.21-21.33.37:223][ 52]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.04.21-21.33.37:224][ 52]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.04.21-21.33.37:224][ 52]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.04.21-21.33.37:224][ 52]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.04.21-21.33.37:224][ 52]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.04.21-21.33.37:224][ 52]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.04.21-21.33.37:224][ 52]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.04.21-21.33.37:299][ 52]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.04.21-21.33.37:300][ 52]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.04.21-21.33.37:321][ 52]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.04.21-21.33.37:321][ 52]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.04.21-21.33.37:513][ 52]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.04.21-21.33.37:669][ 52]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.04.21-21.33.37:669][ 52]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.04.21-21.33.37:669][ 52]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.04.21-21.33.37:798][ 52]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.04.21-21.33.37:822][ 52]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.04.21-21.33.37:845][ 52]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.04.21-21.33.37:867][ 52]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.04.21-21.33.37:867][ 52]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.04.21-21.33.37:951][ 52]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.04.21-21.33.38:073][ 52]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.04.21-21.33.38:137][ 52]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.04.21-21.33.38:184][ 52]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.04.21-21.33.38:184][ 52]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.04.21-21.33.38:203][ 52]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.04.21-21.33.38:203][ 52]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.04.21-21.33.38:203][ 52]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.04.21-21.33.38:282][ 52]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.04.21-21.33.38:318][ 52]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.04.21-21.33.38:318][ 52]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.04.21-21.33.38:345][ 52]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.04.21-21.33.38:346][ 52]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.04.21-21.33.38:407][ 52]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.04.21-21.33.38:408][ 52]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.04.21-21.33.38:519][ 52]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.21-21.33.38:620][ 52]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.21-21.33.38:620][ 52]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.21-21.33.38:665][ 52]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.21-21.33.38:669][ 52]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.21-21.33.38:669][ 52]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.21-21.33.38:737][ 52]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.21-21.33.38:737][ 52]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.21-21.33.38:737][ 52]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.21-21.33.38:737][ 52]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.21-21.33.38:902][ 52]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.21-21.33.38:902][ 52]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.21-21.33.38:968][ 52]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.21-21.33.38:968][ 52]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.21-21.33.38:968][ 52]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.21-21.33.39:109][ 52]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.21-21.33.39:245][ 52]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.21-21.33.39:316][ 52]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.21-21.33.39:316][ 52]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.21-21.33.39:316][ 52]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.21-21.33.39:320][ 52]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.21-21.33.39:320][ 52]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.21-21.33.39:320][ 52]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.21-21.33.39:320][ 52]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.21-21.33.39:320][ 52]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.21-21.33.39:320][ 52]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.21-21.33.39:320][ 52]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.21-21.33.39:320][ 52]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.21-21.33.39:320][ 52]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.21-21.33.39:453][ 52]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.21-21.33.39:506][ 52]LogDerivedDataCache: Shutdown
+[2016.04.21-21.33.39:506][ 52]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.21-21.33.39:541][ 52]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.21-21.33.39:541][ 52]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.21-21.33.39:580][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.21-21.33.39:580][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.21-21.33.39:580][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.21-21.33.39:580][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.21-21.33.39:580][ 52]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.21-21.33.39:580][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.21-21.33.39:580][ 52]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.21-21.33.39:580][ 52]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.21-21.33.39:606][ 52]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.21-21.33.39:606][ 52]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.21-21.33.39:606][ 52]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.21-21.33.39:606][ 52]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.21-21.33.39:606][ 52]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.21-21.33.39:640][ 52]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.21-21.33.39:641][ 52]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.21-21.33.39:641][ 52]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.21-21.33.39:641][ 52]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.21-21.33.39:641][ 52]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.21-21.33.39:641][ 52]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.21-21.33.39:641][ 52]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.21-21.33.39:641][ 52]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.21-21.33.40:642][ 52]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.21-21.33.40:778][ 52]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.21-21.33.40:833][ 52]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.21-21.33.40:834][ 52]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.21-21.33.40:897][ 52]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.21-21.33.40:897][ 52]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.21-21.33.40:897][ 52]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.21-21.33.40:979][ 52]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.21-21.33.41:041][ 52]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.21-21.33.41:041][ 52]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.21-21.33.41:129][ 52]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.21-21.33.41:129][ 52]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.21-21.33.41:129][ 52]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.21-21.33.41:129][ 52]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.21-21.33.41:197][ 52]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.21-21.33.41:197][ 52]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.21-21.33.41:263][ 52]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.21-21.33.41:306][ 52]LogExit: Exiting.
+[2016.04.21-21.33.41:328][ 52]Log file closed, 04/21/16 16:33:41
